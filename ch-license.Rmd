@@ -1,0 +1,161 @@
+# Do I need an FAA License? {#ch-license}
+
+When operating a drone within the US, there are two different options for regulations: Part 107 Small UAS regulations or the Exception for Limited Recreational Use.  By default, UAS operations fall under Part 107 Small UAS regulations, unless you can meet the requirements for the exception for Recreational Use.  Part 107 requires that all pilots have a Remote Pilot Certificate with an sUAS rating, more commonly known as a 'Drone License,' whereas Recreational Use does not require a Drone License.
+
+Many researchers opt to get a Drone License for their research needs, but a Drone License does cost $150 and will take some time to study and prepare for.  With the updates introduced in the FAA Reauthorization Act of 2018 (P.L. 115-254), there are more exceptions available in which you may not need to obtain the license.
+
+> This page is for the Federal Aviation Administration licensing requirements for UAS use.  UC Policy will still require a flight request and post flight reporting, regardless of FAA licensing requirements. More information on the UC policy can be found in Chapter .
+
+
+## When are you Exempt from a drone license
+For the purposes of drone regulations, the following activities are considered 'recreational' for Institutes of Higher Education 
+
+- Instruction of students
+- Academic or research related uses of unmanned aircraft systems that have been approved by the institution
+- Activities undertaken by the institution as part of research projects
+- Other academic activities approved by the institution
+
+## What is the difference?
+
+Under Part 107
+ 
+- Drone License required
+- Any purpose
+- 'Fly only when it is safe'
+- May request special permissions
+  - Above FAA Facility Map altitudes
+  - Over People, BVLOS, More than 1 drone at a time
+  
+Under Recreational Exception
+
+- No license required
+- Recreation or Approved Academic Activities
+- 'Fly only in safe locations'
+- No allowances for advanced operations
+
+
+## Simple Flowchart
+Below is a 'simple' flowchart that covers most of the typical UAS activity and whether or not you might need an FAA Drone License.
+```{r diaga, echo=FALSE, include=knitr::is_html_output()}
+DiagrammeR::grViz("digraph {
+  graph [layout = dot, rankdir = TB, center=true, margin=0.5, nodesep=0.2, ranksep=0.5]
+  
+  node [shape = diamond, fontname = Helvetica, style=filled]
+  Start [label = 'Start Here',fillcolor=Green]
+  
+  node [shape = box,
+        fontname = Helvetica,style=filled]   
+  
+  
+  QP1 [label = 'Is this for homework, \n classwork, or a senior \n project?']
+  QP2 [label = 'Is this for instruction \n purposes?']
+  QP3 [label = 'Is this for a research \n project or in support \n of a research project?']
+  QP4 [label = 'Is this for media, \n promotion, or facility \n management?']
+  
+  QL1 [label = 'Do you plan on flying outside?']
+  QL2 [label = 'Is the flight area \n closed to the public or \n sufficiently remote that \n no one is expected to be \n in the area?']
+  QL3 [label = 'Can you establish a \n barrier to prevent people \n from entering the flight area?']
+
+  QR1 [label = 'Will you be doing any of the following? \n -flying over people \n - flying BVLOS \n - flying more than one drone at a time']
+  QR2 [label = 'Is the flight area \n near a major airport?']
+  QR3 [label = 'Will I need to exceed \n UAS Facility Map altitudes?']
+  
+  node [shape = ellipse, fontname = Helvetica, style=filled]
+  CSC [label = 'Reach out to \n UASsafety@ucmerced.edu \n for a consultation',fillcolor=Gold]
+  noL [label = 'No license necessary',fillcolor=YellowGreen]
+  Lic [label = 'P107 license necessary',fillcolor = DarkSalmon]
+  
+
+      
+      QP1 -> QP2 [label = 'No'];
+      QP2 -> QP3 [label = 'No'];
+      QP3 -> QP4 [label = 'No'];
+
+
+      
+      QL1 -> QL2 [label = 'Yes'];
+      QL2 -> QL3 [label = 'No'];
+   
+
+      QR1 -> QR2 [label = 'No']
+      QR2 -> QR3 [label = 'Yes']
+      
+
+  
+  
+  subgraph {
+    rank = same; noL; Lic; CSC;
+  }
+  
+  
+  
+  
+  Start -> QP1;
+  
+  QP1 -> QL1 [label = 'Yes'];
+  QP2 -> QL1 [label = 'Yes'];
+  QP2 -> QL1 [label = 'Yes'];
+  QP3 -> QL1 [label = 'Yes'];
+
+  QP4 -> CSC [label = 'No'];
+  QP4 -> Lic [label = 'Yes'];
+  
+  QL2 -> QR1 [label = 'Yes'];
+  QL3 -> QR1 [label = 'Yes'];
+  QL3 -> Lic [label = 'No'];
+  
+  QL1 -> noL [label = 'No'];
+  
+  QR1 -> Lic [label = 'Yes'];
+  QR2 -> noL [label = 'No'];
+  QR3 -> Lic [label = 'Yes'];
+  QR3 -> noL [label = 'No'];
+  QR3 -> CSC [label = 'Unsure'];
+  
+  }", 
+  height = 1000)
+
+
+```
+
+## Other Situations
+There are other conditions that may require a closer evaluation, including whether you're a US citizen or if you plan on flying internationally.  If you have any questions, feel free to reach out to [UASsafety@ucmerced.edu](mailto:UASsafety@ucmerced.edu) for a consultation. 
+
+Other scenarios that may require a closer look 
+
+- Performing a demonstration
+- Not a US citizen
+- Flying above 400 ft AGL
+- Flying in fog or with limited visibility
+- Flying at night
+- Flying internationally
+
+## Frequently Asked Questions
+
+**When doing an academic activity, which set of regulations is better?**
+
+There are advantages and disadvantages to both scenarios.  In many cases, the new ‘Recreational Operations’ may be the fastest path forward for simple, rural flight operations. At the current time, academic UAS activities that plan on flying in certain controlled airspace areas, over occupied structures, within 25 ft of another person, or outside of a reasonably controlled flying site, should proceed with 14 CFR 107 regulations.
+
+**What does it mean to get approval from the FAA to operate within controlled airspace?**
+
+The FAA is mandating that all controlled airspace access requests for recreational operations be routed through the Low Altitude Authorization Notification Capability system (LAANC) and not by calling the local airport tower.  The LAANC system can provide instantaneous authorization via a 3rd party application such as Airmap, KittyHawk, or UASideKick for flight requests below a certain altitude depending on your location.
+
+**I am planning to fly over a research site that is access controlled and the airspace is uncontrolled, do I need a Drone License?**
+
+Typically not.  This common scenario will typically meet the necessary site requirements for Recreational Operations.
+
+**I am planning to fly along the beach to monitor coastal erosion, do I need a Drone License?**
+
+Unless the beach is to be closed to the public, this scenario will likely require a Drone License.
+
+**I am planning on flying in the campus quad to test a flight controller, do I need a Drone License?**
+
+If the airspace is uncontrolled (Class G), and the area within the campus quad is sufficiently cleared and closed to non-participants, then you do not need a Drone License.  If you want to fly at UCI, UCSB or UCLA, then you will need to obtain an Airspce Authorization via LAANC.
+
+**I do not have a Drone License, can I do a coursework assignment on the use of drones in building inspections?**
+
+You may be able to do some flying without a drone license, however, you will not be allowed to fly over a building and must stay at least 25 ft from all non-participants, which may limit your ability to conduct effective analysis.  
+
+**I am a graduate student Teaching Asssistant and I would like to teach my students how to fly a drone?  Do I need a license? Do the students need a license?**
+
+If the site is sufficiently cleared and closed to non-participants, than everyone may have a chance to learn how to fly a drone without a drone license.  However, additional safety precautions may be necessary.

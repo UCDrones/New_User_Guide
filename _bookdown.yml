@@ -1,0 +1,11 @@
+book_filename: "New-User-Guide"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Chapter "
+rmd_files: ["index.Rmd",
+            "ch-registration.Rmd",
+            "ch-license.Rmd",
+            "ch-common-UAS-violations.Rmd",
+            "ch-local-UAS-regulations.Rmd"]
+output_dir: "docs"
