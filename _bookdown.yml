@@ -6,6 +6,7 @@ language:
 rmd_files: ["index.Rmd",
             "ch-registration.Rmd",
             "ch-license.Rmd",
+            "ch-get-license.Rmd",
             "ch-common-UAS-violations.Rmd",
             "ch-local-UAS-regulations.Rmd"]
 output_dir: "docs"

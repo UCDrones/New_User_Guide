@@ -35,7 +35,7 @@ The UC Center of Excellence on UAS Safety is here to help you comply with the po
 
 - [Register your Drone with the FAA](#ch-register) 
 - [Do I need a License?](#ch-license)
-- How to get a License
+- [How to get a License](#ch-get-license)
 - How to get Airspace Information
 - [Common UAS Violations](#ch-common-UAS-violations)
 - [Local UAS Regulations](#ch-local-UAS-regulations)
