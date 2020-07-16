@@ -7,7 +7,8 @@ Many researchers opt to get a Drone License for their research needs, but a Dron
 > This page is for the Federal Aviation Administration licensing requirements for UAS use.  UC Policy will still require a flight request and post flight reporting, regardless of FAA licensing requirements. More information on the UC policy can be found in Chapter .
 
 
-## When are you Exempt from a drone license
+
+## **When are you Exempt from a drone license**
 For the purposes of drone regulations, the following activities are considered 'recreational' for Institutes of Higher Education 
 
 - Instruction of students
@@ -16,7 +17,7 @@ For the purposes of drone regulations, the following activities are considered '
 - Other academic activities approved by the institution
 
 ## What is the difference?
-
+### Testing changes
 Under Part 107
  
 - Drone License required
