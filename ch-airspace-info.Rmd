@@ -1,0 +1,7 @@
+# How to get Airspace information {#ch-airspace-info}
+
+## Airspace information
+
+Getting information on a specific area's airspace classification has never been easier. Apart from the FAA's (**Insert link to charts**) own aeronautical charts, there are several phone and web applications designed to make this easy. An example of these application is AIRMAP (https://www.airmap.com/operators/airmap-for-drones/)
+
+This AIRMAP application can be found both online as a webpage and as a phone application. (**debating inserting ios and android links**) 
