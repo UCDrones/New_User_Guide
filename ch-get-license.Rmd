@@ -5,6 +5,34 @@ Obtaining a Remote Pilot Certificate, or more commmonly known as a drone license
 
 ## Drone License Exam
 
+The drone license exam (airman knowledge test) is a 120 minute, 60 question exam that goes over a wide range of topics. The topics covered on the exam can be broken down into 12 sections as follows: 
+
+1. General UAS regulations
+2. Airspace classifications
+3. Aviation weather sources
+4. Loading and Performance
+5. Emergency procedures
+6. Crew resource management
+7. Radio communication procedures
+8. Determining UAS performance
+9. Physiological effects of drugs and alcohol
+10. Aeronautical decision-making and judgment
+11. Airport operations
+and
+12. Maintenance and pre-flight inspection procedures. 
+
+A more in depth look at these topics can be found on the FAA's website here: (https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/media/remote_pilot_study_guide.pdf)
+
+Although there are third party "Ground school" courses offered for a fee we have found freely available resources to be just as effective.
+
+## Free study resources
+
+Here are a few free study resources to aid in studying for the exam:
+
+- (https://jrupprechtlaw.com/part-107-test-study-guide)
+- (https://northrup.photo/free-faa-part-107-suas-drone-certification-study-guide/)
+-(https://www.3dr.com/docs/faa-part-107-study-guide/part-107-certification-official-study-resources/)
+
 ## Drone License Eligibility
 
 In order to be eligible to obtain a Remote Pilot Certificate, you must meet the following requirements:
