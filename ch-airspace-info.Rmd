@@ -2,6 +2,32 @@
 
 ## Airspace information
 
-Getting information on a specific area's airspace classification has never been easier. Apart from the FAA's (**Insert link to charts**) own aeronautical charts, there are several phone and web applications designed to make this easy. An example of these application is AIRMAP (https://www.airmap.com/operators/airmap-for-drones/)
+### FAA Sectional Charts
 
-This AIRMAP application can be found both online as a webpage and as a phone application. (**debating inserting ios and android links**) 
+Getting information on a specific area's airspace classification has never been easier. The FAA has region specific sectional charts located [here](https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/). 
+
+![FAA sectional chart](images\FAA-VFR.png)
+
+### Airmap WebApp
+
+
+Apart from using these FAA provided resources, there are also several phone and web applications designed to make this easy. An example of these application is Airmap. Airmap can be found not only as a webpage:
+
+![Airmap webpage](images\Airmap-Web.png)
+
+Airmap can also be found as a mobile phone application for both IOS [IOS](https://apps.apple.com/us/app/airmap-for-drones/id1042824733) and [Android](https://play.google.com/store/apps/details?id=com.airmap.airmap&hl=en_US), allowing for more convenient use. Not knowing the airspace that you are operating in is not acceptable.
+
+![Android Airspace application](images/Airmap-Android.jpg)
+
+Airspace not only gives you an interactive map showing a flight ceiling but it also allows you to plug in the type of operation you will be conducting (Part 107, recreational, AMA, etc) and get a corresponding list of rules/requirements.
+
+## The importance of up-to-date Airspace Information
+
+Having the most up-to-date airspace information on hand can make all the difference between having a safe flight and a risky one. Cross referencing the information you have with a seervice such as the FAA's NOTAM search will allow you to stay in-the-know with the latest airspace information for a particular location.
+
+## NOTAM or Notice To Airman
+
+![FAA NOTAM (Notice to Airman)](images\FAA-Notam.png) 
+
+A NOTAM or Notice to Airman, is a notice that pertains to the establishment, change or condition of any facility, service or procedure of a specific location. The information is not known far enough in advance to be publicized by any other means. Ensuring there are no active NOTAMS in the area you will be flying in is essential to flight safety.   
+
