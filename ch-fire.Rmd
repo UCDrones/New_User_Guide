@@ -1,0 +1,53 @@
+# Fire Safety
+
+While UAS accidents and incidents involving fire are rare, they are a valid and significant concern.  With the majority of UC UAS usage on field sites and other rural locations, the potential for the accidental sparking of fire is a concern.  A fire sparked by a UAS can spread quickly (Figure \@ref(fig:fire-start)) and with California's dry environment, can cause significant damage (Figure \@ref(fig:fire-damage)).
+
+```{r fire-start, fig.cap='Beginning of a fire from UAS accident at Richmond Field Station, UC Berkeley', out.width='75%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/fire_start.jpg')
+```
+
+```{r fire-damage, fig.cap='Post fire damage from UAS accident at Richmond Field Station, UC Berkeley', out.width='75%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/fire_damage.jpg')
+```
+
+## LiPo Battery Guidance
+
+The most common cause of UAS related fire is from misuse of LiPo batteries.  Special care should be taken when charging, discharging or storing LiPo batteries.  If the internal polymer cell of a LiPo battery is exposed to air, a violent chemical reaction starts that could explode, but more commonly releases significant amounts of smoke and heat that can ignite other fire fuel sources.  A LiPo battery fire is typically caused by a physical puncture to the battery or from misuse, such as overcharging or electrical shorts. 
+
+**Recommended Best Practices**
+
+- Always thoroughly inspect a battery before charging and use.  
+    - Look for swelling, puffy cells, cracks in plastic, and charred debris along the contacts.
+- Never use a battery that is not in good health. 
+    - Consider batteries to be replaceable and consumable, rather than a permanent component of the UAS.
+- Never store batteries in a hot car.
+- Don't charge your batteries unless you're going to fly within the next day.
+- After immediate use, place battery out of the sun but do not place within a closed container.  
+
+    - Ensure there is sufficient airflow to allow the battery to cool.
+    
+- When done flying for the day, always charge your batteries at least back up to storage level.
+- Do not charge an intelligent flight battery immediately after flight as the temperature may be too high. Wait until it cools down to room temperature before charging again.
+- Store the battery in a dry and cool place, keep out of direct sunlight and away from any liquids
+- Do not store or transport a battery with eyeglasses, watches, metal necklaces or other metal components that may short the battery
+- When in transport, store the batteries in a safe container that will protect it from damage, squeezing, puncturing or falling. 
+
+## Planning for Fire Mitigation
+
+In addition to LiPo battery care, special effort must be taken to consider the fire risks in UAS activity.  Consult the appropriate department (Fire, Field Safety, EH&S) if there are concerns over fire risk.  Minimize the potential for fire by monitoring where the UAS will be flying and ensure that if a fire was to occur, the RPIC and any other persons, such as Visual Observers, are prepared to respond appropriately.  
+
+
+**Guidance for fire safety**
+
+- Everyone should take a fire safety training course.
+- Avoid flying on high fire risk days, including [Red Flag Warning](https://www.fire.ca.gov/programs/communications/red-flag-warnings-fire-weather-watches/) alerts issued by CAL FIRE.
+- Never fly alone in areas of moderate to high fire risk
+- Always bring a fire extinguisher and a shovel/bucket of sand to field sites.
+- During flight operations:
+
+    - Ensure that a crew member has easy access to fire equipment.
+    - Ensure that a crew member has easy access to reach any location where the \gls{UA} may crash.
+    - Ensure that a crew member has the ability to report an emergency situation and can adequately provide directions for emergency personnel to reach the site.
+    
+- When flying in high fire risk locations, use high quality, commercially available \gls{UA} with enclosed electronics.
+- Never fly a damaged or swollen battery.
