@@ -1,33 +1,34 @@
 # How to get Airspace information {#ch-airspace-info}
 
-## Airspace information
-
-### FAA Sectional Charts
+## FAA Sectional Charts
 
 Getting information on a specific area's airspace classification has never been easier. The FAA has region specific sectional charts located [here](https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/). 
 
 ![FAA sectional chart](images\FAA-VFR.png)
 
-### Airmap WebApp
+## Airmap WebApp
 
 
-Apart from using these FAA provided resources, there are also several phone and web applications designed to make this easy. An example of these application is Airmap. Airmap can be found not only as a webpage:
+Apart from using these FAA provided resources, there are also several phone and web applications designed to make this an easy process. An example of one of these applications is Airmap. Airmap can be both as a webpage:
 
 ![Airmap webpage](images\Airmap-Web.png)
 
-Airmap can also be found as a mobile phone application for both IOS [IOS](https://apps.apple.com/us/app/airmap-for-drones/id1042824733) and [Android](https://play.google.com/store/apps/details?id=com.airmap.airmap&hl=en_US), allowing for more convenient use. Not knowing the airspace that you are operating in is not acceptable.
+and as a mobile phone application for both IOS [IOS](https://apps.apple.com/us/app/airmap-for-drones/id1042824733) and [Android](https://play.google.com/store/apps/details?id=com.airmap.airmap&hl=en_US). It is important to know the classification of the airspace you are operating in. Being unsure or uninformed about your operating airspace can pose a safety hazard to both yourself and other pilots that maybe in the area.
 
-![Android Airspace application](images/Airmap-Android.jpg)
+![Android Airmap application](images/Airmap-Android.jpg)
 
-Airspace not only gives you an interactive map showing a flight ceiling but it also allows you to plug in the type of operation you will be conducting (Part 107, recreational, AMA, etc) and get a corresponding list of rules/requirements.
+Airmap not only gives you an interactive map showing a flight ceiling but it also allows you to plug in the type of operation you will be conducting (Part 107, recreational, AMA, etc) and get a corresponding list of rules and or requirements.
 
 ## The importance of up-to-date Airspace Information
 
-Having the most up-to-date airspace information on hand can make all the difference between having a safe flight and a risky one. Cross referencing the information you have with a seervice such as the FAA's NOTAM search will allow you to stay in-the-know with the latest airspace information for a particular location.
+Having the most up-to-date airspace information on hand can make all the difference between having a safe flight and a risky one. Cross referencing the information you have with a service such as the FAA's NOTAM search will allow you to stay in-the-know with the latest airspace information for a particular location.
 
 ## NOTAM or Notice To Airman
 
 ![FAA NOTAM (Notice to Airman)](images\FAA-Notam.png) 
 
-A NOTAM or Notice to Airman, is a notice that pertains to the establishment, change or condition of any facility, service or procedure of a specific location. The information is not known far enough in advance to be publicized by any other means. Ensuring there are no active NOTAMS in the area you will be flying in is essential to flight safety.   
+A NOTAM or Notice to Airman, is a notice that pertains to the establishment, change or condition of any facility, service or procedure of a specific location. The information is not known far enough in advance to be publicized by any other means therefore ensuring there are no active NOTAMS in the area you will be flying in is essential to the safety of yourself and others. It is important to keep in mind that NOTAMS can be put up at a moments notice.
+
+
+
 
