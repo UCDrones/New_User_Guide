@@ -9,6 +9,26 @@ link-citations: yes
 description: "New User Guide for Drones in the UC System"
 ---
 
+
+```{r eval=FALSE}
+
+foo <- function(x){
+  for( i in x ){
+    #  require returns TRUE invisibly if it was able to load package
+    if( ! require( i , character.only = TRUE ) ){
+      #  If package was not able to be loaded then re-install
+      install.packages( i , dependencies = TRUE )
+      #  Load package after installing
+      require( i , character.only = TRUE )
+    }
+  }
+}
+
+#  Then try/install packages...
+foo( c("bookdown" , "DiagrammeR" ) )
+
+```
+
 # Getting Started {#ch-getting-started}
 
 ```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}
@@ -36,6 +56,7 @@ The UC Center of Excellence on UAS Safety is here to help you comply with the po
 - [Register your Drone with the FAA](#ch-register) 
 - [Do I need a License?](#ch-license)
 - [How to get a License](#ch-get-license)
+- [How do I update or replace my License?](#ch-replace-license)
 - [How to get Airspace Information](#ch-airspace-info)
 - [Common UAS Violations](#ch-common-UAS-violations)
 - [Local UAS Regulations](#ch-local-UAS-regulations)
