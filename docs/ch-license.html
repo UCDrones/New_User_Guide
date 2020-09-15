@@ -162,8 +162,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="4" data-path="ch-get-license.html"><a href="ch-get-license.html"><i class="fa fa-check"></i><b>4</b> How to get a License</a><ul>
 <li class="chapter" data-level="4.1" data-path="ch-get-license.html"><a href="ch-get-license.html#drone-license-exam"><i class="fa fa-check"></i><b>4.1</b> Drone License Exam</a></li>
-<li class="chapter" data-level="4.2" data-path="ch-get-license.html"><a href="ch-get-license.html#drone-license-eligibility"><i class="fa fa-check"></i><b>4.2</b> Drone License Eligibility</a></li>
+<li class="chapter" data-level="4.2" data-path="ch-get-license.html"><a href="ch-get-license.html#free-study-resources"><i class="fa fa-check"></i><b>4.2</b> Free study resources</a></li>
+<li class="chapter" data-level="4.3" data-path="ch-get-license.html"><a href="ch-get-license.html#drone-license-eligibility"><i class="fa fa-check"></i><b>4.3</b> Drone License Eligibility</a></li>
 </ul></li>
+
 <li class="chapter" data-level="5" data-path="ch-replace-license.html"><a href="ch-replace-license.html"><i class="fa fa-check"></i><b>5</b> Update or Replace a License</a></li>
 <li class="chapter" data-level="6" data-path="ch-common-UAS-violations.html"><a href="ch-common-UAS-violations.html"><i class="fa fa-check"></i><b>6</b> Common UAS Regulation Violations</a><ul>
 <li class="chapter" data-level="6.1" data-path="ch-common-UAS-violations.html"><a href="ch-common-UAS-violations.html#visual-line-of-sight"><i class="fa fa-check"></i><b>6.1</b> Visual Line of Sight</a><ul>
@@ -175,6 +177,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="7" data-path="ch-local-UAS-regulations.html"><a href="ch-local-UAS-regulations.html"><i class="fa fa-check"></i><b>7</b> Local UAS Regulations</a><ul>
 <li class="chapter" data-level="7.1" data-path="ch-local-UAS-regulations.html"><a href="ch-local-UAS-regulations.html#searching-for-local-uas-regulations"><i class="fa fa-check"></i><b>7.1</b> Searching for Local UAS Regulations</a></li>
 <li class="chapter" data-level="7.2" data-path="ch-local-UAS-regulations.html"><a href="ch-local-UAS-regulations.html#no-drone-zones"><i class="fa fa-check"></i><b>7.2</b> No Drone Zones</a></li>
+
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -237,8 +240,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="simple-flowchart" class="section level2">
 <h2><span class="header-section-number">3.3</span> Simple Flowchart</h2>
 <p>Below is a ‘simple’ flowchart that covers most of the typical UAS activity and whether or not you might need an FAA Drone License.
+
 <div id="htmlwidget-40638166b0b01c39db6d" style="width:672px;height:1000px;" class="grViz html-widget"></div>
 <script type="application/json" data-for="htmlwidget-40638166b0b01c39db6d">{"x":{"diagram":"digraph {\n  graph [layout = dot, rankdir = TB, center=true, margin=0.5, nodesep=0.2, ranksep=0.5]\n  \n  node [shape = diamond, fontname = Helvetica, style=filled]\n  Start [label = \"Start Here\",fillcolor=Green]\n  \n  node [shape = box,\n        fontname = Helvetica,style=filled]   \n  \n  \n  QP1 [label = \"Is this for homework, \n classwork, or a senior \n project?\"]\n  QP2 [label = \"Is this for instruction \n purposes?\"]\n  QP3 [label = \"Is this for a research \n project or in support \n of a research project?\"]\n  QP4 [label = \"Is this for media, \n promotion, or facility \n management?\"]\n  \n  QL1 [label = \"Do you plan on flying outside?\"]\n  QL2 [label = \"Is the flight area \n closed to the public or \n sufficiently remote that \n no one is expected to be \n in the area?\"]\n  QL3 [label = \"Can you establish a \n barrier to prevent people \n from entering the flight area?\"]\n\n  QR1 [label = \"Will you be doing any of the following? \n -flying over people \n - flying BVLOS \n - flying more than one drone at a time\"]\n  QR2 [label = \"Is the flight area \n near a major airport?\"]\n  QR3 [label = \"Will I need to exceed \n UAS Facility Map altitudes?\"]\n  \n  node [shape = ellipse, fontname = Helvetica, style=filled]\n  CSC [label = \"Reach out to \n UASsafety@ucmerced.edu \n for a consultation\",fillcolor=Gold]\n  noL [label = \"No license necessary\",fillcolor=YellowGreen]\n  Lic [label = \"P107 license necessary\",fillcolor = DarkSalmon]\n  \n\n      \n      QP1 -> QP2 [label = \"No\"];\n      QP2 -> QP3 [label = \"No\"];\n      QP3 -> QP4 [label = \"No\"];\n\n\n      \n      QL1 -> QL2 [label = \"Yes\"];\n      QL2 -> QL3 [label = \"No\"];\n   \n\n      QR1 -> QR2 [label = \"No\"]\n      QR2 -> QR3 [label = \"Yes\"]\n      \n\n  \n  \n  subgraph {\n    rank = same; noL; Lic; CSC;\n  }\n  \n  \n  \n  \n  Start -> QP1;\n  \n  QP1 -> QL1 [label = \"Yes\"];\n  QP2 -> QL1 [label = \"Yes\"];\n  QP2 -> QL1 [label = \"Yes\"];\n  QP3 -> QL1 [label = \"Yes\"];\n\n  QP4 -> CSC [label = \"No\"];\n  QP4 -> Lic [label = \"Yes\"];\n  \n  QL2 -> QR1 [label = \"Yes\"];\n  QL3 -> QR1 [label = \"Yes\"];\n  QL3 -> Lic [label = \"No\"];\n  \n  QL1 -> noL [label = \"No\"];\n  \n  QR1 -> Lic [label = \"Yes\"];\n  QR2 -> noL [label = \"No\"];\n  QR3 -> Lic [label = \"Yes\"];\n  QR3 -> noL [label = \"No\"];\n  QR3 -> CSC [label = \"Unsure\"];\n  \n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script></p>
+
 </div>
 <div id="other-situations" class="section level2">
 <h2><span class="header-section-number">3.4</span> Other Situations</h2>

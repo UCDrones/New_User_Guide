@@ -57,7 +57,7 @@ The UC Center of Excellence on UAS Safety is here to help you comply with the po
 - [Do I need a License?](#ch-license)
 - [How to get a License](#ch-get-license)
 - [How do I update or replace my License?](#ch-replace-license)
-- How to get Airspace Information
+- [How to get Airspace Information](#ch-airspace-info)
 - [Common UAS Violations](#ch-common-UAS-violations)
 - [Local UAS Regulations](#ch-local-UAS-regulations)
 

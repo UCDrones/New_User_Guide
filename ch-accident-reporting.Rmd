@@ -1,0 +1,28 @@
+# I crashed my drone. Now what?
+
+![Crashed Phantom](images\DroneCrash.jpg)
+
+Whether you're a new or experienced pilot, accidents can happen. In the event that you crash your drone you need to remember to stay cool and carefully survey the damage that was caused. 
+
+If your accident causes either:
+
+- Serious injury (injury that requires hospitalization) or loss of consciousness; or
+- More than $500 worth of damage (excluding the drone)
+
+then you are required to file a report with the FAA within 10 days of the accident.
+
+
+## How to file an accident report
+
+You can report an accident to the FAA using a few different methods. Method 1 is to submit your report through the FAA's Drone Zone page. 
+
+![FAA Drone Zone](images\FAA_DroneZone.png)
+
+![Accident Report Box](images\DroneZone_AccidentReport.png)
+
+Logging into your account and scrolling to the bottom of your dashboard you will find a "Part 107 Accident Reports" box where you can then submit your accident report. The reporting form requires you to fill out both plot information and your flight operation details.
+
+![Accident Reporting Form](images\DroneZone_Accident_Form.png)
+
+Method 2 involves contacting your nearest FAA Flight Standards [Disctrict Office (FSDO)](https://www.faa.gov/about/office_org/field_offices/fsdo/) to submit a report either throough phone or their website. 
+![Flight Standards District Offices in California](images\FAA_California_FSDO.png)
