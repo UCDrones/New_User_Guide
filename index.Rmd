@@ -10,7 +10,7 @@ description: "New User Guide for Drones in the UC System"
 ---
 
 
-```{r eval=FALSE}
+```{r echo=FALSE}
 
 foo <- function(x){
   for( i in x ){
@@ -25,23 +25,24 @@ foo <- function(x){
 }
 
 #  Then try/install packages...
-foo( c("bookdown" , "DiagrammeR" ) )
+foo( c("bookdown" , "DiagrammeR" , "kableExtra" ) )
 
 ```
 
-# Getting Started {#ch-getting-started}
 
 ```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}
 knitr::include_graphics('images/COE_logo.png')
 ```
 
+# Introduction {-}
+
 This guide will walk you through the steps for you start flying for your work or research.  This page will be a work in progress and new resources will be added periodically.  Feel free to reach out to us at [UASSafety@ucmerced.edu](mailto:UASSafety@ucmerced.edu) if you have any questions or would like to see additional resources added.
 
-## UC Drone Policy
+## UC Drone Policy {-}
 
 There is a University of California Drone Policy that governs the use of drones owned by the University of California, the use of drones at any University property, or the use of drones for any University purpose (including teaching, outreach and research).  More information about the UC UAS Policy can be found in the UC UAS Policy Guidance Document located at http://UCDrones.github.io/Policy_Guidance/
 
-### Policy Requirements
+### Policy Requirements {-}
 The Policy establishes that anyone who seeks to operate a UAS under the jurisdiction of the policy must:
 
  - Comply with any applicable regulation, including but not limited to any applicable FAA regulation.
@@ -51,7 +52,7 @@ The Policy establishes that anyone who seeks to operate a UAS under the jurisdic
     
 The UC Center of Excellence on UAS Safety is here to help you comply with the policy.  Below are links to several quick guides to help walk you through. 
 
-## Complying with Regulations
+## Complying with Regulations {-}
 
 - [Register your Drone with the FAA](#ch-register) 
 - [Do I need a License?](#ch-license)
@@ -61,7 +62,7 @@ The UC Center of Excellence on UAS Safety is here to help you comply with the po
 - [Common UAS Violations](#ch-common-UAS-violations)
 - [Local UAS Regulations](#ch-local-UAS-regulations)
 
-## Getting UC Approval
+## Getting UC Approval {-}
 
 - About UC Drones
 - Registering your drone with your campus
@@ -69,14 +70,14 @@ The UC Center of Excellence on UAS Safety is here to help you comply with the po
 - Post-Flight Reporting
 - Where to get more help
 
-## Planning for Safety
+## Planning for Safety {-}
 
 - Safety Guidelines
 - Field Safety
 - Working around people and non-participants
 - Writing a Privacy Plan
 
-## Insurance
+## Insurance {-}
 
 - UAS Liability Insurance
 - UAS Property Insurance

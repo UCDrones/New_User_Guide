@@ -7,17 +7,9 @@ Many researchers opt to get a Drone License for their research needs, but a Dron
 > This page is for the Federal Aviation Administration licensing requirements for UAS use.  UC Policy will still require a flight request and post flight reporting, regardless of FAA licensing requirements. More information on the UC policy can be found in Chapter .
 
 
-## When are you Exempt from a drone license
-For the purposes of drone regulations, the following activities are considered 'recreational' for Institutes of Higher Education 
-
-- Instruction of students
-- Academic or research related uses of unmanned aircraft systems that have been approved by the institution
-- Activities undertaken by the institution as part of research projects
-- Other academic activities approved by the institution
-
 ## What is the difference?
 
-Under Part 107
+Under Part 107 
  
 - Drone License required
 - Any purpose
@@ -33,90 +25,37 @@ Under Recreational Exception
 - 'Fly only in safe locations'
 - No allowances for advanced operations
 
+## When are you Exempt from a drone license
 
-## Simple Flowchart
-Below is a 'simple' flowchart that covers most of the typical UAS activity and whether or not you might need an FAA Drone License.
-```{r diaga, echo=FALSE, include=knitr::is_html_output()}
-DiagrammeR::grViz("digraph {
-  graph [layout = dot, rankdir = TB, center=true, margin=0.5, nodesep=0.2, ranksep=0.5]
-  
-  node [shape = diamond, fontname = Helvetica, style=filled]
-  Start [label = 'Start Here',fillcolor=Green]
-  
-  node [shape = box,
-        fontname = Helvetica,style=filled]   
-  
-  
-  QP1 [label = 'Is this for homework, \n classwork, or a senior \n project?']
-  QP2 [label = 'Is this for instruction \n purposes?']
-  QP3 [label = 'Is this for a research \n project or in support \n of a research project?']
-  QP4 [label = 'Is this for media, \n promotion, or facility \n management?']
-  
-  QL1 [label = 'Do you plan on flying outside?']
-  QL2 [label = 'Is the flight area \n closed to the public or \n sufficiently remote that \n no one is expected to be \n in the area?']
-  QL3 [label = 'Can you establish a \n barrier to prevent people \n from entering the flight area?']
+You may not need a drone license if your flight operations can fit under the stipulations listed for 'recreational' activities **and** your flight operations are related to 
 
-  QR1 [label = 'Will you be doing any of the following? \n -flying over people \n - flying BVLOS \n - flying more than one drone at a time']
-  QR2 [label = 'Is the flight area \n near a major airport?']
-  QR3 [label = 'Will I need to exceed \n UAS Facility Map altitudes?']
-  
-  node [shape = ellipse, fontname = Helvetica, style=filled]
-  CSC [label = 'Reach out to \n UASsafety@ucmerced.edu \n for a consultation',fillcolor=Gold]
-  noL [label = 'No license necessary',fillcolor=YellowGreen]
-  Lic [label = 'P107 license necessary',fillcolor = DarkSalmon]
-  
+- Coursework
+- Instruction of students
+- Academic or research related uses of unmanned aircraft systems that have been approved by the institution
+- Activities undertaken by the institution as part of research projects
+- Other academic activities approved by the institution
 
-      
-      QP1 -> QP2 [label = 'No'];
-      QP2 -> QP3 [label = 'No'];
-      QP3 -> QP4 [label = 'No'];
+## What are the stipulations for 'Recreational' and approved 'Academic' activities?
 
+Recreational flight operations, despite what you see on YouTube, have strict requirements:
 
-      
-      QL1 -> QL2 [label = 'Yes'];
-      QL2 -> QL3 [label = 'No'];
-   
+- Only fly below 400 ft
+- Must stay within Visual Line of Sight
+- Must fly only in safe areas and no closer than 25 ft to any individuals
+- Must use an established safety line to separate all operations from spectators and bystanders
+- Must get FAA authorization to fly in Controlled Airspace (Class B, Class C, Class D and surface Class E)
+- Never fly over any person or moving vehicle
+- Never interfere with any manned aircraft or emergency response activity
+- Never fly under the influence of drugs or alcohol
+- Never operate in a careless or reckless manner
 
-      QR1 -> QR2 [label = 'No']
-      QR2 -> QR3 [label = 'Yes']
-      
+This is in addition to existing UAS operating restrictions under 14 CFR 107:
 
-  
-  
-  subgraph {
-    rank = same; noL; Lic; CSC;
-  }
-  
-  
-  
-  
-  Start -> QP1;
-  
-  QP1 -> QL1 [label = 'Yes'];
-  QP2 -> QL1 [label = 'Yes'];
-  QP2 -> QL1 [label = 'Yes'];
-  QP3 -> QL1 [label = 'Yes'];
-
-  QP4 -> CSC [label = 'No'];
-  QP4 -> Lic [label = 'Yes'];
-  
-  QL2 -> QR1 [label = 'Yes'];
-  QL3 -> QR1 [label = 'Yes'];
-  QL3 -> Lic [label = 'No'];
-  
-  QL1 -> noL [label = 'No'];
-  
-  QR1 -> Lic [label = 'Yes'];
-  QR2 -> noL [label = 'No'];
-  QR3 -> Lic [label = 'Yes'];
-  QR3 -> noL [label = 'No'];
-  QR3 -> CSC [label = 'Unsure'];
-  
-  }", 
-  height = 1000)
-
-
-```
+- No operating from a moving vehicle
+- No operating more than one vehicle at a time
+- No operating faster than 100 mph
+- No operating when the weather visibility is less than 3 miles
+- No operating closer than 500 ft below a cloud, or within 2000 ft horizontally from a cloud or fog layer
 
 ## Other Situations
 There are other conditions that may require a closer evaluation, including whether you're a US citizen or if you plan on flying internationally.  If you have any questions, feel free to reach out to [UASsafety@ucmerced.edu](mailto:UASsafety@ucmerced.edu) for a consultation. 
@@ -150,12 +89,12 @@ Unless the beach is to be closed to the public, this scenario will likely requir
 
 **I am planning on flying in the campus quad to test a flight controller, do I need a Drone License?**
 
-If the airspace is uncontrolled (Class G), and the area within the campus quad is sufficiently cleared and closed to non-participants, then you do not need a Drone License.  If you want to fly at UCI, UCSB or UCLA, then you will need to obtain an Airspce Authorization via LAANC.
+If the airspace is uncontrolled (Class G), and the area within the campus quad is sufficiently cleared and closed to non-participants, then you do not need a Drone License.  If you want to fly on campus at UCI, UCLA or UCSB, then you will need to obtain an Airspace Authorization via LAANC.
 
 **I do not have a Drone License, can I do a coursework assignment on the use of drones in building inspections?**
 
 You may be able to do some flying without a drone license, however, you will not be allowed to fly over a building and must stay at least 25 ft from all non-participants, which may limit your ability to conduct effective analysis.  
 
-**I am a graduate student Teaching Asssistant and I would like to teach my students how to fly a drone?  Do I need a license? Do the students need a license?**
+**I am a graduate student Teaching Assistant and I would like to teach my students how to fly a drone?  Do I need a license? Do the students need a license?**
 
-If the site is sufficiently cleared and closed to non-participants, than everyone may have a chance to learn how to fly a drone without a drone license.  However, additional safety precautions may be necessary.
+If the site is sufficiently cleared and closed to non-participants, than everyone may have a chance to learn how to fly a drone without a drone license and any instructor will also not need to have a license.  However, additional safety precautions may be necessary and as an instructor, you will be responsible for ensuring the safety of the students and the site.

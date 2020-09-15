@@ -9,5 +9,7 @@ rmd_files: ["index.Rmd",
             "ch-get-license.Rmd",
             "ch-replace-license.Rmd",
             "ch-common-UAS-violations.Rmd",
-            "ch-local-UAS-regulations.Rmd"]
+            "ch-local-UAS-regulations.Rmd",
+            "ch-about-UCDrones.Rmd"]
 output_dir: "docs"
+edit: https://github.com/UCDrones/New_User_Guide/edit/master/%s

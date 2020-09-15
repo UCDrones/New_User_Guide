@@ -1,3 +1,5 @@
+# (PART) Getting Started {-}
+
 # Register your Drone {#ch-register}
 
 > This page is for the registration of your drone with the Federal Aviation Administration.  For information on how to register your drone with the UC system, see Chapter.
