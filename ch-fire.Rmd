@@ -46,8 +46,8 @@ In addition to LiPo battery care, special effort must be taken to consider the f
 - During flight operations:
 
     - Ensure that a crew member has easy access to fire equipment.
-    - Ensure that a crew member has easy access to reach any location where the \gls{UA} may crash.
+    - Ensure that a crew member has easy access to reach any location where the UA may crash.
     - Ensure that a crew member has the ability to report an emergency situation and can adequately provide directions for emergency personnel to reach the site.
     
-- When flying in high fire risk locations, use high quality, commercially available \gls{UA} with enclosed electronics.
+- When flying in high fire risk locations, use high quality, commercially available UA with enclosed electronics.
 - Never fly a damaged or swollen battery.

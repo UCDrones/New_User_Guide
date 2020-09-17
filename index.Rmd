@@ -9,14 +9,12 @@ link-citations: yes
 description: "New User Guide for Drones in the UC System"
 ---
 
-# Getting Started {#ch-getting-started}
+# Introduction {-}
 
 
 ```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}
 knitr::include_graphics('images/COE_logo.png')
 ```
-
-# Introduction {-}
 
 This guide will walk you through the steps for you start flying for your work or research.  This page will be a work in progress and new resources will be added periodically.  Feel free to reach out to us at [UASSafety@ucmerced.edu](mailto:UASSafety@ucmerced.edu) if you have any questions or would like to see additional resources added.
 
@@ -56,6 +54,7 @@ The UC Center of Excellence on UAS Safety is here to help you comply with the po
 
 - Safety Guidelines
 - Field Safety
+- Fire Safety
 - Working around people and non-participants
 - Writing a Privacy Plan
 

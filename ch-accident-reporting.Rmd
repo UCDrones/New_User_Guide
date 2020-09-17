@@ -25,4 +25,5 @@ Logging into your account and scrolling to the bottom of your dashboard you will
 ![Accident Reporting Form](images\DroneZone_Accident_Form.png)
 
 Method 2 involves contacting your nearest FAA Flight Standards [Disctrict Office (FSDO)](https://www.faa.gov/about/office_org/field_offices/fsdo/) to submit a report either throough phone or their website. 
+
 ![Flight Standards District Offices in California](images\FAA_California_FSDO.png)

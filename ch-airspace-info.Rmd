@@ -15,7 +15,11 @@ Apart from using these FAA provided resources, there are also several phone and 
 
 and as a mobile phone application for both IOS [IOS](https://apps.apple.com/us/app/airmap-for-drones/id1042824733) and [Android](https://play.google.com/store/apps/details?id=com.airmap.airmap&hl=en_US). It is important to know the classification of the airspace you are operating in. Being unsure or uninformed about your operating airspace can pose a safety hazard to both yourself and other pilots that maybe in the area.
 
-![Android Airmap application](images/Airmap-Android.jpg)
+
+```{r airmap, fig.cap='Android Airmap Application', out.width='50%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/Airmap-Android.jpg')
+```
+
 
 Airmap not only gives you an interactive map showing a flight ceiling but it also allows you to plug in the type of operation you will be conducting (Part 107, recreational, AMA, etc) and get a corresponding list of rules and or requirements.
 
