@@ -12,7 +12,8 @@ rmd_files: ["index.Rmd",
             "ch-common-UAS-violations.Rmd",
             "ch-local-UAS-regulations.Rmd",
             "ch-accident-reporting.Rmd",
+            "ch-LAANC.Rmd",
+            "ch-fire.Rmd"]
             "ch-about-UCDrones.Rmd"]
 output_dir: "docs"
 edit: https://github.com/UCDrones/New_User_Guide/edit/master/%s
-

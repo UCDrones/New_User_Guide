@@ -1,0 +1,17 @@
+# LAANC Authorization {#ch-LAANC}
+
+In order to get FAA authorization to fly in controlled airspace, you typically will need to file a request through a system called "LAANC"
+
+
+## Using AirMap
+
+
+## Tips & Tricks
+
+- **Need to draw a polygon using a satellite map?**
+
+    Try this:
+    - Go to https://geoman.io/geojson-editor and draw your polygon with satellite map on.  Export to a GeoJSON text file
+    - Upload the GeoJSON file to Airmap using the ‘cloud’ button underneath the polygon.
+    - The outline should now cover the right area and you file as normal
+
