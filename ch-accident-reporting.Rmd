@@ -2,7 +2,15 @@
 
 ![Crashed Phantom](images\DroneCrash.jpg)
 
-Whether you're a new or experienced pilot, accidents can happen. In the event that you crash your drone you need to remember to stay cool and carefully survey the damage that was caused. 
+Don't Panic! Whether you're a new or experienced pilot, accidents can happen. In the event that you crash your drone you need to remember to stay cool and carefully survey the damage that was caused. A quick damage survey would break down as follows: 
+
+1. Make sure everyone is safe and that there were no injuries before proceeding. 
+2. Approach and inspect crash site. Are the damages 
+3. Make notes of possible damages and take pictures of site. 
+4. Closely inspect your UAV to ensure status.
+5. IF the crash injured an individual or severely damaged the aircraft and possibly caused over $500 in damages:
+  - please mark the appropriate box on your post-flight report and send notes and images taken to the Center of Excellence. .
+6. IF after careful inspection there were no injuries or damages AND the drone is deemed flyable may you take back to the skies.  
 
 If your accident causes either:
 
