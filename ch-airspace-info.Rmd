@@ -1,6 +1,17 @@
 # How to get Airspace information {#ch-airspace-info}
 
-## FAA Sectional Charts
+When your figuring out where you want to fly, you're typically thinking about your research objectives on the ground.  But you must also think about whether or not it will be safe to fly a drone in the airspace at that location.  You won't find this information on Google Maps though - you need to check the Airspace Maps or Aviation Charts.
+
+Reading an Airspace Map is not like reading Google Maps - you'll rarely see roads or buildings marked - instead you'll be presented with a whole new set of symbols and strange codes.  But they're all very important to convey a dense set of aviation information.  Luckily with drones, you won't have to worry about most of it, but there's still some very important pieces of information you need to know.
+
+**Items to Learn about from an Airspace Map**
+
+- Airspace Class
+- Nearby Airports, including smaller ones
+- Potential air traffic patterns
+- 
+
+## FAA Sectional Charts 
 
 Getting information on a specific area's airspace classification has never been easier. The FAA has region specific sectional charts located [here](https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/). 
 

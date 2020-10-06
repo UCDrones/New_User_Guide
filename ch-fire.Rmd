@@ -1,4 +1,4 @@
-# Fire Safety
+# Fire Safety {#ch-fire-safety}
 
 While UAS accidents and incidents involving fire are rare, they are a valid and significant concern.  With the majority of UC UAS usage on field sites and other rural locations, the potential for the accidental sparking of fire is a concern.  A fire sparked by a UAS can spread quickly (Figure \@ref(fig:fire-start)) and with California's dry environment, can cause significant damage (Figure \@ref(fig:fire-damage)).
 

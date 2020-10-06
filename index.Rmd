@@ -37,14 +37,11 @@ The UC Center of Excellence on UAS Safety is here to help you comply with the po
 - [Register your Drone with the FAA](#ch-register) 
 - [Do I need a License?](#ch-license)
 - [How to get a License](#ch-get-license)
-- [How do I update or replace my License?](#ch-replace-license)
 - [How to get Airspace Information](#ch-airspace-info)
-- [Common UAS Violations](#ch-common-UAS-violations)
-- [Local UAS Regulations](#ch-local-UAS-regulations)
 
 ## Getting UC Approval {-}
 
-- About UC Drones
+- [About UC Drones](#ch-about-UCdrones)
 - Registering your drone with your campus
 - Creating a flight request
 - Post-Flight Reporting
@@ -52,14 +49,21 @@ The UC Center of Excellence on UAS Safety is here to help you comply with the po
 
 ## Planning for Safety {-}
 
-- Safety Guidelines
+- [Safety Guidelines](#ch-safety-guidelines)
 - Field Safety
 - Fire Safety
 - Working around people and non-participants
 - Writing a Privacy Plan
+- [Fire Safety](#ch-fire-safety) 
 
 ## Insurance {-}
 
-- UAS Liability Insurance
-- UAS Property Insurance
+- [UAS Liability Insurance](#ch-liability-insurance)
+- [UAS Property Insurance](#ch-hull-insurance)
 
+## More Details {-}
+
+- [Common UAS Violations](#ch-common-UAS-violations)
+- [Reporting UAS accidents](#ch-uas-accident)
+- [Local UAS Regulations](#ch-local-UAS-regulations)
+- [How do I update or replace my License?](#ch-replace-license)
