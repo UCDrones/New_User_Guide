@@ -30,16 +30,27 @@ The Policy establishes that anyone who seeks to operate a UAS under the jurisdic
  - Operate in a manner that ensures public safety, right to privacy, civil rights and civil liberties.
  - Maintain sufficient liability insurance coverage.
     
-The UC Center of Excellence on UAS Safety is here to help you comply with the policy.  Below are links to several quick guides to help walk you through. 
+The UC Center of Excellence on UAS Safety is here to help you guide you through the process.  
 
-## Complying with Regulations {-}
+### Step-by-step UC Drone Process {-}
+
+1. Register your drone with the [FAA](#ch-register) and UC
+2. Get an [FAA Drone License](#ch-get-license) (or figure out if you're [exempt](#ch-license)) and register yourself with the UC
+3. Find a place to fly - review [airspace](#ch-airspace-info), [safety guidelines](#ch-safety-guidelines) and [local regulations](#ch-local-UAS-regulations)
+4. Submit a UC Flight Request
+5. Fly Safely
+6. Submit a Post-Flight Report
+
+## Outline {-}
+
+### Complying with Regulations {-}
 
 - [Register your Drone with the FAA](#ch-register) 
 - [Do I need a License?](#ch-license)
 - [How to get a License](#ch-get-license)
 - [How to get Airspace Information](#ch-airspace-info)
 
-## Getting UC Approval {-}
+### Getting UC Approval {-}
 
 - [About UC Drones](#ch-about-UCdrones)
 - Registering your drone with your campus
@@ -47,7 +58,7 @@ The UC Center of Excellence on UAS Safety is here to help you comply with the po
 - Post-Flight Reporting
 - Where to get more help
 
-## Planning for Safety {-}
+### Planning for Safety {-}
 
 - [Safety Guidelines](#ch-safety-guidelines)
 - Field Safety
@@ -56,12 +67,12 @@ The UC Center of Excellence on UAS Safety is here to help you comply with the po
 - Writing a Privacy Plan
 - [Fire Safety](#ch-fire-safety) 
 
-## Insurance {-}
+### Insurance {-}
 
 - [UAS Liability Insurance](#ch-liability-insurance)
 - [UAS Property Insurance](#ch-hull-insurance)
 
-## More Details {-}
+### More Details {-}
 
 - [Common UAS Violations](#ch-common-UAS-violations)
 - [Reporting UAS accidents](#ch-uas-accident)
