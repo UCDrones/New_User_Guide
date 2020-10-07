@@ -1,8 +1,10 @@
 # How to get Airspace information {#ch-airspace-info}
 
-When your figuring out where you want to fly, you're typically thinking about your research objectives on the ground.  But you must also think about whether or not it will be safe to fly a drone in the airspace at that location.  You won't find this information on Google Maps though - you need to check the Airspace Maps or Aviation Charts.
+When your figuring out where you want to fly, you're typically thinking about your research objectives on the ground.  But you must also think about whether or not it will be safe to fly a drone in the airspace at that location.  You won't find this information on Google Maps though - you need to check the Airspace Maps or Aviation Charts.  
 
 Reading an Airspace Map is not like reading Google Maps - you'll rarely see roads or buildings marked - instead you'll be presented with a whole new set of symbols and strange codes.  But they're all very important to convey a dense set of aviation information.  Luckily with drones, you won't have to worry about most of it, but there's still some very important pieces of information you need to know.
+
+>There's a lot of rules about flying drones and many of them are related to where and how risky.  For more information about Airspace Class and their rules, check out the UAS Regulations and the Learning about Airspace pages.
 
 **Things you should look for when reviewing Airspace Information**
 
@@ -112,3 +114,11 @@ SkyVector is a manned aviation tool that allows users to view the FAA Sectional 
 ### B4UFly App
 
 The B4UFly app is the FAA's first attempt at developing and publishing an app for drone pilots.  It has much of the same information as Airmap, though it notably does not include the altitude limits from the UAS Facility Maps.  Otherwise, it's a great source of information.
+
+## Airspace Regulations
+
+On this page, we're only looking at how to get the most basic of airspace information.  But obviously, there's a deeper level of knowledge to be studied when it comes to airspace regulations.  You'll find more information on the UAS Regulations and Learning About Airspace page, but for now, you can take a quick look at Figure \@ref(fig:SUAS-sim-regs) below.
+
+```{r SUAS-sim-regs, fig.cap='Small UAS Airspace Rules', out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/SUAS_airspace_map.jpg')
+```
