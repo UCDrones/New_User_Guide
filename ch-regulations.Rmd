@@ -1,0 +1,54 @@
+# (PART) Getting Started {-}
+
+# Drone Rules and Regulations {#ch-regulations}
+
+Welcome to the world of Drones!  We're always happy to see new drone pilots and new drone projects.  But first, we have to introduce you to the ever-changing drone regulations.  
+
+>Don't forget that following the DRONE regulations are only one part of the UC Drone Policy.  Local rules, environmental regulations, export control, and even insurance requirements may require additional steps or have additional restrictions.  Helping you navigate through all of this is part of the UC Drone Flight Request process - 
+
+
+
+
+
+
+- [Register your Drone](#ch-registration)
+- [FAA Drone License](#ch-license)
+ 
+>The topic of drone regulations can be very nuanced and complex.  We've shortened it to the basics in this section, but there may be scenarios or situations that may be exempt or have additional restrictions.  Always feel free to reach out to us at UASsafety@ucmerced.edu for a one-on-one consultation.
+ 
+## Drone Operating Rules
+
+- No flying above non-participants or moving cars
+- No flying higher than 400 ft above the ground
+- No reckless or careless flying that endangers the life or property of another
+- No flying when the horizon visibility drops below 3 miles
+    - This includes smog, fog, or haze
+- No flying within 2000 ft laterally or 500 ft vertically of any cloud
+    - Including fog and low cloud layers on overcast days
+- No flying faster than 100 mph
+- No flying at night
+- No operating a drone from a moving vehicle
+
+## Airspace Rules
+
+- You must yield and give right-of-way to all manned aviation traffic
+- Permission is required to fly in any controlled airspace (Class B, C, D, and surface Class E)
+    - Controlled airspace is typically found within 5 miles of most airports for commercial travel and large general aviation airports (non-commercial travel) - See Figure \@ref(fig:SUAS-airspace-regs)
+- No interfering with aviation traffic patterns at any airport, heliport, or seaplane base
+    - Traffic patterns include more than just the immediate take off and landing - it also includes the downwind and base legs
+
+```{r SUAS-airspace-regs, fig.cap='Small UAS Airspace Rules', out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/SUAS_airspace_map.jpg')
+```
+
+## Operator Rules
+
+- There must always be a Remote Pilot in Command (RPIC)
+    - The RPIC is the one in charge of the flight operations and is ultimately responsible for all safety and operations
+    - The RPIC doesn't always have to be the one manipulating the flight controls of the drone - it could be the RPIC is letting a student learn to fly under his/her direct supervision.
+    - The RPIC may only operate (supervise) one drone at a time
+- The RPIC must have an FAA Drone License (or be exempt*)
+- The RPIC must be at least 16 years of age, and must be able to speak, write and understand English.
+    - No restriction on nationality but a license does require Federal documentation such as a Passport.
+- No one may operate a drone or act as any direct participant in the operation of a drone if he or she knows, or has reason to know, that he or she has a physical or mental condition that would interfere with the safe operation of the drone.
+- No one may operate a drone or act as any direct participant in the operation of a drone under the influence of alcohol or any drug that may inhibit decision making

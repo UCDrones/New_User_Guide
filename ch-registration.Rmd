@@ -1,4 +1,4 @@
-# (PART) Getting Started {-}
+
 
 # Register your Drone {#ch-register}
 
