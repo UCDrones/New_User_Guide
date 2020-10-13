@@ -4,7 +4,7 @@ When your figuring out where you want to fly, you're typically thinking about yo
 
 Reading an Airspace Map is not like reading Google Maps - you'll rarely see roads or buildings marked - instead you'll be presented with a whole new set of symbols and strange codes.  But they're all very important to convey a dense set of aviation information.  Luckily with drones, you won't have to worry about most of it, but there's still some very important pieces of information you need to know.
 
->There's a lot of rules about flying drones and many of them are related to where and how risky.  For more information about Airspace Class and their rules, check out the UAS Regulations and the Learning about Airspace pages.
+>There's a lot of rules about flying drones and many of them are related to where and how risky.  For more information about Airspace Class and their rules, check out the [UAS Regulations](#ch-regulations) and the Reading an Airspace Map pages.
 
 **Things you should look for when reviewing Airspace Information**
 
