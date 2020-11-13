@@ -2,4 +2,8 @@
 
 # About UC Drones {#ch-about-UCdrones}
 
-This is how you use UC Drones Web App
+UC Drones is a one-stop shop for UAS oversight and management for the University of California system.  It is designed with the goal to develop a culture of safety and accountability in the use of UAS by providing a unified portal for 1 ) enabling users be kept aware with regulatory compliance obligations, safety guidelines and best practices, 2) documenting UAS activity through flight requests and reporting, and 3) tracking UC UAS operations and safety metrics.
+
+The use of UC Drones Web App is UC UAS Policy compliant. However, it is not the only means of UC UAS Policy compliance.  If alternative means of UC UAS Policy is needed or requested, please contact your campuses’ UAS Point of Contact
+
+

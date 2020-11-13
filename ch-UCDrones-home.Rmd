@@ -1,0 +1,51 @@
+# UC Drone Home Page {#ch-UCDrones-home}
+
+The UC Drone Safety Home Page allows users to manage their UAS Flights, aircraft and their pilot information.  
+
+```{r UCDrones-home, fig.cap='UC Drones Home Page', out.width='85%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/UCDrones_Home.jpg')
+```
+
+## Projects and Flights
+
+Within UC Drones, you have two types of Requests available:
+
+- Flight Projects
+- Individual Flights
+
+### Flight Project
+
+A Flight Project comprises of multiple sets of UAS flights over defined period of time (up to 1 year) at a single area of operation.  The Flight Project as a whole can be reviewed and approved within the app, rather than reviewing each flight.  All flight requests under an approved Flight Project are automatically approved and an email notice is sent to the local UAS Point of Contact. 
+
+**Example Flight Projects**
+
+-	Recurrent flight operations on field stations that do not require scheduling
+-	Regular flight activity in access-controlled construction sites
+-	Ad-hoc flights by NRS staff or researchers
+-	Weekly flights on the user’s farm plots
+-	A three-day workshop on campus where the location has been reserved
+
+A Flight Project may not be edited once it has been approved.  A separate Flight Project must be submitted if a new pilot is desired.
+
+### Individual Flight Request
+
+An individual Flight Request comprises of one or more UAS flights on a single day. Each Flight Request is reviewed individually, typically to address local issues such as campus safety, scheduling or privacy concerns.
+
+**Example Individual Flight Requests**
+
+-	Any site that the field manager requires prior approval for scheduling or wildlife considerations
+-	Athletic or recreational fields that require scheduling
+-	On-campus public areas without additional mitigation protocols or safety hazard analysis.
+-	Special operations – flying at night, flying above 400 ft AGL, etc
+
+## Manage Aircrafts
+
+The Manage Aircrafts page allows the user to add aircraft for use in the UC Drones web app or edit their existing aircraft.  All aircraft registered at a campus will be visible to all, but only the Responsible Person may edit the entry.
+
+## Report on Approved Flights
+
+The Report on Approved Flights page lists all of the Approved Flights that the user is listed as either a pilot or the point of contact.  The user can select any of the approved flights and Create a Post-Flight Report to complete the UC Drone Policy process.
+
+## Pilot
+
+The Pilot page allows the user to enter in their pilot information, including their certificate number and any additional certifications as attachements.
