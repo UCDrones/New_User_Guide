@@ -53,7 +53,7 @@ The UC Center of Excellence on UAS Safety is here to help you guide you through 
 ### Getting UC Approval {-}
 
 - [About UC Drones](#ch-about-UCdrones)
-- Registering your drone with your campus
+- [Registering your drone with your campus](#ch-add-drone)
 - Creating a flight request
 - Post-Flight Reporting
 - Where to get more help
@@ -62,10 +62,9 @@ The UC Center of Excellence on UAS Safety is here to help you guide you through 
 
 - [Safety Guidelines](#ch-safety-guidelines)
 - Field Safety
-- Fire Safety
+- [Fire Safety](#ch-fire-safety)
 - Working around people and non-participants
 - Writing a Privacy Plan
-- [Fire Safety](#ch-fire-safety) 
 
 ### Insurance {-}
 

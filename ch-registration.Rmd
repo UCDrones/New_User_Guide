@@ -2,7 +2,7 @@
 
 # Register your Drone {#ch-register}
 
-> This page is for the registration of your drone with the Federal Aviation Administration.  For information on how to register your drone with the UC system, see Chapter.
+> This page is for the registration of your drone with the Federal Aviation Administration.  For information on how to register your drone with the UC system, see Chapter \@ref(ch-add-drone).
 
 All drones that weigh more than 0.55 lbs (250 grams) must be registered with the Federal Aviation Administration (FAA) to it's legal owner.
 
