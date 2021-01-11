@@ -60,11 +60,11 @@ The UC Center of Excellence on UAS Safety is here to help you guide you through 
 
 ### Planning for Safety {-}
 
+- Planning a Safe Mission
 - [Safety Guidelines](#ch-safety-guidelines)
-- Field Safety
 - [Fire Safety](#ch-fire-safety)
 - Working around people and non-participants
-- Writing a Privacy Plan
+- [UAS and Privacy](#ch-privacy)
 
 ### Insurance {-}
 

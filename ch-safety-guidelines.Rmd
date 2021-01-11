@@ -1,4 +1,3 @@
-# (PART) Drone Safety {-}
 
 # Safety Guidelines {#ch-safety-guidelines}
 

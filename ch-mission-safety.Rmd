@@ -1,0 +1,54 @@
+# (PART) Drone Safety {-}
+
+# Planning a Mission {#ch-mission}
+
+Safety starts with planning.  Plan your flight mission with safety in mind from the get go.  Use the Site Analysis process to figure out exactly how to accomplish your mission and determine any other supplies or support you might need.
+
+
+## Site Analysis Process
+One of the best things you can do when you start planning your mission is to conduct a thorough site analysis process.  Do a methodical review of where you want to fly, taking into consideration what you want out of the flight and any hazards that exist.  
+
+Following your methodical review, you can start planning your flight paths, assess visibility, decided where to put VOs or other helpers, and have ample details for any emergency action plans.
+
+### Site Analysis Steps
+- Print out a satellite image of the site
+- Evaluate Data Requirements
+    - Identify the region(s) of interest
+    - Identify the best visual angles
+        - Consider the time of day, shadows and reflective surfaces
+    - Estimate the best flight region and flight paths
+- Identify any constraints
+    - Mark any vertical structures
+        - Buildings
+        - Buildings
+        - Towers, powerlines
+        - Trees
+        - Other vertical obstructions
+    - Mark any ground obstructions
+        - Smaller structures
+        - Gates, Fences
+        - Hedges, Shrubs
+        - Other obstructions that may impede access
+    - Identify any other safety or regulatory issue
+        - Fire risks
+        - Wildlife impacts
+        - Physical access to site
+    - Identify potential site access points by non-participants
+        - Pedestrian walkways
+        - Bike paths
+        - Building doors/access points
+- Refine flight plan with constraints
+    - Select a launch/recovery site that can be reasonably secured
+    - Assess whether any vertical structure may impede visual line of sight
+    - Assess whether any ground obstruction may limit any emergency recovery operations
+    - Consider multiple flights per Mission to achieve mission goals
+- Plan flight crew locations
+    - Pilot and VO at Launch/Recovery point
+        - Consider if Pilot/VO may require relocation during flight operation 
+    - Remote VOs and other ground crew support
+        - May be tasked to redirect non-participant traffic away from flight zone
+- Iterate as necessary to meet Mission Objectives
+
+## Resources
+
+Make regular use of planning tools and resources here: [UC Drones Resources](https://ucdrones.github.io/ch-resources.html).  Don't be afraid to edit/update/modify them as you see fit.  All of these should be considered living documents, tailored to enable you to make safety decisions with as much information as possible.
