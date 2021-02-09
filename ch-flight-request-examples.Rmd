@@ -1,0 +1,38 @@
+# Flight Request Examples
+
+You don't have to describe the academic relevance of your flight or project.  During our flight review, we look at:
+- Legal compliance
+- Safety
+    - Risks to airspace
+    - Risks to non-participants
+    - Potential VLOS and RLOS issues
+- Site authorization
+- Adequate mission planning and preparedness
+- 
+
+## Mission Profile or Step by Step Procedures
+
+In this section, we ask that you provide your step-by-step flight procedures (or include as an attachment).  It also should describe your planning and safety measures.  
+
+The complexity and detail of this section should mirror the complexity of the flight operation.  For example, a recurring mapping operation in an access controlled area with permission from the local field manager in Class G airspace with no regular air traffic with a common off-the-shelf UAS using an automated planning software such as Pix4D Capture, might be considered a simple flight mission and may not need a detailed or scripted step-by-step procedures.  But note how many conditions is attached to that statement. Your mission profile may change and require more detail if you fly in a Class C airspace, in which you may need to include a description of obtaining airspace authorization, monitoring for intruding air traffic, the use of visual observers and communication.
+
+
+### Why is this important?
+
+It is well established in every safety domain, that a well-developed and precise plan is a key component of a safe operation.  A checklist isn't a magic solution and there certainly is a difference between a good one and a bad one, but overall having a document that guides the team will help prevent silly mistakes like "launching with an empty battery" and "launching under a power line" (true stories).
+
+For guidance on making a good checklist, visit our short guide here:  
+
+### Examples
+
+- UCSB SharkEye - [PDF](files/UCSB_Procedures_Example.pdf)
+
+## Risk Assessment
+
+The context of any UAS flight operation is key to understanding the necessary safety mitigation.  Is your flight area in a public area or behind a fence? Where is the nearest airport and what is the prevailing traffic patterns?  
+
+### Examples
+
+## Comments
+
+### Examples

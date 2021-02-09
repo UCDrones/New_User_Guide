@@ -18,6 +18,10 @@ Following your methodical review, you can start planning your flight paths, asse
         - Consider the time of day, shadows and reflective surfaces
     - Estimate the best flight region and flight paths
 - Identify any constraints
+    - Mark any airspace issues
+        - Airspace Class
+        - Airports, Heliports
+        - Flight Patterns
     - Mark any vertical structures
         - Buildings
         - Buildings
@@ -48,6 +52,12 @@ Following your methodical review, you can start planning your flight paths, asse
     - Remote VOs and other ground crew support
         - May be tasked to redirect non-participant traffic away from flight zone
 - Iterate as necessary to meet Mission Objectives
+
+### Site Analysis Guide
+
+```{r echo=FALSE, out.width='100%'}
+knitr::include_url("support/SiteAnalysis/story.html", height="720px")
+```
 
 ## Resources
 
