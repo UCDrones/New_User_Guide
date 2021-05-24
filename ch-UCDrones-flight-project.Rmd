@@ -34,7 +34,7 @@ Each project is listed with the Project Name, the project date range, status of 
 To submit a Project request, go to the Manage Projects Page (Figure \@ref(fig:UCDrones-project)) and click on the yellow + (plus) button to go to the Project Information Page to start the request.
 
 ### Enter Project Information
-The following interactive module provides a breakdown on how to fill out a Project Request.  The module requires a browswer compatible with HTML5.  If you are having difficulty viewing the interactive module, please contact us at <UASsafety@ucmerced.edu>.
+The following interactive module provides a breakdown on how to fill out a Project Request.  The module requires a browser compatible with HTML5.  If you are having difficulty viewing the interactive module, please contact us at <UASsafety@ucmerced.edu>.
 
 `r if (knitr::is_latex_output())'
 Please visit the webpage for the interactive module on how to fill out a Project Request.
