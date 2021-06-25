@@ -28,5 +28,4 @@ knitr::include_graphics('images/UCDrones_project_addflight.jpg')
     - Only a handful of fields may be changed or completed
 
 
-## Flight Request Form
 

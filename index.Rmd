@@ -49,12 +49,13 @@ The UC Center of Excellence on UAS Safety is here to help you guide you through 
 - [Do I need a License?](#ch-license)
 - [How to get a License](#ch-get-license)
 - [How to get Airspace Information](#ch-airspace-info)
+- [TRUST Certificate](#ch-TRUST)
 
 ### Getting UC Approval {-}
 
 - [About UC Drones](#ch-about-UCdrones)
 - [Registering your drone with your campus](#ch-add-drone)
-- Creating a flight request
+- [Creating a flight request](#ch-UCDrones-project)
 - Post-Flight Reporting
 - Where to get more help
 

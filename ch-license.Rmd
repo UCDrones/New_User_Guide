@@ -1,8 +1,14 @@
 # Do I need an FAA License? {#ch-license}
 
-When operating a drone within the US, there are two different options for regulations: Part 107 Small UAS regulations or the Exception for Limited Recreational Use.  By default, UAS operations fall under Part 107 Small UAS regulations, unless you can meet the requirements for the exception for Recreational Use.  Part 107 requires that all pilots have a Remote Pilot Certificate with an sUAS rating, more commonly known as a 'Drone License,' whereas Recreational Use does not require a Drone License.
+When operating a drone within the US, there are two different options for regulations: Part 107 Small UAS regulations or the Exception for Limited Recreational Use.  By default, UAS operations fall under Part 107 Small UAS regulations, unless you can meet the requirements for the exception for Recreational Use.  Part 107 requires that all pilots have a Remote Pilot Certificate with an sUAS rating, more commonly known as a 'Drone License,' whereas Recreational Use requires a TRUST certificate.
+
+As of June 2021, all drone pilots must have either:
+1. Remote Pilot Certificate (Drone License)
+2. TRUST Certificate
 
 Many researchers opt to get a Drone License for their research needs, but a Drone License does cost $150 and will take some time to study and prepare for.  With the updates introduced in the FAA Reauthorization Act of 2018 (P.L. 115-254), there are more exceptions available in which you may not need to obtain the license.
+
+The Recreational UAS Safety Test (TRUST) certificate is a new requirement for all drone pilots without a Drone License.  The TRUST certificate is free for everyone, can be done online and takes 20-30 minutes to complete the training. You can obtain your TRUST certificate by completing the drone training at any of websites listed on the FAA's website here: https://www.faa.gov/uas/recreational_fliers/knowledge_test_updates/
 
 > This page is for the Federal Aviation Administration licensing requirements for UAS use.  UC Policy will still require a flight request and post flight reporting, regardless of FAA licensing requirements. More information on the UC policy can be found in Chapter .
 
@@ -20,7 +26,7 @@ Under Part 107
   
 Under Recreational Exception
 
-- No license required
+- TRUST certificate
 - Recreation or Approved Academic Activities
 - 'Fly only in safe locations'
 - No allowances for advanced operations
@@ -89,12 +95,12 @@ Unless the beach is to be closed to the public, this scenario will likely requir
 
 **I am planning on flying in the campus quad to test a flight controller, do I need a Drone License?**
 
-If the airspace is uncontrolled (Class G), and the area within the campus quad is sufficiently cleared and closed to non-participants, then you do not need a Drone License.  If you want to fly on campus at UCI, UCLA or UCSB, then you will need to obtain an Airspace Authorization via LAANC.
+If the airspace is uncontrolled (Class G), and the area within the campus is sufficiently cleared and closed to non-participants, then you do not need a Drone License and can get the TRUST certificate.  However, there are some parts of some of the UC campuses that are in controlled airspace where a Drone License is required.  Please check with your Campus Drone Point of Contact for more information.
 
-**I do not have a Drone License, can I do a coursework assignment on the use of drones in building inspections?**
+**I do not have a Drone License, can I do a coursework assignment on the use of drones in building inspections with a TRUST certificate?**
 
-You may be able to do some flying without a drone license, however, you will not be allowed to fly over a building and must stay at least 25 ft from all non-participants, which may limit your ability to conduct effective analysis.  
+You may be able to do some flying with only a TRUST certificate, however, you will not be allowed to fly over a building and must stay at least 25 ft from all non-participants, which may limit your ability to conduct effective analysis.  
 
 **I am a graduate student Teaching Assistant and I would like to teach my students how to fly a drone?  Do I need a license? Do the students need a license?**
 
-If the site is sufficiently cleared and closed to non-participants, than everyone may have a chance to learn how to fly a drone without a drone license and any instructor will also not need to have a license.  However, additional safety precautions may be necessary and as an instructor, you will be responsible for ensuring the safety of the students and the site.
+If the site is sufficiently cleared and closed to non-participants, than everyone may have a chance to learn how to fly a drone with only a TRUST certificate and any instructor may only have a TRUST certificate.  However, additional safety precautions may be necessary and as an instructor, you will be responsible for ensuring the safety of the students and the site.
