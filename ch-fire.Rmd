@@ -12,7 +12,7 @@ knitr::include_graphics('images/fire_damage.jpg')
 
 ## LiPo Battery Guidance
 
-The most common cause of UAS related fire is from misuse of LiPo batteries.  Special care should be taken when charging, discharging or storing LiPo batteries.  If the internal polymer cell of a LiPo battery is exposed to air, a violent chemical reaction starts that could explode, but more commonly releases significant amounts of smoke and heat that can ignite other fire fuel sources.  A LiPo battery fire is typically caused by a physical puncture to the battery or from misuse, such as overcharging or electrical shorts. 
+The most common cause of drone related fire is from misuse of LiPo batteries.  Special care should be taken when charging, discharging or storing LiPo batteries.  If the internal polymer cell of a LiPo battery is exposed to air, a violent chemical reaction starts that could explode, but more commonly releases significant amounts of smoke and heat that can ignite other fire fuel sources.  A LiPo battery fire is typically caused by a physical puncture to the battery or from misuse, such as overcharging or electrical shorts. 
 
 **Recommended Best Practices**
 
@@ -34,7 +34,7 @@ The most common cause of UAS related fire is from misuse of LiPo batteries.  Spe
 
 ## Planning for Fire Mitigation
 
-In addition to LiPo battery care, special effort must be taken to consider the fire risks in UAS activity.  Consult the appropriate department (Fire, Field Safety, EH&S) if there are concerns over fire risk.  Minimize the potential for fire by monitoring where the UAS will be flying and ensure that if a fire was to occur, the RPIC and any other persons, such as Visual Observers, are prepared to respond appropriately.  
+In addition to LiPo battery care, special effort must be taken to consider the fire risks in drone activity.  Consult the appropriate department (Fire, Field Safety, EH&S) if there are concerns over fire risk.  Minimize the potential for fire by monitoring where the drone will be flying and ensure that if a fire was to occur, the RPIC and any other persons, such as Visual Observers, are prepared to respond appropriately.  
 
 
 **Guidance for fire safety**
@@ -46,8 +46,18 @@ In addition to LiPo battery care, special effort must be taken to consider the f
 - During flight operations:
 
     - Ensure that a crew member has easy access to fire equipment.
-    - Ensure that a crew member has easy access to reach any location where the UA may crash.
+    - Ensure that a crew member has easy access to reach any location where the drone may crash.
     - Ensure that a crew member has the ability to report an emergency situation and can adequately provide directions for emergency personnel to reach the site.
     
-- When flying in high fire risk locations, use high quality, commercially available UA with enclosed electronics.
+- When flying in high fire risk locations, use high quality, commercially available drones with enclosed electronics.
 - Never fly a damaged or swollen battery.
+
+## Drone Fire Safety Bucket
+
+Come prepared for a fire by packing this Drone Fire Safety Bucket, designed by **Victor Duraj** at **UC Davis**. It is based around a 7-gallon red bucket in order to accommodate a larger extinguisher, to help the bucket physically stand out on a flight site, and to reference it efficiently in an emergency as "that red fire bucket".  It includes a screw top lid, a fire extinguisher, a fire blanket, a folding camp shovel, a fluorescent orange flag, a first aid kit, a storage clipboard, self-made labels, and a double-sided laminated Contents & Instructions sheet.   
+
+```{r fire-bucket, fig.cap='Drone Fire Bucket', out.width='75%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/DroneFireBucket.jpg')
+```
+
+[Contents & Instruction Sheet](https://ucdrones.github.io/library/drone_fire_safety_bucket.docx)
