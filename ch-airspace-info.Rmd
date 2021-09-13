@@ -1,12 +1,51 @@
-# How to get Airspace information {#ch-airspace-info}
+# Airspace information {#airspace-info}
 
 When your figuring out where you want to fly, you're typically thinking about your research objectives on the ground.  But you must also think about whether or not it will be safe to fly a drone in the airspace at that location.  You won't find this information on Google Maps though - you need to check the Airspace Maps or Aviation Charts.  
 
 Reading an Airspace Map is not like reading Google Maps - you'll rarely see roads or buildings marked - instead you'll be presented with a whole new set of symbols and strange codes.  But they're all very important to convey a dense set of aviation information.  Luckily with drones, you won't have to worry about most of it, but there's still some very important pieces of information you need to know.
 
->There's a lot of rules about flying drones and many of them are related to where and how risky.  For more information about Airspace Class and their rules, check out the [UAS Regulations](#ch-regulations) and the Reading an Airspace Map pages.
+>There's a lot of rules about flying drones and many of them are related to where and how risky.  For more information about Airspace Class and their rules, check out the [Regulations](#regulations) and the Reading an Airspace Map pages.
 
-**Things you should look for when reviewing Airspace Information**
+## What is Airspace?
+
+The **Federal Aviation Administration** is in charge of making the rules and regulations for everyone in the United States flying above the ground. While the **National Airspace System (NAS)** does not have roads or streets like we have on the ground, there are a lot of rules about how to use the airspace correctly for the safety of others^[https://www.faa.gov/about/history/brief_history/].
+
+### Airspace Classes
+
+Since aviation works in 3 dimensions, so do the airspace rules.  Figure \@ref(fig:SUAS-airspace-airspace) gives a side profile of how the airspace is separated into different Classes.
+
+```{r SUAS-airspace-airspace, fig.cap='Small UAS Airspace Rules', out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/SUAS_airspace_map.jpg')
+```
+
+**Class A - Airlines**
+
+Class A is not shown in Figure \@ref(fig:SUAS-airspace-airspace), but exists way up high between 18,000 ft and 60,000 ft above sea level - this is where commercial airliners fly and where our drones should not be. Flying up this high requires special coordination with Air Traffic Control to guide pilots to their destinations.
+
+**Class B - Big Airports**
+
+Class B airspace is found around the biggest airports in the country - including LAX and SFO. Every Class B airspace is individually tailored as needed to help guide aircraft around these busy areas.  This usually involves 2 or more different sized layers at different altitudes - imagine an aircraft taking off from a runway and staying in Class B airspace until it leaves the busiest areas.  Given the amount of air traffic around these airports, no one is allowed to fly in Class B airspace unless Air Traffic Control says its ok.  
+
+**Class C - Common Airports**
+
+Class C airspace is found around some of the more common regional airports, such as the Sacramento or Fresno airports.  They're busy areas, but not nearly as busy as the major airports, and so they don't need to control as much of the sky as them.
+
+**Class D - Dinky Airports**
+
+Class D airspace is found around small airports that don't have a lot of commercial airline traffic, mostly catering to private aviation use, such as the airports in Stockton or Palm Springs. But as with Class B and C airspace, no one is allowed to fly within Class D airspace without permission.
+
+**Class E - the Everywhere Airspace**
+
+Class E airspace is the other airspace that is not part of Class A, B, C, D or G airspace. Fun fact, there are 7 different classifications of Class E airspace.  But as a drone pilot, the most important consideration of Class E airspace is when your in the part of Class E airspace at the surface that is designated for an airport.  In that case, you'll also need to get permission to fly in that airspace.
+
+**Class G - The Ground Airspace**
+
+Class G airspace is the airspace at the ground - starting from the ground and going up to either 700 ft or 1200 ft above the ground, depending on location.  This is the only airspace that drones are allowed to fly in without getting prior permission. This is true even if you're near an airport. Very small airports, such as those for cropdusters or personal use, do exist in Class G airspace. Though they do not control the airspace near them, you should make sure you stay out of their way.
+
+
+### What do you need to know?###
+
+There's a lot of information to unpack when looking into airspace information.  As you try to figure out if your location will be safe, you'll want to look up:
 
 - Airspace Class
 - Nearby Airports, including smaller ones and helipads
@@ -15,6 +54,10 @@ Reading an Airspace Map is not like reading Google Maps - you'll rarely see road
 - Flying altitude limits within certain zones or grids
 - Temporary Flight Restrictions or special alerts
 
+
+## How to get Airspace Information
+
+
 So where can you find this information?  We recommend two sources:
 
 - Airmap (3rd party application and website)
@@ -22,7 +65,7 @@ So where can you find this information?  We recommend two sources:
 
 
 
-## Airmap 
+### Airmap 
 
 The most comprehensive and easy to use Drone airspace map system is [Airmap](https://app.airmap.com/).  Just type in your address or find your spot on the map, and see whats around you.  Airmap is available as both a webpage (Figure \@ref(fig:airmap-web)) and as an app for [iOS](https://apps.apple.com/us/app/airmap-for-drones/id1042824733) or [Android](https://play.google.com/store/apps/details?id=com.airmap.airmap&hl=en_US) (Figure \@ref(fig:airmap)).  
 
@@ -35,7 +78,7 @@ knitr::include_graphics('images/Airmap-webpage.jpg')
 
 For requesting permission to fly within a shaded region (controlled airspace), the FAA and the airports have drawn up grids within the shaded regions and labeled each one with a generally safe upper limit for flying.  Within the highlighted grid in Figure \@ref(fig:airmap-web), this limit is 200 ft.  If you ask the FAA for permission to fly up to 200 ft, you will always be given approval.  In general, the farther away you are from the runway, the higher the altitude you will be allowed to fly.  But that's not always the case - you'll notice, there are a couple of grids that are marked with a 0 - and yes, that means that the generally safe flying altitude is 0 ft.  
 
-> Need to get FAA permission to fly in one of these areas, head over [here](#ch-LAANC)
+> Need to get FAA permission to fly in one of these areas, head over [here](#LAANC)
 
 What if you need to fly higher than the altitude listed?  If you have a drone pilot license, you may ask the FAA for permission - but it is not guaranteed to be approved.  Obtaining permission for flights above the listed altitude can be tricky, so we recommend reaching out to us at UASsafety@ucmerced.edu and we'll be happy to walk you through the process.  Reach out to us early - the FAA can take 5-10 days to grant approval so you want to start this process early.
 
@@ -68,7 +111,7 @@ Having the most up-to-date airspace information on hand can make all the differe
 >As with most drone related rules and regulations, there are nuances and exceptions to TFRs and NOTAMs.  If you have a pressing need to operate within a TFR, reach out to us at UASsafety@ucmerced.edu to discuss.
 
 
-## Official FAA Sources 
+### Official FAA Sources 
 
 Using Airmap is one of the easiest methods for looking up most of the airspace issues.  However, it's not always the most detailed nor is it the official source of information.  The official sources of information is spread across a handful of different sites:
 
@@ -78,7 +121,7 @@ Using Airmap is one of the easiest methods for looking up most of the airspace i
 
 >Always check multiple sources - you never know when one source omits an important piece of information.  For example, Figure \@ref(fig:facility-map) is the default view of Orange County of the UAS Facility Maps, but its doesn't depict one very critical flight restriction.
 
-### FAA Sectional Charts
+#### FAA Sectional Charts
 
 ![FAA sectional chart](images\FAA-VFR.png)
 
@@ -99,11 +142,11 @@ UAS Facility Maps show the maximum altitudes around airports where the FAA may a
 A NOTAM or Notice to Airman, is a notice that pertains to the establishment, change or condition of any facility, service or procedure of a specific location. The information is not known far enough in advance to be publicized by any other means therefore ensuring there are no active NOTAMS in the area you will be flying in is essential to the safety of yourself and others. It is important to keep in mind that NOTAMS can be put up at a moments notice.
 
 
-## Other Sources
+### Other Sources
 
 Two other useful sources of information are [Skyvector](https://skyvector.com/) and the B4UFly App ([iOS](https://apps.apple.com/us/app/b4ufly/id992427109) and [Android](https://play.google.com/store/apps/details?id=gov.faa.b4ufly2&hl=en)).
 
-### SkyVector
+#### SkyVector
 
 ```{r skyvector, fig.cap='SkyVector - VFR Chart viewer with TFRs', out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE}
 knitr::include_graphics('images/skyvector.jpg')
@@ -111,14 +154,41 @@ knitr::include_graphics('images/skyvector.jpg')
 
 SkyVector is a manned aviation tool that allows users to view the FAA Sectional Charts (also known as VFR charts) as well as a wide range of other layers, including TFRs and IFR approaches.  While most of the information will be overwhelming for the beginning drone pilot, the basic VFR charts are still a great resource.
 
-### B4UFly App
+#### B4UFly App
 
 The B4UFly app is the FAA's first attempt at developing and publishing an app for drone pilots.  It has much of the same information as Airmap, though it notably does not include the altitude limits from the UAS Facility Maps.  Otherwise, it's a great source of information.
 
-## Airspace Regulations
+### Airspace Regulations
 
 On this page, we're only looking at how to get the most basic of airspace information.  But obviously, there's a deeper level of knowledge to be studied when it comes to airspace regulations.  You'll find more information on the UAS Regulations and Learning About Airspace page, but for now, you can take a quick look at Figure \@ref(fig:SUAS-sim-regs) below.
 
 ```{r SUAS-sim-regs, fig.cap='Small UAS Airspace Rules', out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE}
 knitr::include_graphics('images/SUAS_airspace_map.jpg')
 ```
+
+
+## LAANC Authorization {#LAANC}
+
+In order to get FAA authorization to fly in controlled airspace, you typically will need to file a request through a system called "LAANC" (pronounced lance)
+
+- If you plan on flying below the Facility Map altitude maximum, authorization will be instantaneous.
+- If you want to request flying above the Facility Map altitude maximum, you'll need a Part 107 license and you'll need to make a safety case within your request.  Flight requests are automatically denied if they have not been resolved 24 hours prior to flight, so we recommend filing a request at least 1 week in advance.
+
+### Using AirMap
+
+One of our favorite programs to use for simple and free airspac authorizations is AirMap.  The process is relatively straightfoward.  Create an account, input your pilot and aircraft information, then find a place to fly.  Point to a spot on the map, draw a polygon or even just a line to describe your flight area then submit your flight plan.  It'll go straight to the FAA, or if manual approval by the tower is necessary, it'll go straight to the tower.  
+
+For more information on how to use Airmap, check out their support information here:
+
+[How to apply for Authorization](https://support.airmap.com/hc/en-us/articles/360030924511-How-to-apply-for-Authorization)
+
+
+### Tips & Tricks
+
+- **Need to draw a polygon using a satellite map?**
+
+    Try this:
+    - Go to https://geoman.io/geojson-editor and draw your polygon with satellite map on.  Export to a GeoJSON text file
+    - Upload the GeoJSON file to Airmap using the ‘cloud’ button underneath the polygon.
+    - The outline should now cover the right area and you file as normal
+

@@ -1,6 +1,14 @@
-# (PART) Insurance {-}
+# Drone Insurance {#insurance}
 
-# UC UAS Liability Insurance {#ch-liability-insurance}
+Are you worried about crashing your drone?  While we take a lot of steps to help you fly safely, accidents can happen.  That's what insurance is for.
+
+The UC provides comprehensive insurance coverage **free of charge** for drone operations.  This includes both liability insurance coverage and replacement insurance.
+
+- **Liability insurance** will cover the costs of any damage caused by a drone to another person or property.  If your drone crashes and breaks a window, this is what liability insurance is for.
+- **Replacement insurance** will cover the costs of replacing or repairing a damaged, destroyed or lost drone. It has a deductible of $1000.  If your drone crashes into a tree and requires \$4,000 in repairs, you will be reimbursed the actual cost of repair, minus the deductible, for a total of \$3,000.  
+
+
+## UC UAS Liability Insurance {#liability-insurance}
 
 The University of California has purchased an Unmanned Aircraft System Liability Policy. This policy has a total of \$5 Mil limit including Personal Injury.
 
@@ -25,15 +33,15 @@ We recommend the use of UC Drones web app to ensure coverage - but please rememb
 
 - An approved Project does not grant insurance coverage, you must submit a Flight notification or request to ensure insurance coverage.
 
-## Personally Owned Unmanned Aircraft Used for University Business {#ss-personally-owned-UAS-coverage}
+### Personally Owned Unmanned Aircraft Used for University Business 
 The University of California has extended their UAS liability policy to enable coverage of UAS owned by UC students, staff or faculty used for University Business, including research. Coverage in contingent on compliance with the policy and procedures on UAS usage. This coverage is not intended to cover student organizations or 3rd Party vendors or contractors. 
 
-## Coverage for Campus Police {#ss-campus-police-coverage}
+### Coverage for Campus Police
 The University of California has extended their UAS liability policy to enable coverage of UAS by Campus Police. All coverage is contingent on the UAS activity being sanctioned by the UC.
 
 Any UAS activity that is not approved by a Designated Local Authority or Systemwide Designated UAS Authority is not covered by this liability insurance.
 
-# UC UAS Replacement Insurance {#ch-hull-insurance}
+## UC UAS Replacement Insurance {#hull-insurance}
 
 Physical damage to a UAS is covered under a blanket policy issued by the University’s captive insurance company, Fiat Lux Risk and Insurance Company
 
@@ -46,7 +54,7 @@ Physical damage to a UAS is covered under a blanket policy issued by the Univers
 
 This physical damage coverage does not extend to personally owned-UAS used for University Business.  **Only UAS owned by the University of California are covered.**
 
-## Filing a Claim
+### Filing a Claim
 To file a claim, contact your campus Risk Manager.  Please prepare the following:
 
 -	Copy of the post-flight report (through UC Drones or other means of compliance)

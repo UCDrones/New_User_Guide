@@ -1,22 +1,33 @@
-# (PART) Getting Started {-}
-
-# Drone Rules and Regulations {#ch-regulations}
+# Drone Rules and Regulations {#regulations}
 
 Welcome to the world of Drones!  We're always happy to see new drone pilots and new drone projects.  But first, we have to introduce you to the ever-changing drone regulations.  
 
 >Don't forget that following the DRONE regulations are only one part of the UC Drone Policy.  Local rules, environmental regulations, export control, and even insurance requirements may require additional steps or have additional restrictions.  Helping you navigate through all of this is part of the UC Drone Flight Request process.
 
 
+**The Main 7 Rules**
 
+1. Don't do anything unsafe
+2. All drones must be registered
+3. All pilots must have either a Drone License or a TRUST certificate
+4. No flying farther than you can see
+5. No flying over people
+6. No flying above 400 ft
+7. Stay away from other aircraft
+
+There's a lot of details behind the above rules, including several exceptions.  So let's dive into them in more detail.
+
+
+## Basic Drone Rules
+
+In this page, we'll introduce some of the basic drone rules.  Basically, the rules for operating a drone can be boiled down to **"Do not do anything unsafe"** - but sometimes they have to be spelled out.
  
-## Drone Operating Rules
-
-The rules for operating a drone can be boiled down to "Do not do anything unsafe"
+### Drone Operating Rules
 
 - No flying farther than you can clearly see the drone
     - You must be able to see the drone at all times
 
-```{r VLOS, fig.cap='Visual Line of Sight', out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE}
+```{r VLOS, fig.cap='Visual Line of Sight', out.width='70%', fig.asp=.75, fig.align='center', echo=FALSE}
 knitr::include_graphics('images/VLOS_simple.jpg')
 ```    
 
@@ -28,7 +39,7 @@ knitr::include_graphics('images/VLOS_simple.jpg')
 - No flying within 2000 ft laterally or 500 ft vertically of any cloud
     - Including fog and low cloud layers on overcast days
     
-```{r cloud-distance, fig.cap='Minimum Distances from Clouds, Fog or Haze', out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE}
+```{r cloud-distance, fig.cap='Minimum Distances from Clouds, Fog or Haze', out.width='70%', fig.asp=.75, fig.align='center', echo=FALSE}
 knitr::include_graphics('images/cloud_distance.jpg')
 ```
 
@@ -36,7 +47,7 @@ knitr::include_graphics('images/cloud_distance.jpg')
 - No flying at night
 - No operating a drone from a moving vehicle
 
-## Airspace Rules
+### Airspace Rules
 
 - The drone must always get out of the way and always stay well-clear of all manned aviation traffic, including airplanes, helicopters, gliders, paragliders, hot air balloons and parachutes.
     - Even if "you were there first"
@@ -52,11 +63,11 @@ knitr::include_graphics('images/SUAS_airspace_map.jpg')
 
 
 
-```{r traffic-patterns, fig.cap='Typical Airport Traffic Patterns (FAA Aeronautical Information Manual)', out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE}
+```{r traffic-patterns, fig.cap='Typical Airport Traffic Patterns (FAA Aeronautical Information Manual)', out.width='60%', fig.asp=.75, fig.align='center', echo=FALSE}
 knitr::include_graphics('images/faa_traffic_pattern.jpg')
 ```
 
-## Operator Rules
+### Operator Rules
 
 - There must always be a Remote Pilot in Command (RPIC)
     - The RPIC is the one in charge of the flight operations and is ultimately responsible for all safety and operations
@@ -73,7 +84,7 @@ knitr::include_graphics('images/faa_traffic_pattern.jpg')
 knitr::include_graphics('images/no_drugs.jpg')
 ```
 
-## Drone Rules
+### Drone Rules
 
 - All drones that weigh more than 0.55 lbs (250 grams) must be registered with the FAA 
     - Only use the FAA DroneZone website for registration (More Info here: [Register your Drone](#ch-registration))
@@ -93,3 +104,74 @@ knitr::include_graphics('images/reg_site.png')
 
 
 >The topic of drone regulations can be very nuanced and complex.  We've shortened it to the basics in this section, but there may be scenarios or situations that may be exempt or have additional restrictions.  Always feel free to reach out to us at UASsafety@ucmerced.edu for a one-on-one consultation.
+
+
+
+
+## Drone Registration {#registration}
+
+> This page is for the registration of your drone with the Federal Aviation Administration.  For information on how to register your drone with the UC system, see Chapter .
+
+
+### Drone Registration Requirements
+
+All drones that weigh more than 0.55 lbs (250 grams) must be registered with the Federal Aviation Administration (FAA) to it's legal owner.
+
+Any drone purchased through the University of California for university business, including teaching and research, is owned by the Regents of the University of California.  
+
+
+### How to Register
+
+You can register the drone through the FAA Drone Zone (https://faadronezone.faa.gov).  Registration costs only $5 per aircraft and only takes a couple of minutes.
+
+
+### Create an account at DroneZone
+
+Head to the FAA DroneZone (https://faadronezone.faa.gov) and select "I fly under Part 107 or as a Public Aircraft" \@ref(fig:reg-page)
+
+```{r reg-page, fig.cap='FAA DroneZone', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/reg_site.png')
+```
+
+**Important Note** Unfortunately, the FAA's drone registration website does not allow you to register drones for multiple groups or organizations.  If you're registering a drone on behalf of the University of California, you should use your UC email address as your account log in, and use a personal email address account for any personally-owned drones.
+
+When you enter your Part 107 Account information, enter **Regents of the University of California** as your Part 107 Account Name to correctly register the drone to the UC system.
+
+> If you already have an account, go into your profile settings, and you can modify the **Part 107 Account Name** on the popup.
+
+### Drone Registration
+
+Once you have an account, on the dashboard will be an option to 'Manage sUAS Inventory.'  On that page, you'll be able to 'Add UAS' (in the upper right corner). This will bring up a dialog box (Figure \@ref(fig:add-UAS)) for you to enter your information.  Enter all the relevant information.
+
+```{r add-UAS, fig.cap='Add new UAS Dialog Box', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/Add_new_UAS.png')
+```
+
+Once completed, 'Your Shopping Cart' will now show this drone's information and a new buttom for 'Checkout' will appear.  Click the button and the system will guide you through paying for the registration fee.
+
+### Registration Certificate
+
+Upon completion of paying for registration, the DroneZone will send you two emails, one with a receipt of payment and the other is a pdf copy of your UAS registration certificate (Figure \@ref(fig:reg-cert)).  Keep a copy of this registration certificate available at all times while you operate.  This can be done by either printing it out and placing it with your drone, or keeping a digital copy on your phone.
+
+```{r reg-cert, fig.cap='Example UAS Registration Certificate', out.width='50%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/reg_cert.png')
+```
+
+
+
+### Marking the Drone
+
+Your drone's registration number is the 10 digit alphanumeric code that starts with **FA**.  You must mark this on your drone on an external location, where it can be plainly visible.
+
+We recommend either using a permanent oil-based fine tip paint marker (Figure \@ref(fig:markers)) or creating a label that can be strongly affixed to the drone.  We've found that regular sharpies or markers are rubbed off too easily to be effective.  
+
+```{r markers, fig.cap='Oil-Based Paint Markers', out.width='50%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/oil-based-markers.jpg')
+```
+
+If you'll be working with a fleet of aircraft, it may also be useful to mark the 'nickname' of the drone as well.
+
+
+
+
+

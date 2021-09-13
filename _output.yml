@@ -2,9 +2,10 @@ bookdown::gitbook:
   css: style.css
   includes: 
     in_header: GA_script.html
+  split_by: section+number
   config:
     toc:
-      collapse: section
+      collapse: subsection
       scroll_highlight: yes
       before: |
         <li><a href="https://ucdrones.github.io/">UC Drones Resources Portal</a></li>

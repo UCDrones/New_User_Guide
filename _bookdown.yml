@@ -5,27 +5,12 @@ language:
     chapter_name: "Chapter "
 rmd_files: ["index.Rmd",
             "ch-regulations.Rmd",
-            "ch-registration.Rmd",
             "ch-license.Rmd",
-            "ch-get-license.Rmd",
-            "ch-trust.Rmd",
-            "ch-airspace-info.Rmd",      
-            "ch-LAANC.Rmd",
-            "ch-about-UCDrones.Rmd",
-            "ch-UCDrones-logging.Rmd",
-            "ch-UCDrones-home.Rmd",
-            "ch-UCDrones-flight-project.Rmd",
-            "ch-UCDrones-flight-request.Rmd",
-            "ch-UCDrones-aircraft.Rmd",
-            "ch-mission-safety.Rmd",
+            "ch-airspace-info.Rmd", 
+            "ch-UCDrones.Rmd",
             "ch-safety-guidelines.Rmd",
-            "ch-tips.Rmd",
-            "ch-fire.Rmd",
             "ch-privacy.Rmd",
             "ch-insurance.Rmd",
-            "ch-common-UAS-violations.Rmd",
-            "ch-accident-reporting.Rmd",
-            "ch-local-UAS-regulations.Rmd",
-            "ch-replace-license.Rmd"]
+            "ch-other.Rmd"]
 output_dir: "docs"
 edit: https://github.com/UCDrones/New_User_Guide/edit/master/%s

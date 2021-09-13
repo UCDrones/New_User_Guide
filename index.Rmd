@@ -4,6 +4,7 @@ author: "UC Center of Excellence on UAS Safety"
 
 site: bookdown::bookdown_site
 documentclass: book
+fontsize: 12pt
 biblio-style: apalike
 link-citations: yes
 description: "New User Guide for Drones in the UC System"
@@ -18,11 +19,14 @@ knitr::include_graphics('images/COE_logo.png')
 
 This guide will walk you through the steps for you start flying for your work or research.  This page will be a work in progress and new resources will be added periodically.  Feel free to reach out to us at [UASSafety@ucmerced.edu](mailto:UASSafety@ucmerced.edu) if you have any questions or would like to see additional resources added.
 
-## UC Drone Policy {-}
+Want to schedule an online appointment to chat?  Use our [Booking link](https://outlook.office365.com/owa/calendar/UCCenterofExcellenceonUASSafety@merced.onmicrosoft.com/bookings/). Find a time that works for you and the system will schedule a MS Teams meeting for us.
+
+**UC Drone Policy**
 
 There is a University of California Drone Policy that governs the use of drones owned by the University of California, the use of drones at any University property, or the use of drones for any University purpose (including teaching, outreach and research).  More information about the UC UAS Policy can be found in the UC UAS Policy Guidance Document located at http://UCDrones.github.io/Policy_Guidance/
 
-### Policy Requirements {-}
+**Policy Requirements**
+
 The Policy establishes that anyone who seeks to operate a UAS under the jurisdiction of the policy must:
 
  - Comply with any applicable regulation, including but not limited to any applicable FAA regulation.
@@ -32,15 +36,19 @@ The Policy establishes that anyone who seeks to operate a UAS under the jurisdic
     
 The UC Center of Excellence on UAS Safety is here to help you guide you through the process.  
 
-### Step-by-step UC Drone Process {-}
+**Step-by-step UC Drone Process**
 
-1. Register your drone with the [FAA](#ch-register) and UC
-2. Get an [FAA Drone License](#ch-get-license) (or figure out if you're [exempt](#ch-license)) and register yourself with the UC
-3. Find a place to fly - review [airspace](#ch-airspace-info), [safety guidelines](#ch-safety-guidelines) and [local regulations](#ch-local-UAS-regulations)
-4. Submit a UC Flight Request
+1. Register your drone with the [FAA](#registration) and UC
+2. Get an [FAA Drone License](#license) (or figure out if you're [exempt](#difference)) and register yourself with the UC
+3. Find a place to fly - review [airspace](#airspace-info), [safety guidelines](#safety-guidelines) and [local regulations](#local-regulations)
+4. Submit a [UC Flight Request](#UCDrones-project)
 5. Fly Safely
 6. Submit a Post-Flight Report
 
+
+**Click the Next Arrow, or Choose a Chapter to Begin**
+
+<!--
 ## Outline {-}
 
 ### Complying with Regulations {-}
@@ -77,4 +85,5 @@ The UC Center of Excellence on UAS Safety is here to help you guide you through 
 - [Common UAS Violations](#ch-common-UAS-violations)
 - [Reporting UAS accidents](#ch-uas-accident)
 - [Local UAS Regulations](#ch-local-UAS-regulations)
-- [How do I update or replace my License?](#ch-replace-license)
+- [How do I update or replace my License?]
+-->
