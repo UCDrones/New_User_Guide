@@ -37,7 +37,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={New User Guide for Drones in the UC System},
+  pdftitle={New User Guide - Drone Use in the UC System},
   pdfauthor={UC Center of Excellence on UAS Safety},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
@@ -77,10 +77,20 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+
+\usepackage{xcolor}
+\usepackage{framed}
+\setlength{\fboxsep}{.8em}
+
+\newenvironment{notebox}{
+  \definecolor{shadecolor}{gray}{.8}  % gray
+  \color{black}
+  \begin{shaded}}
+ {\end{shaded}}
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
-\title{New User Guide for Drones in the UC System}
+\title{New User Guide - Drone Use in the UC System}
 \author{UC Center of Excellence on UAS Safety}
 \date{}
 
@@ -96,6 +106,8 @@
 \addcontentsline{toc}{chapter}{Introduction}
 
 \begin{center}\includegraphics[width=0.5\linewidth]{images/COE_logo} \end{center}
+
+\textbf{The University of California Center of Excellence on Unmanned Aircraft System Safety Presents: New User Guide For Drones}
 
 This guide will walk you through the steps for you start flying for your work or research. This page will be a work in progress and new resources will be added periodically. Feel free to reach out to us at \href{mailto:UASSafety@ucmerced.edu}{\nolinkurl{UASSafety@ucmerced.edu}} if you have any questions or would like to see additional resources added.
 
@@ -149,9 +161,10 @@ The UC Center of Excellence on UAS Safety is here to help you guide you through 
 
 Welcome to the world of Drones! We're always happy to see new drone pilots and new drone projects. But first, we have to introduce you to the ever-changing drone regulations.
 
-\begin{quote}
-Don't forget that following the DRONE regulations are only one part of the UC Drone Policy. Local rules, environmental regulations, export control, and even insurance requirements may require additional steps or have additional restrictions. Helping you navigate through all of this is part of the UC Drone Flight Request process.
-\end{quote}
+\begin{notebox}
+Don't forget that following the \textbf{DRONE} regulations are only one part of the UC Drone Policy. Local rules, environmental regulations, export control, and even insurance requirements may require additional steps or have additional restrictions. Helping you navigate through all of this is part of the UC Drone Flight Request process.
+
+\end{notebox}
 
 \textbf{The Main 7 Rules}
 
@@ -403,23 +416,25 @@ In this page, we'll introduce some of the basic drone rules. Basically, the rule
   Tethered drones are not exempt from drone regulations
 \end{itemize}
 
-\begin{quote}
+\begin{notebox}
 The topic of drone regulations can be very nuanced and complex. We've shortened it to the basics in this section, but there may be scenarios or situations that may be exempt or have additional restrictions. Always feel free to reach out to us at \href{mailto:UASsafety@ucmerced.edu}{\nolinkurl{UASsafety@ucmerced.edu}} for a one-on-one consultation.
-\end{quote}
+
+\end{notebox}
 
 \hypertarget{registration}{%
 \section{Drone Registration}\label{registration}}
 
-\begin{quote}
-This page is for the registration of your drone with the Federal Aviation Administration. For information on how to register your drone with the UC system, see Chapter .
-\end{quote}
+\begin{notebox}
+This page is for the registration of your drone with the Federal Aviation Administration. For information on how to register your drone with the UC system, see Chapter \ref{UCDrones-drone}.
+
+\end{notebox}
 
 \hypertarget{drone-registration-requirements}{%
 \subsection{Drone Registration Requirements}\label{drone-registration-requirements}}
 
 All drones that weigh more than 0.55 lbs (250 grams) must be registered with the Federal Aviation Administration (FAA) to it's legal owner.
 
-Any drone purchased through the University of California for university business, including teaching and research, is owned by the Regents of the University of California.
+Any drone purchased through the University of California for university business, including teaching and research, is owned by the \textbf{Regents of the University of California}.
 
 \hypertarget{how-to-register}{%
 \subsection{How to Register}\label{how-to-register}}
@@ -444,9 +459,10 @@ Head to the FAA DroneZone (\url{https://faadronezone.faa.gov}) and select ``I fl
 
 When you enter your Part 107 Account information, enter \textbf{Regents of the University of California} as your Part 107 Account Name to correctly register the drone to the UC system.
 
-\begin{quote}
+\begin{notebox}
 If you already have an account, go into your profile settings, and you can modify the \textbf{Part 107 Account Name} on the popup.
-\end{quote}
+
+\end{notebox}
 
 \hypertarget{drone-registration}{%
 \subsection{Drone Registration}\label{drone-registration}}
@@ -502,21 +518,31 @@ If you'll be working with a fleet of aircraft, it may also be useful to mark the
 When operating a drone within the US, there are \textbf{two} different options for regulations: \textbf{Part 107 Small UAS regulations} or the \textbf{Exception for Limited Recreational Use}. By default, UAS operations fall under Part 107 Small UAS regulations, unless you can meet the requirements for the exception for Recreational Use. Part 107 requires that all pilots have a \textbf{Remote Pilot Certificate with an sUAS rating}, more commonly known as a `Drone License,' whereas Recreational Use requires a \textbf{TRUST certificate}.
 
 As of June 2021, \textbf{all drone pilots} must have either:
-1. Remote Pilot Certificate (Drone License)
-2. TRUST Certificate
 
-Many researchers opt to get a Drone License for their research needs, but a Drone License does cost \$150 and will take some time to study and prepare for. With the updates introduced in the FAA Reauthorization Act of 2018 (P.L. 115-254), there are more exceptions available in which you may not need to obtain the license.
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \protect\hyperlink{get-license}{Remote Pilot Certificate (Drone License)}
+\item
+  \protect\hyperlink{TRUST}{TRUST Certificate}
+\end{enumerate}
 
-The Recreational UAS Safety Test (TRUST) certificate is a new requirement for all drone pilots without a Drone License. The TRUST certificate is free for everyone, can be done online and takes 20-30 minutes to complete the training. You can obtain your TRUST certificate by completing the drone training at any of websites listed on the FAA's website here: \url{https://www.faa.gov/uas/recreational_fliers/knowledge_test_updates/}
+Many researchers opt to get a \protect\hyperlink{get-license}{Drone License} for their research needs, but a Drone License does cost \$150 and will take some time to study and prepare for. With the updates introduced in the FAA Reauthorization Act of 2018 (P.L. 115-254), there are more exceptions available in which you may not need to obtain the license.
 
-\begin{quote}
-This page is for the Federal Aviation Administration licensing requirements for UAS use. UC Policy will still require a flight request and post flight reporting, regardless of FAA licensing requirements. More information on the UC policy can be found in Chapter .
-\end{quote}
+The \protect\hyperlink{TRUST}{Recreational UAS Safety Test (TRUST) certificate} is a new requirement for all drone pilots without a Drone License. The TRUST certificate is free for everyone, can be done online and takes 20-30 minutes to complete the training. You can obtain your TRUST certificate by completing the drone training at any of websites listed on the FAA's website here: \url{https://www.faa.gov/uas/recreational_fliers/knowledge_test_updates/}
+
+\begin{notebox}
+This page is for the Federal Aviation Administration licensing requirements for UAS use. UC Policy will still require a flight request and post flight reporting, regardless of FAA licensing requirements. More information on submitting flight requests can be found in Chapter \ref{UCdrones}.
+
+\end{notebox}
 
 \hypertarget{difference}{%
 \section{Which should I Get?}\label{difference}}
 
 The Part 107 Remote Pilot Certificate, or Drone License, provides for the widest range of permissions and allowances. But there are many cases where a researcher may be satisfied with operating only under the Recreational Exception.
+
+But let's explain the difference between the two.
 
 \textbf{Under Part 107}
 
@@ -553,7 +579,7 @@ The Part 107 Remote Pilot Certificate, or Drone License, provides for the widest
 \item
   TRUST certificate required
 \item
-  May fly only for Recreation or Approved Academic Activities
+  May fly only for \textbf{Recreation or Approved Academic Activities}
 \item
   `Fly only in safe locations'
 
@@ -568,7 +594,7 @@ The Part 107 Remote Pilot Certificate, or Drone License, provides for the widest
   \begin{itemize}
   \tightlist
   \item
-    Must stick to the basic rules for flight operations
+    Must stick to the \textbf{basic rules} for flight operations
   \end{itemize}
 \end{itemize}
 
@@ -595,10 +621,13 @@ You may not need a drone license if your flight operations can fit under the sti
 
 Note that there is no restriction on \textbf{who} the approved academic activities can apply to. \textbf{Any person associated with the University undertaking the above academic activities are eligible}, this includes academic staff or academic support staff. For example, a staff member at a UC Reserve may operate under the academic exception when conducting research activities.
 
+\begin{notebox}
 However, not all UC activity is academic, even if it is for an academic group. For example, a student flying a drone to take pictures of the Engineering Hall for the Engineering Department is not considered academic.
 
-\hypertarget{what-are-the-stipulations-for-recreational-and-approved-academic-activities}{%
-\subsection{What are the stipulations for `Recreational' and approved `Academic' activities?}\label{what-are-the-stipulations-for-recreational-and-approved-academic-activities}}
+\end{notebox}
+
+\hypertarget{simple-drone-regulations}{%
+\subsection{Simple Drone Regulations}\label{simple-drone-regulations}}
 
 Recreational flight operations, despite what you see on YouTube, have strict requirements:
 
@@ -624,6 +653,13 @@ Recreational flight operations, despite what you see on YouTube, have strict req
   Never operate in a careless or reckless manner
 \end{itemize}
 
+In many cases, these regulations are not that restrictive. For research activities in a controlled location, such as an agricultural field station or a natural reserve, it is often easy to abide by these regulations.
+
+\begin{notebox}
+Commonly the restriction that moves an activity into requiring a Drone license is the proximity to people and buildings, or the activity does not meet the definition of an academic activity. Some example scenarios are discussed in the Frequently Asked Question section in Chapter \ref{license-FAQ}.
+
+\end{notebox}
+
 \hypertarget{other-situations}{%
 \subsection{Other Situations}\label{other-situations}}
 
@@ -647,14 +683,26 @@ Other scenarios that may require a closer look
   Flying internationally
 \end{itemize}
 
+Once you know which authorization you need, continue on to read more about how to get it.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \protect\hyperlink{get-license}{Remote Pilot Certificate (Drone License)}
+\item
+  \protect\hyperlink{TRUST}{TRUST Certificate}
+\end{enumerate}
+
 \hypertarget{get-license}{%
 \section{Drone License}\label{get-license}}
 
 Obtaining a Remote Pilot Certificate, or more commmonly known as a drone license, is relatively straight-forward. The process is similar to obtaining a drivers license, but with one key exception: there is no `driving' test component. To get a drone license, you must study for and pass a drone license exam that tests only on your knowledge of aviation rules and safety.
 
-\begin{quote}
+\begin{notebox}
 The FAA has found that on average, most people study for the exam for about 20 hours and that 90\% of test takers pass on the first try. The exam is not particularly challenging, but it requires a lot of memorization.
-\end{quote}
+
+\end{notebox}
 
 \hypertarget{drone-license-exam}{%
 \subsection{Drone License Exam}\label{drone-license-exam}}
@@ -710,9 +758,10 @@ Here are a few free study resources to aid in studying for the exam:
   (\url{https://www.3dr.com/docs/faa-part-107-study-guide/part-107-certification-official-study-resources/})
 \end{itemize}
 
-\begin{quote}
+\begin{notebox}
 Although there are third party ``Ground school'' courses offered for a fee, we have found freely available resources to be just as effective.
-\end{quote}
+
+\end{notebox}
 
 \hypertarget{drone-license-eligibility}{%
 \subsection{Drone License Eligibility}\label{drone-license-eligibility}}
@@ -757,10 +806,60 @@ For Non-U.S. Citizens, this may be accomplished with one of the following:
   Passport and an Identification card issued by any governmental entity.
 \end{itemize}
 
-\hypertarget{TRUST}{%
-\section{The Recreational UAS Safety Test}\label{TRUST}}
+\hypertarget{taking-the-drone-exam}{%
+\subsection{Taking the Drone Exam}\label{taking-the-drone-exam}}
 
-Starting in June 2021, all recreational flyers must pass an aeronautical knowledge and safety test and provide proof of test passage (the TRUST completion certificate) to the FAA or law enforcement (including campus police) upon request. The test is free for everyone and takes 20-30 minutes to complete.
+The process to take the drone exam is a bit more complicated than just signing up for it. We'll walk through the process, but for more details, you can visit the FAA's website here: \href{https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot/}{Becoming a Drone Pilot}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Obtain an FAA Tracking Number (FTN) by creating an Integrated Airman Certification and Rating Application (IACRA) profile prior to registering for a knowledge test.
+\item
+  Schedule an appointment with a FAA-approved Knowledge Testing Center. We recommend using the \href{https://faa.psiexams.com/faa/login}{PSI Exams website} to search for a nearby FAA testing facility and registering for the exam. The test you are looking for is \textbf{Unmanned Aircraft General -- Small (UAG)}.
+\item
+  Study and do a good job on the test. Be sure to bring a government-issued photo ID to your test.
+\item
+  After you complete the test, you'll need to register your score with the FAA on a system called \textbf{IACRA}. Don't worry, your testing center will provide you with the instructions on how to do this.
+\end{enumerate}
+
+Once you register your score with the FAA, they will send you your permanent remote pilot certificate via mail. This might take 4-6 weeks to process, but in the interim, you can download a temporary permit from the IACRA website.
+
+\hypertarget{license-renewal}{%
+\subsection{License Renewal}\label{license-renewal}}
+
+In order to maintain your authorization to fly a drone using your Remote Pilot Certificate, you need to renew it every two years. Starting in April 2021, the recurrent knowledge training is now available for free and online.
+
+\textbf{Part 107 Small UAS Recurrent Non-Part 61 Pilots (ALC-677)}
+
+Available at: \url{https://www.faasafety.gov/gslac/ALC/course_content.aspx?cID=677}.
+
+\hypertarget{training-information}{%
+\subsubsection{Training Information}\label{training-information}}
+
+The training consists of 3 modules - Introduction, Aircraft and RPIC Requirements, and Safe Operation of sUAS. Each module will have some knowledge tests inside, and after completion of all three modules, there is the required online end-of-training knowledge check. And it has the new information about remote ID, flying over people and flying at night operations. The end-of-training knowledge check is a 45 question test -- you'll have 90 minutes to complete it, and while you can't leave the page, you're welcome to open up another browser and review the information while you're taking the test.
+
+Once you complete the test, make sure you get a copy of your training completion certificate. Don't forget that you can upload it to your pilot profile in UC Drones. This way, you'll always know of a location where it is kept. You are also able to email it directly to us at \href{mailto:UASsafety@ucmerced.edu}{\nolinkurl{UASsafety@ucmerced.edu}} and we can attach it to your profile.
+
+\hypertarget{notes}{%
+\subsubsection{Notes}\label{notes}}
+
+Make sure you sign in and enroll in the course before starting.
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{images/P107R-enroll} \caption{Enrolling in the course}\label{fig:p107-enroll}
+\end{figure}
+
+Once you finish the training slide deck on the Intro page, go back to the course page and click through pages 1, 2 and 3 to unlock the Review and Exam page.
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{images/P107R-unlock} \caption{Make sure you click through to unlock the Exam}\label{fig:p107-unlock}
+\end{figure}
+
+\hypertarget{TRUST}{%
+\section{TRUST Certificate}\label{TRUST}}
+
+Starting in June 2021, all recreational flyers must pass an aeronautical knowledge and safety test and provide proof of test passage (the TRUST completion certificate) to the FAA or law enforcement (including campus police) upon request. The test is free for everyone and takes 20-30 minutes to complete. The FAA provides education and testing content to FAA Approved Test Administrators of TRUST, who in turn provide the content to recreational flyers for free.
 
 You may take The Recreational UAS Safety Test at any of the administrators found on the FAA's website:
 \url{https://www.faa.gov/uas/recreational_fliers/knowledge_test_updates/}
@@ -782,23 +881,15 @@ Upon completion of the TRUST you will receive a completion certificate. The cert
 
 TRUST is The Recreational UAS Safety Test. It provides education and testing for recreational flyers on important safety and regulatory information. If you fly your drone recreationally under the Exception for Recreational Flyers you must pass the test before you fly - this includes both recreational use and certain academic use-cases.
 
-\hypertarget{how-can-i-take-the-trust}{%
-\subsection{How Can I Take the TRUST}\label{how-can-i-take-the-trust}}
+\begin{center}\includegraphics[width=0.5\linewidth]{images/TRUST_cert} \end{center}
+
+\hypertarget{taking-the-trust}{%
+\subsection{Taking the TRUST}\label{taking-the-trust}}
 
 You may take the free online test through any of the approved test administrators listed on the FAA's website here: \url{https://www.faa.gov/uas/recreational_fliers/knowledge_test_updates/}. After you complete the TRUST, you will be given the option to download your TRUST certificate and write down your Authentication Token. We recommend uploading your TRUST certificate and entering your Authentication Token into your pilot profile within UC Drones.
 
-\hypertarget{who-made-the-trust}{%
-\subsection{Who made the TRUST?}\label{who-made-the-trust}}
-
-The FAA provides education and testing content to FAA Approved Test Administrators of TRUST, who in turn provide the content to recreational flyers for free.
-
-\hypertarget{what-does-the-trust-certificate-look-like}{%
-\subsection{What does the TRUST certificate look like?}\label{what-does-the-trust-certificate-look-like}}
-
-\begin{center}\includegraphics[width=0.5\linewidth]{images/TRUST_cert} \end{center}
-
-\hypertarget{frequently-asked-questions}{%
-\section{Frequently Asked Questions}\label{frequently-asked-questions}}
+\hypertarget{license-FAQ}{%
+\section{Frequently Asked Questions}\label{license-FAQ}}
 
 \textbf{When doing an academic activity, which set of regulations is better?}
 
@@ -835,9 +926,10 @@ When your figuring out where you want to fly, you're typically thinking about yo
 
 Reading an Airspace Map is not like reading Google Maps - you'll rarely see roads or buildings marked - instead you'll be presented with a whole new set of symbols and strange codes. But they're all very important to convey a dense set of aviation information. Luckily with drones, you won't have to worry about most of it, but there's still some very important pieces of information you need to know.
 
-\begin{quote}
+\begin{notebox}
 There's a lot of rules about flying drones and many of them are related to where and how risky. For more information about Airspace Class and their rules, check out the \protect\hyperlink{regulations}{Regulations} and the Reading an Airspace Map pages.
-\end{quote}
+
+\end{notebox}
 
 \hypertarget{what-is-airspace}{%
 \section{What is Airspace?}\label{what-is-airspace}}
@@ -935,15 +1027,17 @@ The text box to the bottom left gives a brief explanation - the purple shaded re
 
 For requesting permission to fly within a shaded region (controlled airspace), the FAA and the airports have drawn up grids within the shaded regions and labeled each one with a generally safe upper limit for flying. Within the highlighted grid in Figure \ref{fig:airmap-web}, this limit is 200 ft. If you ask the FAA for permission to fly up to 200 ft, you will always be given approval. In general, the farther away you are from the runway, the higher the altitude you will be allowed to fly. But that's not always the case - you'll notice, there are a couple of grids that are marked with a 0 - and yes, that means that the generally safe flying altitude is 0 ft.
 
-\begin{quote}
+\begin{notebox}
 Need to get FAA permission to fly in one of these areas, head over \protect\hyperlink{LAANC}{here}
-\end{quote}
+
+\end{notebox}
 
 What if you need to fly higher than the altitude listed? If you have a drone pilot license, you may ask the FAA for permission - but it is not guaranteed to be approved. Obtaining permission for flights above the listed altitude can be tricky, so we recommend reaching out to us at \href{mailto:UASsafety@ucmerced.edu}{\nolinkurl{UASsafety@ucmerced.edu}} and we'll be happy to walk you through the process. Reach out to us early - the FAA can take 5-10 days to grant approval so you want to start this process early.
 
 Airmap also does a good job of depicting other airspace issues, such as Special Use Airspace and National Security Areas - marked in red as in Figure \ref{fig:airmap}. Selecting the AIRMAP Recommended Guidelines layer will also show all the helipads and minor airports that are not normally shown on an airspace map. This can be critically important - low flying helicopters and cropdusters that fly out of these unmarked airports are among the most pressing airspace concerns.
 
-\begin{quote}
+\begin{notebox}
+
 Make sure you click on the `Layers' Icon next to the Flight Advisories - this allows you to turn on/off different information. For most operations, we recommend selecting the following sets of information:
 
 \begin{itemize}
@@ -963,7 +1057,9 @@ Make sure you click on the `Layers' Icon next to the Flight Advisories - this al
 \item
   Wilderness Areas Use Limits
 \end{itemize}
-\end{quote}
+
+
+\end{notebox}
 
 \begin{figure}
 
@@ -991,9 +1087,10 @@ Having the most up-to-date airspace information on hand can make all the differe
   \textbf{US President and Vice-President Travel} - The President (30 mile) and Vice-President (5 mile) travel with their own FAA flight restriction zones, similarly prohibiting all aircraft from flying under 3000 ft within their zones.
 \end{itemize}
 
-\begin{quote}
+\begin{notebox}
 As with most drone related rules and regulations, there are nuances and exceptions to TFRs and NOTAMs. If you have a pressing need to operate within a TFR, reach out to us at \href{mailto:UASsafety@ucmerced.edu}{\nolinkurl{UASsafety@ucmerced.edu}} to discuss.
-\end{quote}
+
+\end{notebox}
 
 \hypertarget{official-faa-sources}{%
 \subsection{Official FAA Sources}\label{official-faa-sources}}
@@ -1010,9 +1107,10 @@ Using Airmap is one of the easiest methods for looking up most of the airspace i
   Official source of TFR or NOTAMS - \href{https://notams.aim.faa.gov/notamSearch/nsapp.html\#/}{FNS NOTAM Search}
 \end{itemize}
 
-\begin{quote}
+\begin{notebox}
 Always check multiple sources - you never know when one source omits an important piece of information. For example, Figure \ref{fig:facility-map} is the default view of Orange County of the UAS Facility Maps, but its doesn't depict one very critical flight restriction.
-\end{quote}
+
+\end{notebox}
 
 \hypertarget{faa-sectional-charts}{%
 \subsubsection{FAA Sectional Charts}\label{faa-sectional-charts}}
@@ -1072,7 +1170,18 @@ SkyVector is a manned aviation tool that allows users to view the FAA Sectional 
 \hypertarget{b4ufly-app}{%
 \subsubsection{B4UFly App}\label{b4ufly-app}}
 
-The B4UFly app is the FAA's first attempt at developing and publishing an app for drone pilots. It has much of the same information as Airmap, though it notably does not include the altitude limits from the UAS Facility Maps. Otherwise, it's a great source of information.
+The B4UFly App has been redesigned by Aloft (formerly kittyhawk.io) and now includes a lot of good information. It also now includes an integration with the Aloft App to review FAA facility maps and file LAANC requests.
+
+\href{https://www.faa.gov/uas/recreational_fliers/where_can_i_fly/b4ufly/}{B4UFly App}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{images/B4UFLYlogo} 
+
+}
+
+\caption{B4UFly}\label{fig:b4ufly}
+\end{figure}
 
 \hypertarget{airspace-regulations}{%
 \subsection{Airspace Regulations}\label{airspace-regulations}}
@@ -1133,9 +1242,11 @@ For more information on how to use Airmap, check out their support information h
 \hypertarget{UCdrones}{%
 \chapter{UC Drones}\label{UCdrones}}
 
-UC Drones is a one-stop shop for drone oversight and management for the University of California system. It is designed with the goal to develop a culture of safety and accountability in the use of drone by providing a unified portal for 1 ) enabling users be kept aware with regulatory compliance obligations, safety guidelines and best practices, 2) documenting drone activity through flight requests and reporting, and 3) tracking UC drone operations and safety metrics.
+\href{http://ehs.ucop.edu/drones}{UC Drones} is a one-stop shop for drone oversight and management for the University of California system. It is designed with the goal to develop a culture of safety and accountability in the use of drone by providing a unified portal for 1 ) enabling users be kept aware with regulatory compliance obligations, safety guidelines and best practices, 2) documenting drone activity through flight requests and reporting, and 3) tracking UC drone operations and safety metrics.
 
-The use of UC Drones Web App is UC UAS Policy compliant. However, it is not the only means of UC UAS Policy compliance. If alternative means of UC UAS Policy is needed or requested, please contact your campuses' drone Point of Contact
+The use of \href{http://ehs.ucop.edu/drones}{UC Drones Web App} is UC UAS Policy compliant. However, it is not the only means of UC UAS Policy compliance. \textbf{If an alternative means of UC UAS Policy is needed or requested, please contact your campuses' drone Point of Contact.}
+
+\href{http://ehs.ucop.edu/drones}{\includegraphics{images/UCDrones_logo.jpg}}
 
 \hypertarget{UCdrones-login}{%
 \section{Logging into UC Drones}\label{UCdrones-login}}
@@ -2089,11 +2200,12 @@ Coverage is automatic for UAS activity that meet the following criteria:
 
 Any UAS activity that do not meet the above criteria or operate outside the above criteria must be reported to and approved by the insurance underwriter in order to be covered.
 
-\begin{quote}
+\begin{notebox}
 We will follow up with you if your flight operation is not automatically covered and will work with you to ensure coverage.
 
 On rare occasions, typically on international UAS activity, you or your department may be required to purchase additional coverage.
-\end{quote}
+
+\end{notebox}
 
 Any UAS activity that is not approved by a Designated Local Authority or Systemwide Designated UAS Authority is not covered by this liability insurance coverage.
 

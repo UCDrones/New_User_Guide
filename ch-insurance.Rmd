@@ -23,9 +23,12 @@ Coverage is automatic for UAS activity that meet the following criteria:
 
 Any UAS activity that do not meet the above criteria or operate outside the above criteria must be reported to and approved by the insurance underwriter in order to be covered. 
 
-> We will follow up with you if your flight operation is not automatically covered and will work with you to ensure coverage.  
->
-> On rare occasions, typically on international UAS activity, you or your department may be required to purchase additional coverage.
+:::: {.notebox data-latex=""}
+We will follow up with you if your flight operation is not automatically covered and will work with you to ensure coverage.  
+
+On rare occasions, typically on international UAS activity, you or your department may be required to purchase additional coverage.
+::::
+<br>
 
 Any UAS activity that is not approved by a Designated Local Authority or Systemwide Designated UAS Authority is not covered by this liability insurance coverage.
 

@@ -4,7 +4,9 @@ When your figuring out where you want to fly, you're typically thinking about yo
 
 Reading an Airspace Map is not like reading Google Maps - you'll rarely see roads or buildings marked - instead you'll be presented with a whole new set of symbols and strange codes.  But they're all very important to convey a dense set of aviation information.  Luckily with drones, you won't have to worry about most of it, but there's still some very important pieces of information you need to know.
 
->There's a lot of rules about flying drones and many of them are related to where and how risky.  For more information about Airspace Class and their rules, check out the [Regulations](#regulations) and the Reading an Airspace Map pages.
+:::: {.notebox data-latex=""}
+There's a lot of rules about flying drones and many of them are related to where and how risky.  For more information about Airspace Class and their rules, check out the [Regulations](#regulations) and the Reading an Airspace Map pages.
+::::
 
 ## What is Airspace?
 
@@ -78,22 +80,27 @@ knitr::include_graphics('images/Airmap-webpage.jpg')
 
 For requesting permission to fly within a shaded region (controlled airspace), the FAA and the airports have drawn up grids within the shaded regions and labeled each one with a generally safe upper limit for flying.  Within the highlighted grid in Figure \@ref(fig:airmap-web), this limit is 200 ft.  If you ask the FAA for permission to fly up to 200 ft, you will always be given approval.  In general, the farther away you are from the runway, the higher the altitude you will be allowed to fly.  But that's not always the case - you'll notice, there are a couple of grids that are marked with a 0 - and yes, that means that the generally safe flying altitude is 0 ft.  
 
-> Need to get FAA permission to fly in one of these areas, head over [here](#LAANC)
+:::: {.notebox data-latex=""}
+Need to get FAA permission to fly in one of these areas, head over [here](#LAANC)
+::::
+<br>
 
 What if you need to fly higher than the altitude listed?  If you have a drone pilot license, you may ask the FAA for permission - but it is not guaranteed to be approved.  Obtaining permission for flights above the listed altitude can be tricky, so we recommend reaching out to us at UASsafety@ucmerced.edu and we'll be happy to walk you through the process.  Reach out to us early - the FAA can take 5-10 days to grant approval so you want to start this process early.
 
 Airmap also does a good job of depicting other airspace issues, such as Special Use Airspace and National Security Areas - marked in red as in Figure \@ref(fig:airmap).  Selecting the AIRMAP Recommended Guidelines layer will also show all the helipads and minor airports that are not normally shown on an airspace map.  This can be critically important - low flying helicopters and cropdusters that fly out of these unmarked airports are among the most pressing airspace concerns. 
 
-> Make sure you click on the 'Layers' Icon next to the Flight Advisories - this allows you to turn on/off different information.  For most operations, we recommend selecting the following sets of information:
->
-> - FAA Part 107 Certified
-> - AIRMAP Recommend Guidelines
-> - Restricted and Special Use Airspace
-> - National Parks Public Use Limits
-> - NOAA Regulated Overflight Zones
-> - Fish and Wildlife Service Lands Use Limits
-> - Wilderness Areas Use Limits
+:::: {.notebox data-latex=""}
+Make sure you click on the 'Layers' Icon next to the Flight Advisories - this allows you to turn on/off different information.  For most operations, we recommend selecting the following sets of information:
 
+- FAA Part 107 Certified
+- AIRMAP Recommend Guidelines
+- Restricted and Special Use Airspace
+- National Parks Public Use Limits
+- NOAA Regulated Overflight Zones
+- Fish and Wildlife Service Lands Use Limits
+- Wilderness Areas Use Limits
+::::
+<br>
 ```{r airmap, fig.cap='Android Airmap Application', out.width='50%', fig.asp=.75, fig.align='center', echo=FALSE}
 knitr::include_graphics('images/Airmap-Android.jpg')
 ```
@@ -108,8 +115,9 @@ Having the most up-to-date airspace information on hand can make all the differe
 - **Wildfire and other Natural Disasters** - Whenever there is a major catastrophe, keep an eye out for Temporary Flight Restrictions.  These will often be very large and prolonged to allow emergency services (firefighting aircraft, medical support, etc) to have priority in these areas.  Never fly your drone in a manner that could interfere with emergency services - it is both a Federal offense and a State offense.  
 - **US President and Vice-President Travel** - The President (30 mile) and Vice-President (5 mile) travel with their own FAA flight restriction zones, similarly prohibiting all aircraft from flying under 3000 ft within their zones.  
 
->As with most drone related rules and regulations, there are nuances and exceptions to TFRs and NOTAMs.  If you have a pressing need to operate within a TFR, reach out to us at UASsafety@ucmerced.edu to discuss.
-
+:::: {.notebox data-latex=""}
+As with most drone related rules and regulations, there are nuances and exceptions to TFRs and NOTAMs.  If you have a pressing need to operate within a TFR, reach out to us at UASsafety@ucmerced.edu to discuss.
+::::
 
 ### Official FAA Sources 
 
@@ -119,7 +127,9 @@ Using Airmap is one of the easiest methods for looking up most of the airspace i
 - Official source of altitude grid information - [UAS Facility Maps](https://faa.maps.arcgis.com/apps/webappviewer/index.html?id=9c2e4406710048e19806ebf6a06754ad)
 - Official source of TFR or NOTAMS - [FNS NOTAM Search](https://notams.aim.faa.gov/notamSearch/nsapp.html#/)
 
->Always check multiple sources - you never know when one source omits an important piece of information.  For example, Figure \@ref(fig:facility-map) is the default view of Orange County of the UAS Facility Maps, but its doesn't depict one very critical flight restriction.
+:::: {.notebox data-latex=""}
+Always check multiple sources - you never know when one source omits an important piece of information.  For example, Figure \@ref(fig:facility-map) is the default view of Orange County of the UAS Facility Maps, but its doesn't depict one very critical flight restriction.
+::::
 
 #### FAA Sectional Charts
 
@@ -156,7 +166,13 @@ SkyVector is a manned aviation tool that allows users to view the FAA Sectional 
 
 #### B4UFly App
 
-The B4UFly app is the FAA's first attempt at developing and publishing an app for drone pilots.  It has much of the same information as Airmap, though it notably does not include the altitude limits from the UAS Facility Maps.  Otherwise, it's a great source of information.
+The B4UFly App has been redesigned by Aloft (formerly kittyhawk.io) and now includes a lot of good information.  It also now includes an integration with the Aloft App to review FAA facility maps and file LAANC requests.
+
+[B4UFly App](https://www.faa.gov/uas/recreational_fliers/where_can_i_fly/b4ufly/)
+
+```{r b4ufly, fig.cap='B4UFly', out.width='50%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/B4UFLYlogo.jpg')
+```
 
 ### Airspace Regulations
 

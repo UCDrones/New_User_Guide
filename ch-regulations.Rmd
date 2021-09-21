@@ -2,8 +2,11 @@
 
 Welcome to the world of Drones!  We're always happy to see new drone pilots and new drone projects.  But first, we have to introduce you to the ever-changing drone regulations.  
 
->Don't forget that following the DRONE regulations are only one part of the UC Drone Policy.  Local rules, environmental regulations, export control, and even insurance requirements may require additional steps or have additional restrictions.  Helping you navigate through all of this is part of the UC Drone Flight Request process.
+:::: {.notebox data-latex=""}
+Don't forget that following the **DRONE** regulations are only one part of the UC Drone Policy.  Local rules, environmental regulations, export control, and even insurance requirements may require additional steps or have additional restrictions.  Helping you navigate through all of this is part of the UC Drone Flight Request process.
+::::
 
+<br>
 
 **The Main 7 Rules**
 
@@ -103,21 +106,23 @@ knitr::include_graphics('images/reg_site.png')
 - Tethered drones are not exempt from drone regulations
 
 
->The topic of drone regulations can be very nuanced and complex.  We've shortened it to the basics in this section, but there may be scenarios or situations that may be exempt or have additional restrictions.  Always feel free to reach out to us at UASsafety@ucmerced.edu for a one-on-one consultation.
-
+:::: {.notebox data-latex=""}
+The topic of drone regulations can be very nuanced and complex.  We've shortened it to the basics in this section, but there may be scenarios or situations that may be exempt or have additional restrictions.  Always feel free to reach out to us at UASsafety@ucmerced.edu for a one-on-one consultation.
+::::
 
 
 
 ## Drone Registration {#registration}
 
-> This page is for the registration of your drone with the Federal Aviation Administration.  For information on how to register your drone with the UC system, see Chapter .
-
+:::: {.notebox data-latex=""}
+This page is for the registration of your drone with the Federal Aviation Administration.  For information on how to register your drone with the UC system, see Chapter \@ref(UCDrones-drone).
+::::
 
 ### Drone Registration Requirements
 
-All drones that weigh more than 0.55 lbs (250 grams) must be registered with the Federal Aviation Administration (FAA) to it's legal owner.
+All drones that weigh more than 0.55 lbs (250 grams) must be registered with the Federal Aviation Administration (FAA) to it's legal owner. 
 
-Any drone purchased through the University of California for university business, including teaching and research, is owned by the Regents of the University of California.  
+Any drone purchased through the University of California for university business, including teaching and research, is owned by the **Regents of the University of California**.  
 
 
 ### How to Register
@@ -137,7 +142,9 @@ knitr::include_graphics('images/reg_site.png')
 
 When you enter your Part 107 Account information, enter **Regents of the University of California** as your Part 107 Account Name to correctly register the drone to the UC system.
 
-> If you already have an account, go into your profile settings, and you can modify the **Part 107 Account Name** on the popup.
+:::: {.notebox data-latex=""}
+If you already have an account, go into your profile settings, and you can modify the **Part 107 Account Name** on the popup.
+::::
 
 ### Drone Registration
 

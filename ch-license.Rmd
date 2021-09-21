@@ -3,19 +3,23 @@
 When operating a drone within the US, there are **two** different options for regulations: **Part 107 Small UAS regulations** or the **Exception for Limited Recreational Use**.  By default, UAS operations fall under Part 107 Small UAS regulations, unless you can meet the requirements for the exception for Recreational Use.  Part 107 requires that all pilots have a **Remote Pilot Certificate with an sUAS rating**, more commonly known as a 'Drone License,' whereas Recreational Use requires a **TRUST certificate**.
 
 As of June 2021, **all drone pilots** must have either:
-1. Remote Pilot Certificate (Drone License)
-2. TRUST Certificate
 
-Many researchers opt to get a Drone License for their research needs, but a Drone License does cost $150 and will take some time to study and prepare for.  With the updates introduced in the FAA Reauthorization Act of 2018 (P.L. 115-254), there are more exceptions available in which you may not need to obtain the license.
+1. [Remote Pilot Certificate (Drone License)](#get-license)
+2. [TRUST Certificate](#TRUST)
 
-The Recreational UAS Safety Test (TRUST) certificate is a new requirement for all drone pilots without a Drone License.  The TRUST certificate is free for everyone, can be done online and takes 20-30 minutes to complete the training. You can obtain your TRUST certificate by completing the drone training at any of websites listed on the FAA's website here: https://www.faa.gov/uas/recreational_fliers/knowledge_test_updates/
+Many researchers opt to get a [Drone License](#get-license) for their research needs, but a Drone License does cost $150 and will take some time to study and prepare for.  With the updates introduced in the FAA Reauthorization Act of 2018 (P.L. 115-254), there are more exceptions available in which you may not need to obtain the license.
 
-> This page is for the Federal Aviation Administration licensing requirements for UAS use.  UC Policy will still require a flight request and post flight reporting, regardless of FAA licensing requirements. More information on the UC policy can be found in Chapter .
+The [Recreational UAS Safety Test (TRUST) certificate](#TRUST) is a new requirement for all drone pilots without a Drone License.  The TRUST certificate is free for everyone, can be done online and takes 20-30 minutes to complete the training. You can obtain your TRUST certificate by completing the drone training at any of websites listed on the FAA's website here: https://www.faa.gov/uas/recreational_fliers/knowledge_test_updates/
 
+:::: {.notebox data-latex=""}
+This page is for the Federal Aviation Administration licensing requirements for UAS use.  UC Policy will still require a flight request and post flight reporting, regardless of FAA licensing requirements. More information on submitting flight requests can be found in Chapter \@ref(UCdrones).
+::::
 
 ## Which should I Get? {#difference}
 
 The Part 107 Remote Pilot Certificate, or Drone License, provides for the widest range of permissions and allowances. But there are many cases where a researcher may be satisfied with operating only under the Recreational Exception.  
+
+But let's explain the difference between the two.
 
 **Under Part 107** 
  
@@ -30,11 +34,11 @@ The Part 107 Remote Pilot Certificate, or Drone License, provides for the widest
 **Under Recreational Exception**
 
 - TRUST certificate required
-- May fly only for Recreation or Approved Academic Activities
+- May fly only for __Recreation or Approved Academic Activities__
 - 'Fly only in safe locations'
   - The site has been designated by an organization, or is sufficiently clear and controlled, that this environment and location poses the least amount of risk to all participants. The pilot is still responsible for ensuring the safety of the flight, but the location is generally expected to be completely safe.
 - No allowances for advanced operations
-  - Must stick to the basic rules for flight operations
+  - Must stick to the __basic rules__ for flight operations
 
 
 Flight operations in **access controlled locations**, such as UC Reserves or agricultural field stations, are generally acceptable for the Recreational Exception.  The use of a **reserved campus field**, such as an Intramural Athletic Field or a Campus quad, may also be acceptable for the Recreational Exception as well.  
@@ -52,9 +56,11 @@ You may not need a drone license if your flight operations can fit under the sti
 
 Note that there is no restriction on **who** the approved academic activities can apply to. **Any person associated with the University undertaking the above academic activities are eligible**, this includes academic staff or academic support staff.  For example, a staff member at a UC Reserve may operate under the academic exception when conducting research activities.
 
+:::: {.notebox data-latex=""}
 However, not all UC activity is academic, even if it is for an academic group. For example, a student flying a drone to take pictures of the Engineering Hall for the Engineering Department is not considered academic.  
+::::
 
-### What are the stipulations for 'Recreational' and approved 'Academic' activities?
+### Simple Drone Regulations
 
 Recreational flight operations, despite what you see on YouTube, have strict requirements:
 
@@ -68,6 +74,11 @@ Recreational flight operations, despite what you see on YouTube, have strict req
 - Never fly under the influence of drugs or alcohol
 - Never operate in a careless or reckless manner
 
+In many cases, these regulations are not that restrictive.  For research activities in a controlled location, such as an agricultural field station or a natural reserve, it is often easy to abide by these regulations.
+
+:::: {.notebox data-latex=""}
+Commonly the restriction that moves an activity into requiring a Drone license is the proximity to people and buildings, or the activity does not meet the definition of an academic activity. Some example scenarios are discussed in the Frequently Asked Question section in Chapter \@ref(license-FAQ).
+::::
 
 ### Other Situations
 There are other conditions that may require a closer evaluation, including whether you're a US citizen or if you plan on flying internationally.  If you have any questions, feel free to reach out to [UASsafety@ucmerced.edu](mailto:UASsafety@ucmerced.edu) for a consultation. 
@@ -81,13 +92,19 @@ Other scenarios that may require a closer look
 - Flying at night
 - Flying internationally
 
+Once you know which authorization you need, continue on to read more about how to get it.
+
+1. [Remote Pilot Certificate (Drone License)](#get-license)
+2. [TRUST Certificate](#TRUST)
+
 
 ## Drone License {#get-license}
 
 Obtaining a Remote Pilot Certificate, or more commmonly known as a drone license, is relatively straight-forward.  The process is similar to obtaining a drivers license, but with one key exception: there is no 'driving' test component.  To get a drone license, you must study for and pass a drone license exam that tests only on your knowledge of aviation rules and safety.  
 
->The FAA has found that on average, most people study for the exam for about 20 hours and that 90% of test takers pass on the first try.  The exam is not particularly challenging, but it requires a lot of memorization.
-
+:::: {.notebox data-latex=""}
+The FAA has found that on average, most people study for the exam for about 20 hours and that 90% of test takers pass on the first try.  The exam is not particularly challenging, but it requires a lot of memorization.
+::::
 
 ### Drone License Exam
 
@@ -119,7 +136,9 @@ Here are a few free study resources to aid in studying for the exam:
 - (https://northrup.photo/free-faa-part-107-suas-drone-certification-study-guide/)
 - (https://www.3dr.com/docs/faa-part-107-study-guide/part-107-certification-official-study-resources/)
 
->Although there are third party "Ground school" courses offered for a fee, we have found freely available resources to be just as effective.
+:::: {.notebox data-latex=""}
+Although there are third party "Ground school" courses offered for a fee, we have found freely available resources to be just as effective.
+::::
 
 ### Drone License Eligibility
 
@@ -145,22 +164,54 @@ For Non-U.S. Citizens, this may be accomplished with one of the following:
 - Passport and an Identification card issued by any governmental entity.
 
 
+### Taking the Drone Exam
+
+The process to take the drone exam is a bit more complicated than just signing up for it. We'll walk through the process, but for more details, you can visit the FAA's website here: [Becoming a Drone Pilot](https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot/)
+
+
+1. Obtain an FAA Tracking Number (FTN) by creating an Integrated Airman Certification and Rating Application (IACRA) profile prior to registering for a knowledge test.
+
+2. Schedule an appointment with a FAA-approved Knowledge Testing Center. We recommend using the [PSI Exams website](https://faa.psiexams.com/faa/login) to search for a nearby FAA testing facility and registering for the exam. The test you are looking for is **Unmanned Aircraft General – Small (UAG)**. 
+
+3. Study and do a good job on the test.  Be sure to bring a government-issued photo ID to your test.
+
+4. After you complete the test, you'll need to register your score with the FAA on a system called **IACRA**.  Don't worry, your testing center will provide you with the instructions on how to do this.
+
+Once you register your score with the FAA, they will send you your permanent remote pilot certificate via mail.  This might take 4-6 weeks to process, but in the interim, you can download a temporary permit from the IACRA website.
+
+### License Renewal
+
+In order to maintain your authorization to fly a drone using your Remote Pilot Certificate, you need to renew it every two years. Starting in April 2021, the recurrent knowledge training is now available for free and online. 
+
+**Part 107 Small UAS Recurrent Non-Part 61 Pilots (ALC-677)**
+
+Available at: https://www.faasafety.gov/gslac/ALC/course_content.aspx?cID=677.  
+
+#### Training Information
+
+The training consists of 3 modules - Introduction,  Aircraft and RPIC Requirements, and Safe Operation of sUAS. Each module will have some knowledge tests inside, and after completion of all three modules, there is the required online end-of-training knowledge check.  And it has the new information about remote ID, flying over people and flying at night operations. The end-of-training knowledge check is a 45 question test – you’ll have 90 minutes to complete it, and while you can’t leave the page, you’re welcome to open up another browser and review the information while you’re taking the test.
+ 
+Once you complete the test, make sure you get a copy of your training completion certificate.  Don’t forget that you can upload it to your pilot profile in UC Drones.  This way, you’ll always know of a location where it is kept.  You are also able to email it directly to us at UASsafety@ucmerced.edu and we can attach it to your profile.  
+ 
+#### Notes 
+
+Make sure you sign in and enroll in the course before starting.
+
+```{r p107-enroll, fig.cap='Enrolling in the course', out.width='100%', echo=FALSE}
+knitr::include_graphics('images/P107R-enroll.jpg')
+```
+
+Once you finish the training slide deck on the Intro page, go back to the course page and click through pages 1, 2 and 3 to unlock the Review and Exam page. 
+ 
+```{r p107-unlock, fig.cap='Make sure you click through to unlock the Exam', out.width='100%', echo=FALSE}
+knitr::include_graphics('images/P107R-unlock.jpg')
+```
 
 
 
+## TRUST Certificate {#TRUST}
 
-
-
-
-
-
-
-
-
-
-## The Recreational UAS Safety Test {#TRUST}
-
-Starting in June 2021, all recreational flyers must pass an aeronautical knowledge and safety test and provide proof of test passage (the TRUST completion certificate) to the FAA or law enforcement (including campus police) upon request. The test is free for everyone and takes 20-30 minutes to complete.
+Starting in June 2021, all recreational flyers must pass an aeronautical knowledge and safety test and provide proof of test passage (the TRUST completion certificate) to the FAA or law enforcement (including campus police) upon request. The test is free for everyone and takes 20-30 minutes to complete. The FAA provides education and testing content to FAA Approved Test Administrators of TRUST, who in turn provide the content to recreational flyers for free.
 
 You may take The Recreational UAS Safety Test at any of the administrators found on the FAA's website:
 https://www.faa.gov/uas/recreational_fliers/knowledge_test_updates/
@@ -175,19 +226,18 @@ Upon completion of the TRUST you will receive a completion certificate. The cert
 ### What is TRUST?
 TRUST is The Recreational UAS Safety Test. It provides education and testing for recreational flyers on important safety and regulatory information. If you fly your drone recreationally under the Exception for Recreational Flyers you must pass the test before you fly - this includes both recreational use and certain academic use-cases.
 
-### How Can I Take the TRUST
-You may take the free online test through any of the approved test administrators listed on the FAA's website here: https://www.faa.gov/uas/recreational_fliers/knowledge_test_updates/. After you complete the TRUST, you will be given the option to download your TRUST certificate and write down your Authentication Token.  We recommend uploading your TRUST certificate and entering your Authentication Token into your pilot profile within UC Drones.
-
-### Who made the TRUST?
-The FAA provides education and testing content to FAA Approved Test Administrators of TRUST, who in turn provide the content to recreational flyers for free.
-
-### What does the TRUST certificate look like?
 ```{r,echo=FALSE, out.width='50%', fig.asp=.75, fig.align='center'}
 knitr::include_graphics('images/TRUST_cert.jpg')
 ```
 
+### Taking the TRUST
+You may take the free online test through any of the approved test administrators listed on the FAA's website here: https://www.faa.gov/uas/recreational_fliers/knowledge_test_updates/. After you complete the TRUST, you will be given the option to download your TRUST certificate and write down your Authentication Token.  We recommend uploading your TRUST certificate and entering your Authentication Token into your pilot profile within UC Drones.
 
-## Frequently Asked Questions
+
+
+
+
+## Frequently Asked Questions {#license-FAQ}
 
 **When doing an academic activity, which set of regulations is better?**
 

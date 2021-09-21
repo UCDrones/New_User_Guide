@@ -7,3 +7,13 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+
+\usepackage{xcolor}
+\usepackage{framed}
+\setlength{\fboxsep}{.8em}
+
+\newenvironment{notebox}{
+  \definecolor{shadecolor}{gray}{.8}  % gray
+  \color{black}
+  \begin{shaded}}
+ {\end{shaded}}

@@ -1,8 +1,14 @@
 # UC Drones {#UCdrones}
 
-UC Drones is a one-stop shop for drone oversight and management for the University of California system.  It is designed with the goal to develop a culture of safety and accountability in the use of drone by providing a unified portal for 1 ) enabling users be kept aware with regulatory compliance obligations, safety guidelines and best practices, 2) documenting drone activity through flight requests and reporting, and 3) tracking UC drone operations and safety metrics.
+[UC Drones](http://ehs.ucop.edu/drones) is a one-stop shop for drone oversight and management for the University of California system.  It is designed with the goal to develop a culture of safety and accountability in the use of drone by providing a unified portal for 1 ) enabling users be kept aware with regulatory compliance obligations, safety guidelines and best practices, 2) documenting drone activity through flight requests and reporting, and 3) tracking UC drone operations and safety metrics.
 
-The use of UC Drones Web App is UC UAS Policy compliant. However, it is not the only means of UC UAS Policy compliance.  If alternative means of UC UAS Policy is needed or requested, please contact your campuses’ drone Point of Contact
+The use of [UC Drones Web App](http://ehs.ucop.edu/drones) is UC UAS Policy compliant. However, it is not the only means of UC UAS Policy compliance.  **If an alternative means of UC UAS Policy is needed or requested, please contact your campuses’ drone Point of Contact.**
+
+<center>
+
+[![UC Drones](images/UCDrones_logo.jpg)](http://ehs.ucop.edu/drones){width=30px}
+
+</center>
 
 ## Logging into UC Drones {#UCdrones-login}
 
