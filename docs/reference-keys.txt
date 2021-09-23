@@ -21,8 +21,9 @@ fig:rss-web
 fig:rss-dash
 fig:UCDrones-home
 fig:UCDrones-project
-fig:UCDrones-project-flight-1
 fig:UCDrones-project-flight-2
+fig:UCDrones-flight-request
+fig:UCDrones-project-flight-1
 fig:UCDrones-manage-aircrafts
 fig:UCDrones-edit-aircrafts
 fig:training
@@ -99,6 +100,7 @@ project-request-form
 enter-project-information
 filing-a-project-flight
 submitting-a-flight-request
+flight-request-form
 non-project-vs-project-flight
 UCDrones-drone
 manag-aircraft

@@ -236,13 +236,23 @@ Comments to and from the drone project reviewers can be added in the comments se
 "}`
 
 ```{r, include=knitr::is_html_output(excludes=c("epub")), echo=FALSE, out.width='100%'}
-knitr::include_url("support/UCDroneProjectRequest/story.html", height="640px")
+knitr::include_url("support/UCDroneProjectRequestpg1/story.html", height="520px")
+knitr::include_url("support/UCDroneProjectRequestpg2/story.html", height="667px")
+knitr::include_url("support/UCDroneProjectRequestpg3/story.html", height="465px")
 ```
 
+```{r, include=knitr::is_html_output(excludes=c("epub")), echo=FALSE, out.width='100%'}
+knitr::include_url("support/UCDroneProjectRequestpg4/story.html", height="667px")
+knitr::include_url("support/UCDroneProjectRequestpg5/story.html", height="450px")
+```
 
 ### Filing a Project Flight
 
-On the Manage Project page, all approved projects will have a button to 'Add Flight.'  Clicking this button will direct the user to a file a Project Flight notification. This Flight notification will be mostly filled in already - the user will just need to select the date and time of the flight operation (selectable only within the project duration) and may modify the active Pilot (from the list of Project Pilots), or adjust the Risk Assessment, Observers and Comments sections.
+On the Manage Project page, all approved projects will have a button to **Add Flight** as seen in Figure \@ref(fig:UCDrones-project) or as in Figure \@ref(fig:UCDrones-project-flight-2).  Clicking this button will direct the user to a file a Project Flight notification. This Flight notification will be mostly filled in already - the user will just need to select the date and time of the flight operation (selectable only within the project duration) and may modify the active Pilot (from the list of Project Pilots), or adjust the Risk Assessment, Observers and Comments sections.
+
+```{r UCDrones-project-flight-2, fig.cap='UC Drones Project Management', out.width='85%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/UCDrones_project_addflight.jpg')
+```
 
 ## Submitting a Flight Request
 
@@ -255,6 +265,16 @@ An individual Flight Request comprises of one or more drone flights on a single 
 -	On-campus public areas without additional mitigation protocols or safety hazard analysis.
 -	Special operations – flying at night, flying above 400 ft AGL, etc
 
+### Flight Request Form
+
+The Flight Request form is nearly identical to the Project Request Form, except for 1 key difference.  Whereas the Project Request form asks for a date range, frequency of occurrence and expected range of time, the Flight Request form requests a specific date and time.  
+
+When answering the specific date and time, be as specific as necessary.  If the location is time sensitive, such as a field reservation, or in between a busy time on campus, please specify the exact time.  But if the location does not have any time-related variation in safety, an approximate or estimate time is acceptable.
+
+```{r UCDrones-flight-request, fig.cap='UC Drones Flight Request', out.width='85%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/UCDrones_flight_request.jpg')
+```
+
 ### Non-Project vs Project Flight
 
 Both Projects and Non-Projects use the same Flight Request Form.  A Flight Request for a Project must be selected from the Project Page - either the Manage Projects Page and select 'Add Flight' (Figure \@ref(fig:UCDrones-project-flight-1)) or from the individual Project page and select 'Add Flight' under the header (\@ref(fig:UCDrones-project-flight-2)).
@@ -263,9 +283,7 @@ Both Projects and Non-Projects use the same Flight Request Form.  A Flight Reque
 knitr::include_graphics('images/UCDrones_manage_project.jpg')
 ```
 
-```{r UCDrones-project-flight-2, fig.cap='UC Drones Project Management', out.width='85%', fig.asp=.75, fig.align='center', echo=FALSE}
-knitr::include_graphics('images/UCDrones_project_addflight.jpg')
-```
+
 
 **Differences**
 
