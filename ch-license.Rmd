@@ -166,16 +166,16 @@ For Non-U.S. Citizens, this may be accomplished with one of the following:
 
 ### Taking the Drone Exam
 
-The process to take the drone exam is a bit more complicated than just signing up for it. We'll walk through the process, but for more details, you can visit the FAA's website here: [Becoming a Drone Pilot](https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot/)
+The process to take the drone exam is a bit more complicated than just signing up for it. This is a short overview of the process - for more details, you can visit the FAA's website here: [Becoming a Drone Pilot](https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot/)
 
 
-1. Obtain an FAA Tracking Number (FTN) by creating an Integrated Airman Certification and Rating Application (IACRA) profile prior to registering for a knowledge test.
+1. Obtain an **FAA Tracking Number (FTN)** by creating an **Integrated Airman Certification and Rating Application (IACRA)** profile prior to registering for a knowledge test. Go to https://iacra.faa.gov/IACRA/Default.aspx to create your profile.  Make sure you write down your FTN because you'll need it to register for the drone test in the next step.
 
 2. Schedule an appointment with a FAA-approved Knowledge Testing Center. We recommend using the [PSI Exams website](https://faa.psiexams.com/faa/login) to search for a nearby FAA testing facility and registering for the exam. The test you are looking for is **Unmanned Aircraft General – Small (UAG)**. 
 
 3. Study and do a good job on the test.  Be sure to bring a government-issued photo ID to your test.
 
-4. After you complete the test, you'll need to register your score with the FAA on a system called **IACRA**.  Don't worry, your testing center will provide you with the instructions on how to do this.
+4. After you complete the test, you'll need to go back to the **IACRA** system to register your score.  Don't worry, your testing center will provide you with the instructions on how to do this.
 
 Once you register your score with the FAA, they will send you your permanent remote pilot certificate via mail.  This might take 4-6 weeks to process, but in the interim, you can download a temporary permit from the IACRA website.
 
