@@ -7,8 +7,8 @@
 ]{book}
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{ifxetex,ifluatex}
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage{iftex}
+\ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -88,7 +88,7 @@
   \color{black}
   \begin{shaded}}
  {\end{shaded}}
-\ifluatex
+\ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
 \usepackage[]{natbib}
@@ -2306,6 +2306,38 @@ To file a claim, contact your campus Risk Manager. Please prepare the following:
   After an incident, make sure you take pictures of the damage and file a post-flight report. Add as much details as possible.
 \end{itemize}
 
+\hypertarget{drones-and-other-equipment}{%
+\chapter{Drones and Other Equipment}\label{drones-and-other-equipment}}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{images/mavic3} 
+
+}
+
+\caption{The Mavic 3 is the newest model, but is it the best drone for you?}\label{fig:drone3}
+\end{figure}
+
+\hypertarget{what-drone-should-be-get}{%
+\section{What Drone should be get?}\label{what-drone-should-be-get}}
+
+\hypertarget{essential-supplemental-drone-equipment}{%
+\section{Essential Supplemental Drone Equipment}\label{essential-supplemental-drone-equipment}}
+
+As you build out your drone program, don't forget that you'll need more than just your drone. Here is a list of our most useful supplemental drone equipment
+
+\textbf{Sunshade} - A protective sunshade for your tablet or phone screen while flying a drone is a must-have. Not only will this help you see your screen better in bright sunlight, it will also significantly reduce the risk of your tablet or phone overheating on those hot summer days.
+
+\textbf{MicroSD cards} - Pick up the right microSD card for your drone. High speed writing is key to ensuring you're getting all of your data. At a minimum pick up an SD card with a V30 rating or above (\href{https://www.amazon.com/SanDisk-Extreme-microSDXC-Memory-Adapter/dp/B07FCMKK5X?th=1}{SanDisk Extreme 128GB U3/V30}). V60 or above is prefered for 4K60fps (\href{https://www.amazon.com/Lexar-microSDXC-Professional-Adapter-Class10/dp/B09FJHMLC6/}{Lexar 256 GB V60}).
+
+\textbf{SD card holder} - At some point, you'll have an abundance of unlabeled microSD cards. Keep yourself organized with this handy \href{https://www.amazon.com/Holder-Storage-Organizer-Lightweight-Portable/dp/B07T6SWXK5/}{microSD card holder}. Small form factor and a spot to label each card will help keep you organized in the field.
+
+\textbf{Windmeter} - A handheld windmeter is another must-have when operating in the country. We recommend a full weather meter such as the \href{https://kestrelmeters.com/collections/all-kestrel-meters/products/kestrel-2500-weather-meter}{Kestrel 2500 Weather Meter} - this will provide wind, temperature and barometric pressure measurements. Remember that most drones use a barometric pressure sensor to help with altitude measurements - by keeping track of the outside barometric pressure, you can determine whether your altitude measurement has drifted up or down during your flight.
+
+\textbf{Wristband Playbook} - Pre-flight checklists are an important part of drone safety, but they don't have to be an easily lost sheet of paper on a clip board. For regular operations or all-day affairs, we recommend using a \href{https://www.amazon.com/dp/B01DJJW8QW}{wristband playbook} instead. Place your checklist inside of the playbook and never lose it or forget it again.
+
+\textbf{Whistle} - At some point you're going to need to communicate across the field. And when time is of the essence, there's no time to fumble with a radio. A whistle is a great tool to have in the field. Any whistle will do, but we like these Whistles for Life Tri-Power Safety Whistle - \href{https://www.amazon.com/Whistles-Life-Tri-Power-Whistle-Snorkelers/dp/B004RRZIUO/}{Purchase from Amazon (\$10)} or bulk-purchase from \href{https://whistlesforlife.com/}{WhistlesforLife.com}
+
 \hypertarget{other-information}{%
 \chapter{Other Information}\label{other-information}}
 
@@ -2419,17 +2451,33 @@ Category 3 classification is for drones that have been granted a certificate tha
 Category 4 classification is a special authorization case for drones that have obtained a Part 21 Airworthiness Certification. The airworthiness certificate will specify the requirements and restrictions for operations over people.
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.18}}
-  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.23}}
-  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.23}}
-  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.36}}@{}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1795}}
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2308}}
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2308}}
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3590}}@{}}
 \caption{\label{tab:OOPS} Operations Over People}\tabularnewline
 \toprule
-Category & Requirements & With Remote ID & Without Remote ID \\
+\begin{minipage}[b]{\linewidth}\raggedleft
+Category
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Requirements
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+With Remote ID
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Without Remote ID
+\end{minipage} \\
 \midrule
 \endfirsthead
 \toprule
-Category & Requirements & With Remote ID & Without Remote ID \\
+\begin{minipage}[b]{\linewidth}\raggedleft
+Category
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Requirements
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+With Remote ID
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Without Remote ID
+\end{minipage} \\
 \midrule
 \endhead
 \textbf{Cat 0} & None & Not allowed & Not allowed \\

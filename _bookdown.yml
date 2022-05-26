@@ -11,6 +11,7 @@ rmd_files: ["index.Rmd",
             "ch-safety-guidelines.Rmd",
             "ch-privacy.Rmd",
             "ch-insurance.Rmd",
+            "ch-equipment.Rmd",
             "ch-other.Rmd"]
 output_dir: "docs"
 edit: https://github.com/UCDrones/New_User_Guide/edit/master/%s
