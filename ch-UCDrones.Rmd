@@ -292,6 +292,16 @@ knitr::include_graphics('images/UCDrones_manage_project.jpg')
     - Only a handful of fields may be changed or completed
 
 
+
+## Filing a Post-Flight Report
+
+After each flight request, please make sure to file a post-flight report.
+
+Post-flight reports are a vital component to our drone safety management system. They help inform us of the overall flight activity within the UC system - monitoring trend lines of activity and anticipating future training needs.  The accident tracking helps us understand the rate of how often accidents occur and in which environments. Tracking our flight activity helps ensure our insurance coverage and keeps our rates low.
+
+
+
+
 ## Add your Drone to UC Drones {#UCDrones-drone}
 
 To register your drone with the UC system, add your drone to UC Drones.

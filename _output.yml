@@ -5,7 +5,7 @@ bookdown::gitbook:
   split_by: section+number
   config:
     toc:
-      collapse: subsection
+      collapse: section
       scroll_highlight: yes
       before: |
         <li><a href="https://ucdrones.github.io/">UC Drones Knowledge Portal</a></li>
