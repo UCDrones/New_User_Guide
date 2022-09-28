@@ -34,14 +34,6 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-\hypersetup{
-  pdftitle={New User Guide - Drone Use in the UC System},
-  pdfauthor={UC Center of Excellence on UAS Safety},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-\urlstyle{same} % disable monospaced font for URLs
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -93,6 +85,14 @@
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={New User Guide - Drone Use in the UC System},
+  pdfauthor={UC Center of Excellence on UAS Safety},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
 
 \title{New User Guide - Drone Use in the UC System}
 \author{UC Center of Excellence on UAS Safety}
@@ -2408,7 +2408,7 @@ Category 4 classification is a special authorization case for drones that have o
   >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2308}}
   >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3590}}@{}}
 \caption{\label{tab:OOPS} Operations Over People}\tabularnewline
-\toprule
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedleft
 Category
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
@@ -2418,9 +2418,9 @@ With Remote ID
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
 Without Remote ID
 \end{minipage} \\
-\midrule
+\midrule()
 \endfirsthead
-\toprule
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedleft
 Category
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
@@ -2430,14 +2430,14 @@ With Remote ID
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
 Without Remote ID
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 \textbf{Cat 0} & None & Not allowed & Not allowed \\
 \textbf{Cat 1} & Under 0.55 lbs Prop Guards & In transit flights over people Flights over open air assemblies & In transit flights over people Only in FRIAs (2023) \\
 \textbf{Cat 2} & FAA certification Not cause a severe injury Prop Guards & In transit flights over people Flights over open air assemblies & In transit flights over people Only in FRIAs (2023) \\
 \textbf{Cat 3} & FAA certification Not cause a fatal injury Prop Guards & In transit flights over people Flights over consenting open air assemblies & In transit flights over people Only in FRIAs (2023) \\
 \textbf{Cat 4} & FAA Airworthiness Certification & In transit flights over people Flights over open air assemblies & In transit flights over people Only in FRIAs (2023) \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{local-regulations}{%
