@@ -34,6 +34,14 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={New User Guide - Drone Use in the UC System},
+  pdfauthor={UC Center of Excellence on UAS Safety},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -85,14 +93,6 @@
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same} % disable monospaced font for URLs
-\hypersetup{
-  pdftitle={New User Guide - Drone Use in the UC System},
-  pdfauthor={UC Center of Excellence on UAS Safety},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
 
 \title{New User Guide - Drone Use in the UC System}
 \author{UC Center of Excellence on UAS Safety}
@@ -2235,8 +2235,43 @@ UC Drones is the easiest way to ensure your coverage.
 \caption{The Mavic 3 is the newest model, but is it the best drone for you?}\label{fig:drone3}
 \end{figure}
 
-\hypertarget{what-drone-should-be-get}{%
-\section{What Drone should be get?}\label{what-drone-should-be-get}}
+\hypertarget{what-drone-should-i-get}{%
+\section{What Drone should I get?}\label{what-drone-should-i-get}}
+
+If you're not sure what drone to get and you don't want to spend a huge amount of money on a DJI Matrice 300, here are some potential options.
+
+\hypertarget{drones-for-mapping}{%
+\subsection{Drones for Mapping}\label{drones-for-mapping}}
+
+\textbf{Phantom 4 Series} - The DJI Phantom 4 series is an older, but still viable option for most drone mapping projects. With a 25 minute flight time and a mechanical shutter, it's capable of small mapping missions up to 10 acres at a time. Great for small projects and flight training. Unfortunately, this drone is no longer being produced and is getting harder to find.
+
+\textbf{Mavic 2 Pro} -- They stopped selling this last year with the release of the Mavic 3, but the Mavic 2 Pro is compatible with all major mapping software and has a decent enough camera system to get good results. If you can find one on Amazon or elsewhere, it's worth picking up. While it doesn't have a mechanical shutter, it's still a great platform for basic mapping projects (RGB only).
+
+\textbf{Mavic 2 Zoom} -- Similar to the Mavic 2 Pro, but the camera isn't as widely compatible. It'll work with Drone Deploy, but not with Pix4DCapture. Much better as a flight trainer than for completing missions.
+
+\textbf{Mavic Air 2} -- Nice compact drone for regular flying, but also not as widely available since the release of its successor Mavic Air 2S. Is compatible with Drone Deploy with iOS, but nothing else.
+
+\textbf{Mavic Air 2S} -- You can still find this one available, but stock is dwindling as DJI prepares for the launch of the Mavic Air 3. DroneDeploy compatibility is in BETA testing - this might be the last entry level DJI drone to be compatible with mapping software such as Drone Deploy.
+
+\textbf{Skydio 2+} - The only non-DJI drone compatible with DroneDeploy. It's smaller than a Mavic, and the camera is not as high quality, but as DJI moves away from compatibility with mapping software, it's worth checking out for basic/simple flight missions.
+
+\textbf{Autel Robotics EVO II} - Another rare non-DJI drone. It's a worthy Mavic competitor and unlike the DJI drones, has mapping software functionality built-in. A little pricier, but worth exploring.
+
+\hypertarget{drones-for-videos}{%
+\subsection{Drones for Videos}\label{drones-for-videos}}
+
+\textbf{Mavic 3} - The DJI Mavic 3 is a great drone. It boasts a 45 minute flight time, a great camera and almost all the features you could want from a drone - except its not compatible with mapping software. If you're just doing cinematography, its a good albeit pricey option at \$2k (\$2.8k with the extra battery combo pack).
+
+\textbf{Mini 2/3} - The DJI Mini series are great, affordable and high-quality small drones. At only 249g, it packs a lot a capability into a tiny platform. It's great as a flight trainer and good enough for some media use.
+
+\textbf{DJI Avata} - This is DJI's first entry into the FPV world, but it's not for everyone. It's designed for high-speed acrobatics, so it's not a great drone for newcomers as it handles different than other DJI drones. But if you're looking to add some up-close action shots, its a good option.
+
+\hypertarget{drones-to-avoid}{%
+\subsection{Drones to Avoid}\label{drones-to-avoid}}
+
+\textbf{Off-Brand Drones} - DJI has the largest marketshare for drones, but its not unwarranted. Any drone you can find on Amazon or at Costco, BestBuy or Target that isn't a DJI, is likely to under-perform. Drone companies to avoid - Holy Stone, DEERC, ORKNELY, etc
+
+\textbf{Tello} - The Ryze Tellos have a partnership with DJI, but are not DJI drones and it shows. With poor flight handling and a very limited range, these \$100 drones should only be used indoors and only for specific STEM curriculum activities - they're not useful as a tool or for flight training.
 
 \hypertarget{essential-supplemental-drone-equipment}{%
 \section{Essential Supplemental Drone Equipment}\label{essential-supplemental-drone-equipment}}
@@ -2373,7 +2408,7 @@ Category 4 classification is a special authorization case for drones that have o
   >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2308}}
   >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3590}}@{}}
 \caption{\label{tab:OOPS} Operations Over People}\tabularnewline
-\toprule()
+\toprule
 \begin{minipage}[b]{\linewidth}\raggedleft
 Category
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
@@ -2383,9 +2418,9 @@ With Remote ID
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
 Without Remote ID
 \end{minipage} \\
-\midrule()
+\midrule
 \endfirsthead
-\toprule()
+\toprule
 \begin{minipage}[b]{\linewidth}\raggedleft
 Category
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
@@ -2395,14 +2430,14 @@ With Remote ID
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
 Without Remote ID
 \end{minipage} \\
-\midrule()
+\midrule
 \endhead
 \textbf{Cat 0} & None & Not allowed & Not allowed \\
 \textbf{Cat 1} & Under 0.55 lbs Prop Guards & In transit flights over people Flights over open air assemblies & In transit flights over people Only in FRIAs (2023) \\
 \textbf{Cat 2} & FAA certification Not cause a severe injury Prop Guards & In transit flights over people Flights over open air assemblies & In transit flights over people Only in FRIAs (2023) \\
 \textbf{Cat 3} & FAA certification Not cause a fatal injury Prop Guards & In transit flights over people Flights over consenting open air assemblies & In transit flights over people Only in FRIAs (2023) \\
 \textbf{Cat 4} & FAA Airworthiness Certification & In transit flights over people Flights over open air assemblies & In transit flights over people Only in FRIAs (2023) \\
-\bottomrule()
+\bottomrule
 \end{longtable}
 
 \hypertarget{local-regulations}{%
