@@ -14,7 +14,7 @@ There's a lot of items to consider when it comes to drone safety. Here, we'll ju
 
 ### Standard Guidance
 
-- Establish a **buffer** or **safe-zone** between the Unmanned Aircraft and any non-participating persons or sensitive locations. A good rule-of-thumb is to maintain a buffer or safe-zone of **roughly $\frac{1}{4}^{th}$ of the flight altitude**.
+- Establish a **buffer** or **safe-zone** between the Unmanned Aircraft and any non-participating persons or sensitive locations. A good rule-of-thumb is to maintain a buffer or safe-zone of one-fourth (0.25) of the flight altitude**.
 - **Visual Observers** and supporting ground crew should be utilized when available. Supporting ground crew should assist in ensuring safety to all non-participating persons.
 - All members of the flight crew should **be conspicuous** and wear **professional, identifying apparel** such as university-branded hats, shirts or lanyards with IDs.
 - **High visibility reflective vests** must be worn when operating **near roads** or **in parking lots**.  

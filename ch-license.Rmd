@@ -132,13 +132,20 @@ The most important and most difficult part of the exam is learning how to read a
 
 Here are a few free study resources to aid in studying for the exam:
 
-- (https://jrupprechtlaw.com/part-107-test-study-guide)
-- (https://northrup.photo/free-faa-part-107-suas-drone-certification-study-guide/)
-- (https://www.3dr.com/docs/faa-part-107-study-guide/part-107-certification-official-study-resources/)
+- https://jrupprechtlaw.com/part-107-test-study-guide
+- https://northrup.photo/free-faa-part-107-suas-drone-certification-study-guide/
+
+
+As of 2021, the FAA has included new questions on flight over people and remote identification. None of the study guides or YouTube videos online had these questions, but you can find information about them through the two links provided by the FAA.
+
+- https://www.faa.gov/uas/commercial_operators/operations_over_people/ 
+- https://www.faa.gov/uas/getting_started/remote_id/
+
 
 :::: {.notebox data-latex=""}
 Although there are third party "Ground school" courses offered for a fee, we have found freely available resources to be just as effective.
 ::::
+
 
 ### Drone License Eligibility
 
