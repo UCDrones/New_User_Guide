@@ -132,6 +132,10 @@ what-drone-should-i-get
 drones-for-mapping
 drones-for-videos
 drones-to-avoid
+multi-spectral-data-collection
+multi-spectral-cameras
+software-for-drones
+photogrammetry-software
 essential-supplemental-drone-equipment
 other-information
 common-UAS-violations

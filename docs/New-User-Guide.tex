@@ -2281,6 +2281,66 @@ If you're not sure what drone to get and you don't want to spend a huge amount o
 
 \textbf{Tello} - The Ryze Tellos have a partnership with DJI, but are not DJI drones and it shows. With poor flight handling and a very limited range, these \$100 drones should only be used indoors and only for specific STEM curriculum activities - they're not useful as a tool or for flight training.
 
+\hypertarget{multi-spectral-data-collection}{%
+\section{Multi-Spectral Data Collection}\label{multi-spectral-data-collection}}
+
+Multi-spectral data is a common need for many utilizing drones in agricultural or environmental research. But in order to get that data, you'll need to use a specialized camera that is capable of capturing images in multiple spectral bands. This can include visible light, near-infrared (NIR), and shortwave infrared (SWIR) bands. The data obtained from these cameras can then be used to create NDVI and other indices, which can be used to analyze and interpret the health and condition of vegetation.
+
+Here are the general steps to obtain multispectral data from a drone:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Choose the right drone: The first step is to select a drone that is equipped with a multispectral camera or one that can be outfitted with a multispectral sensor.
+\item
+  Plan your flight: It is important to plan your flight path in advance, taking into account the area of interest and the desired resolution of the data. The flight path should be carefully planned to ensure that the camera captures images of the entire area of interest.
+\item
+  Collect the data: Once you have planned your flight, you can fly your drone and collect the data. Make sure to follow all safety guidelines and regulations when flying.
+\item
+  Process the data: After the flight, the data needs to be processed and analyzed. This typically involves converting the raw images into georeferenced, orthorectified images, and then creating NDVI and other indices.
+\item
+  Analyze the data: Once the data is processed, it can be analyzed to extract information about the health and condition of vegetation. This can be done using software tools specifically designed for NDVI analysis.
+\end{enumerate}
+
+It's important to note that multi-spectral data collection is a complex task that requires specialized equipment, software and expertise. We have some recommendations below, but feel free to reach out to us for a consultation.
+
+\hypertarget{multi-spectral-cameras}{%
+\subsection{Multi-Spectral Cameras}\label{multi-spectral-cameras}}
+
+\textbf{RedEdge-P} - The \href{https://ageagle.com/drone-sensors/rededge-p/}{RedEdge-P} is the newest generation of high-resolution multispectral cameras from AgEagle (formerly Micasense). It has six channels: Blue (475 nm), Green (560 nm), Red (668 nm), RedEdge (717 nm), NIR (842 nm) and a Panchromatic channel (450nm - 900nm). This allows for pan-sharpened output resultions of 2cm. Though a bit pricey at \$8k, it's a great all-around multispectral solution and is compatible with DJI Matrice 300 and other larger drones.
+
+\textbf{Altum-PT} - The \href{https://ageagle.com/drone-sensors/altum-pt/}{Altum-PT} is a 3-in-1 solution, capable of RGB, NIR and Thermal data collection. With a slightly higher resolution for RGB/NIR than the RedEdge-P and a faster capture rate, it's a step up with a heft pricy tag at \$15k. Compatible with the DJI Matrice 300 and other larger drones.
+
+\textbf{MAPIR Survey 3} - A low-cost solution at \$700, the \href{https://www.mapir.camera/pages/survey3-cameras}{Survey 3} is a mini-multispectral that won't give the greatest results, but is small and light enough to be attached to even the DJI Mavic Series drones. It uses a modified lens on a low-cost camera sensor and requires careful calibration to get usable results.
+
+\hypertarget{software-for-drones}{%
+\section{Software for Drones}\label{software-for-drones}}
+
+There are several types of software that may be required for different types of drones and use cases. Here are a few examples:
+
+\textbf{Flight planning and control software} This type of software is typically used to plan and control drone flights, it allows you to set waypoints, plan routes, and monitor the drone's flight status in real-time. Some examples include DJI GO, DJI Ground Station Pro, and Pix4Dcapture.
+
+\textbf{Photogrammetry Software} - This type of software is used to process the images captured by the drone and create maps, 3D models, and point clouds. Examples include Agisoft Metashape, DroneDeploy, and WebODM.
+
+\textbf{Ground control systems} - Ground control systems, such as GNSS Base Stations are typically used for survey-grade drones, as it helps to improve the accuracy of the images captured by the drone, as well as process and analyze the data.
+
+\textbf{Geospatial Analysis Software} - Once you have processed data from a drone, the next step is to analyze the data, commonly in within geographic information system (GIS) software. GIS software can be used for a variety of analyses such as 3D modeling, change detection, image analysis and surface analysis.
+
+\hypertarget{photogrammetry-software}{%
+\subsection{Photogrammetry Software}\label{photogrammetry-software}}
+
+The choice between DroneDeploy, Agisoft Metashape, and Pix4D will depend on your specific needs and goals.
+
+\textbf{DroneDeploy} is a cloud-based software that is easy to use and well-suited for creating detailed 2D and 3D maps and models of large areas, such as construction sites, mines, and farmland. It also includes features such as automatic flight planning and easy sharing of maps and models.
+
+\textbf{Agisoft Metashape} is a photogrammetry software that is used for creating detailed 3D models, orthomosaics, and point clouds from drone-captured images. It is more advanced than DroneDeploy and it is intended for professional users such as surveyors, engineers, and architects. It offers more control over the processing and it can handle larger datasets and more complex projects.
+
+\textbf{Pix4D} offers a complete solution for processing drone data and creating maps, 3D models, and point clouds. It can be used for a wide range of applications such as surveying, agriculture, and construction. Pix4D is known for its high accuracy, advanced features, and the ability to handle large datasets.
+
+If you are a professional user that needs high accuracy and advanced features and have experience with photogrammetry software, Agisoft Metashape or Pix4D might be the best choice. If you are a beginner, or you have a specific use case such as creating maps for agriculture or construction, DroneDeploy might be the best choice for you.
+
+\textbf{WebODM} is an open-source software for processing drone-captured images and creating 2D and 3D maps, models and point clouds. It is built on top of the OpenDroneMap (ODM) library and provides a web interface for running ODM on a remote server. However, it is not as advanced as the other commercial softwares.
+
 \hypertarget{essential-supplemental-drone-equipment}{%
 \section{Essential Supplemental Drone Equipment}\label{essential-supplemental-drone-equipment}}
 
