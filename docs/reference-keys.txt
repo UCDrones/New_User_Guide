@@ -129,8 +129,8 @@ do-i-need-to-write-a-privacy-statement
 insurance
 drones-and-other-equipment
 what-drone-should-i-get
+drones-for-multimedia
 drones-for-mapping
-drones-for-videos
 drones-to-avoid
 multi-spectral-data-collection
 multi-spectral-cameras
