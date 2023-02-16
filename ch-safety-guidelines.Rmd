@@ -96,8 +96,8 @@ Following your methodical review, you can start planning your flight paths, asse
 Please visit the webpage for a walkthrough of the Site Analysis Process
 '`
 
-```{r, include=knitr::is_html_output(excludes=c("epub")), echo=FALSE, out.width='100%'}
-knitr::include_url("support/SiteAnalysis/story.html", height="720px")
+```{r, include=knitr::is_html_output(excludes=c("epub")), echo=FALSE}
+knitr::include_url("support/SiteAnalysis/story.html", height="650px")
 ```
 
 ### Resources
