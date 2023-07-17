@@ -62,14 +62,18 @@ There's a lot of information to unpack when looking into airspace information.  
 
 So where can you find this information?  We recommend two sources:
 
-- Airmap (3rd party application and website)
+- B4UFLY
 - Official FAA Sources - VFR Sectional Charts, FAA Facility Maps, TFR/NOTAMs
 
 
 
-### Airmap 
+### B4UFLY
 
-The most comprehensive and easy to use Drone airspace map system is [Airmap](https://app.airmap.com/).  Just type in your address or find your spot on the map, and see whats around you.  Airmap is available as both a webpage (Figure \@ref(fig:airmap-web)) and as an app for [iOS](https://apps.apple.com/us/app/airmap-for-drones/id1042824733) or [Android](https://play.google.com/store/apps/details?id=com.airmap.airmap&hl=en_US) (Figure \@ref(fig:airmap)).  
+The most comprehensive and easy to use Drone airspace map system is [B4UFLY](https://b4ufly.aloft.ai/).  Just type in your address or find your spot on the map, and see whats around you.  B4UFLY is available as both a webpage and as an app for [iOS](https://apps.apple.com/us/app/b4ufly/id992427109?ls=1) or [Android](https://play.google.com/store/apps/details?id=gov.faa.b4ufly2).  
+
+```{r b4ufly, fig.cap='B4UFly', out.width='50%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/B4UFLYlogo.jpg')
+```
 
 Once you find your flying spot on the map, you can evaluate many of the airspace issues you need to look for.  For example, in Figure \@ref(fig:airmap-web), the selected flying spot is within a grid box within the purple shaded region. 
 The text box to the bottom left gives a brief explanation - the purple shaded region is MERCED CLASS E2 airspace - meaning that the location is located within the vicinity of the Merced Airport.  Any drone flying within any purple of blue shaded region will require permission from the FAA.  Class E2 is the least riskiest of the airport managed airspace (also known as controlled airspace), but still will have some airspace risk with occasional planes and helicopters flying above. 
@@ -87,24 +91,6 @@ Need to get FAA permission to fly in one of these areas, head over [here](#LAANC
 
 What if you need to fly higher than the altitude listed?  If you have a drone pilot license, you may ask the FAA for permission - but it is not guaranteed to be approved.  Obtaining permission for flights above the listed altitude can be tricky, so we recommend reaching out to us at UASsafety@ucmerced.edu and we'll be happy to walk you through the process.  Reach out to us early - the FAA can take 5-10 days to grant approval so you want to start this process early.
 
-Airmap also does a good job of depicting other airspace issues, such as Special Use Airspace and National Security Areas - marked in red as in Figure \@ref(fig:airmap).  Selecting the AIRMAP Recommended Guidelines layer will also show all the helipads and minor airports that are not normally shown on an airspace map.  This can be critically important - low flying helicopters and cropdusters that fly out of these unmarked airports are among the most pressing airspace concerns. 
-
-:::: {.notebox data-latex=""}
-Make sure you click on the 'Layers' Icon next to the Flight Advisories - this allows you to turn on/off different information.  For most operations, we recommend selecting the following sets of information:
-
-- FAA Part 107 Certified
-- AIRMAP Recommend Guidelines
-- Restricted and Special Use Airspace
-- National Parks Public Use Limits
-- NOAA Regulated Overflight Zones
-- Fish and Wildlife Service Lands Use Limits
-- Wilderness Areas Use Limits
-::::
-<br>
-```{r airmap, fig.cap='Android Airmap Application', out.width='50%', fig.asp=.75, fig.align='center', echo=FALSE}
-knitr::include_graphics('images/Airmap-Android.jpg')
-```
-
 
 ### The importance of up-to-date Airspace Information
 
@@ -121,7 +107,7 @@ As with most drone related rules and regulations, there are nuances and exceptio
 
 ### Official FAA Sources 
 
-Using Airmap is one of the easiest methods for looking up most of the airspace issues.  However, it's not always the most detailed nor is it the official source of information.  The official sources of information is spread across a handful of different sites:
+Using B4UFLY is one of the easiest methods for looking up most of the airspace issues.  However, it's not always the most detailed nor is it the official source of information.  The official sources of information is spread across a handful of different sites:
 
 - Official source of airspace information - [FAA Sectional Charts](https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/)
 - Official source of altitude grid information - [UAS Facility Maps](https://faa.maps.arcgis.com/apps/webappviewer/index.html?id=9c2e4406710048e19806ebf6a06754ad)
@@ -152,26 +138,11 @@ UAS Facility Maps show the maximum altitudes around airports where the FAA may a
 A NOTAM or Notice to Airman, is a notice that pertains to the establishment, change or condition of any facility, service or procedure of a specific location. The information is not known far enough in advance to be publicized by any other means therefore ensuring there are no active NOTAMS in the area you will be flying in is essential to the safety of yourself and others. It is important to keep in mind that NOTAMS can be put up at a moments notice.
 
 
-### Other Sources
-
-Two other useful sources of information are [Skyvector](https://skyvector.com/) and the B4UFly App ([iOS](https://apps.apple.com/us/app/b4ufly/id992427109) and [Android](https://play.google.com/store/apps/details?id=gov.faa.b4ufly2&hl=en)).
-
-#### SkyVector
+### SkyVector
+SkyVector is a manned aviation tool that allows users to view the FAA Sectional Charts (also known as VFR charts) as well as a wide range of other layers, including TFRs and IFR approaches.  While most of the information will be overwhelming for the beginning drone pilot, the basic VFR charts are still a great resource.
 
 ```{r skyvector, fig.cap='SkyVector - VFR Chart viewer with TFRs', out.width='90%', fig.asp=.75, fig.align='center', echo=FALSE}
 knitr::include_graphics('images/skyvector.jpg')
-```
-
-SkyVector is a manned aviation tool that allows users to view the FAA Sectional Charts (also known as VFR charts) as well as a wide range of other layers, including TFRs and IFR approaches.  While most of the information will be overwhelming for the beginning drone pilot, the basic VFR charts are still a great resource.
-
-#### B4UFly App
-
-The B4UFly App has been redesigned by Aloft (formerly kittyhawk.io) and now includes a lot of good information.  It also now includes an integration with the Aloft App to review FAA facility maps and file LAANC requests.
-
-[B4UFly App](https://www.faa.gov/uas/recreational_fliers/where_can_i_fly/b4ufly/)
-
-```{r b4ufly, fig.cap='B4UFly', out.width='50%', fig.asp=.75, fig.align='center', echo=FALSE}
-knitr::include_graphics('images/B4UFLYlogo.jpg')
 ```
 
 ### Airspace Regulations
@@ -190,16 +161,27 @@ In order to get FAA authorization to fly in controlled airspace, you typically w
 - If you plan on flying below the Facility Map altitude maximum, authorization will be instantaneous.
 - If you want to request flying above the Facility Map altitude maximum, you'll need a Part 107 license and you'll need to make a safety case within your request.  Flight requests are automatically denied if they have not been resolved 24 hours prior to flight, so we recommend filing a request at least 1 week in advance.
 
-### Using AirMap
+### airspacelink
 
-One of our favorite programs to use for simple and free airspac authorizations is AirMap.  The process is relatively straightfoward.  Create an account, input your pilot and aircraft information, then find a place to fly.  Point to a spot on the map, draw a polygon or even just a line to describe your flight area then submit your flight plan.  It'll go straight to the FAA, or if manual approval by the tower is necessary, it'll go straight to the tower.  
+[airspacelink](https://airspacelink.com/) is an easy to use tool to request airspace authorizations via LAANC through a secure, web-based portal.  This is a great tool for when you're at your desk and planning your flight.
 
-For more information on how to use Airmap, check out their support information here:
+Compatible Devices:
 
-[How to apply for Authorization](https://support.airmap.com/hc/en-us/articles/360030924511-How-to-apply-for-Authorization)
+ - Web App
+
+### Aloft.ai
+
+[Aloft.ai](https://www.aloft.ai/) is the most commonly used software for LAANC requests.  More information on how to use Aloft.ai to file for a LAANC authorization request can be found on their website here: https://www.aloft.ai/feature/laanc/ and with their instructional video [link](https://www.youtube.com/watch?v=kVl7R0XWz2k&ab_channel=Aloft).
+
+Compatible Devices:
+
+ - Android
+ - iOS
+ - Web App
 
 
-### Tips & Tricks
+
+#### Tips & Tricks
 
 - **Need to draw a polygon using a satellite map?**
 
