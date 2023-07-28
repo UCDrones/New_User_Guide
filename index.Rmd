@@ -38,12 +38,12 @@ The UC Center of Excellence on UAS Safety is here to help you guide you through 
 
 **Step-by-step UC Drone Process**
 
-1. Register your drone with the [FAA](#registration) and UC
-2. Get an [FAA Drone License](#license) (or figure out if you're [exempt](#difference)) and register yourself with the UC
-3. Find a place to fly - review [airspace](#airspace-info), [safety guidelines](#safety-guidelines) and [local regulations](#local-regulations)
+1. Register your drone with the [FAA](#registration) and [UC](#UCDrones-drone)
+2. Get an [FAA Drone License](#license) (or figure out if you're [exempt](#difference)) and register yourself with the [UC](#UCDrones-pilot)
+3. Find a place to fly - review [airspace](#airspace-info), [safety guidelines](#safety) and [local regulations](#local-regulations)
 4. Submit a [UC Flight Request](#UCDrones-project)
-5. Fly Safely
-6. Submit a Post-Flight Report
+5. [Fly Safely](#tips)
+6. Submit a [Post-Flight Report](#UCDrones-post)
 
 
 **Click the Next Arrow, or Choose a Chapter to Begin**

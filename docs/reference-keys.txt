@@ -92,7 +92,7 @@ flight-project
 individual-flight-request
 manage-aircrafts
 report-on-approved-flights
-pilot
+UCDrones-pilot
 UCDrones-project
 manage-projects-page
 project-request-form
@@ -101,7 +101,7 @@ filing-a-project-flight
 submitting-a-flight-request
 flight-request-form
 non-project-vs-project-flight
-filing-a-post-flight-report
+UCDrones-post
 UCDrones-drone
 manag-aircraft
 add-an-aircraft

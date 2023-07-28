@@ -6,16 +6,19 @@
   12pt,
 ]{book}
 \usepackage{amsmath,amssymb}
-\usepackage{lmodern}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
 \else % if luatex or xetex
-  \usepackage{unicode-math}
+  \usepackage{unicode-math} % this also loads fontspec
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -87,7 +90,7 @@
 \bibliographystyle{apalike}
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same} % disable monospaced font for URLs
+\urlstyle{same}
 \hypersetup{
   pdftitle={New User Guide - Drone Use in the UC System},
   pdfauthor={UC Center of Excellence on UAS Safety},
@@ -145,17 +148,17 @@ The UC Center of Excellence on UAS Safety is here to help you guide you through 
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Register your drone with the \protect\hyperlink{registration}{FAA} and UC
+  Register your drone with the \protect\hyperlink{registration}{FAA} and \protect\hyperlink{UCDrones-drone}{UC}
 \item
-  Get an \protect\hyperlink{license}{FAA Drone License} (or figure out if you're \protect\hyperlink{difference}{exempt}) and register yourself with the UC
+  Get an \protect\hyperlink{license}{FAA Drone License} (or figure out if you're \protect\hyperlink{difference}{exempt}) and register yourself with the \protect\hyperlink{UCDrones-pilot}{UC}
 \item
-  Find a place to fly - review \protect\hyperlink{airspace-info}{airspace}, \protect\hyperlink{safety-guidelines}{safety guidelines} and \protect\hyperlink{local-regulations}{local regulations}
+  Find a place to fly - review \protect\hyperlink{airspace-info}{airspace}, \protect\hyperlink{safety}{safety guidelines} and \protect\hyperlink{local-regulations}{local regulations}
 \item
   Submit a \protect\hyperlink{UCDrones-project}{UC Flight Request}
 \item
-  Fly Safely
+  \protect\hyperlink{tips}{Fly Safely}
 \item
-  Submit a Post-Flight Report
+  Submit a \protect\hyperlink{UCDrones-post}{Post-Flight Report}
 \end{enumerate}
 
 \textbf{Click the Next Arrow, or Choose a Chapter to Begin}
@@ -1364,8 +1367,8 @@ The Manage Aircrafts page allows the user to add aircraft for use in the UC Dron
 
 The Report on Approved Flights page lists all of the Approved Flights that the user is listed as either a pilot or the point of contact. The user can select any of the approved flights and Create a Post-Flight Report to complete the UC Drone Policy process.
 
-\hypertarget{pilot}{%
-\subsection{Pilot}\label{pilot}}
+\hypertarget{UCDrones-pilot}{%
+\subsection{Pilot}\label{UCDrones-pilot}}
 
 The Pilot page allows the user to enter in their pilot information, including their certificate number and any additional certifications as attachements.
 
@@ -1623,8 +1626,8 @@ Both Projects and Non-Projects use the same Flight Request Form. A Flight Reques
   \end{itemize}
 \end{itemize}
 
-\hypertarget{filing-a-post-flight-report}{%
-\section{Filing a Post-Flight Report}\label{filing-a-post-flight-report}}
+\hypertarget{UCDrones-post}{%
+\section{Filing a Post-Flight Report}\label{UCDrones-post}}
 
 After each flight request, please make sure to file a post-flight report.
 
@@ -2312,7 +2315,7 @@ As you build out your drone program, don't forget that you'll need more than jus
 
 \textbf{Sunshade} - A protective sunshade for your tablet or phone screen while flying a drone is a must-have. Not only will this help you see your screen better in bright sunlight, it will also significantly reduce the risk of your tablet or phone overheating on those hot summer days.
 
-\textbf{MicroSD cards} - Pick up the right microSD card for your drone. High speed writing is key to ensuring you're getting all of your data. At a minimum pick up an SD card with a V30 rating or above (\href{https://www.amazon.com/SanDisk-Extreme-microSDXC-Memory-Adapter/dp/B07FCMKK5X?th=1}{SanDisk Extreme 128GB U3/V30}). V60 or above is prefered for 4K60fps (\href{https://www.amazon.com/Lexar-microSDXC-Professional-Adapter-Class10/dp/B09FJHMLC6/}{Lexar 256 GB V60}).
+\textbf{MicroSD cards} - Pick up the right microSD card for your drone. High speed writing is key to ensuring you're getting all of your data. At a minimum pick up an SD card with a V30 rating or above (\href{https://www.amazon.com/SanDisk-Extreme-microSDXC-Memory-Adapter/dp/B07FCMKK5X?th=1}{SanDisk Extreme 128GB U3/V30}). V60 or above is preferred for 4K60fps (\href{https://www.amazon.com/Lexar-microSDXC-Professional-Adapter-Class10/dp/B09FJHMLC6/}{Lexar 256 GB V60}).
 
 \textbf{USB Cables and USB Chargers} - Many drones and charging systems are using USB-C for charging. You should pick up plenty of extras. Look for USB 3.1 Type C or USB 4.0 Type C cables and for USB chargers that can fast charge or list charging wattages of above 30W for best performance.
 
@@ -2442,7 +2445,7 @@ Category 4 classification is a special authorization case for drones that have o
   >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2308}}
   >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3590}}@{}}
 \caption{\label{tab:OOPS} Operations Over People}\tabularnewline
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedleft
 Category
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
@@ -2452,9 +2455,9 @@ With Remote ID
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
 Without Remote ID
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endfirsthead
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedleft
 Category
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
@@ -2464,14 +2467,15 @@ With Remote ID
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
 Without Remote ID
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 \textbf{Cat 0} & None & Not allowed & Not allowed \\
 \textbf{Cat 1} & Under 0.55 lbs Prop Guards & In transit flights over people Flights over open air assemblies & In transit flights over people Only in FRIAs (2023) \\
 \textbf{Cat 2} & FAA certification Not cause a severe injury Prop Guards & In transit flights over people Flights over open air assemblies & In transit flights over people Only in FRIAs (2023) \\
 \textbf{Cat 3} & FAA certification Not cause a fatal injury Prop Guards & In transit flights over people Flights over consenting open air assemblies & In transit flights over people Only in FRIAs (2023) \\
 \textbf{Cat 4} & FAA Airworthiness Certification & In transit flights over people Flights over open air assemblies & In transit flights over people Only in FRIAs (2023) \\
-\bottomrule()
 \end{longtable}
 
 \hypertarget{local-regulations}{%

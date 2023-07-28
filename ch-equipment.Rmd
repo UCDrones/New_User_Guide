@@ -94,7 +94,7 @@ As you build out your drone program, don't forget that you'll need more than jus
 
 **Sunshade** - A protective sunshade for your tablet or phone screen while flying a drone is a must-have.  Not only will this help you see your screen better in bright sunlight, it will also significantly reduce the risk of your tablet or phone overheating on those hot summer days.
 
-**MicroSD cards** - Pick up the right microSD card for your drone.  High speed writing is key to ensuring you're getting all of your data.  At a minimum pick up an SD card with a V30 rating or above ([SanDisk Extreme 128GB U3/V30](https://www.amazon.com/SanDisk-Extreme-microSDXC-Memory-Adapter/dp/B07FCMKK5X?th=1)). V60 or above is prefered for 4K60fps ([Lexar 256 GB V60](https://www.amazon.com/Lexar-microSDXC-Professional-Adapter-Class10/dp/B09FJHMLC6/)).
+**MicroSD cards** - Pick up the right microSD card for your drone.  High speed writing is key to ensuring you're getting all of your data.  At a minimum pick up an SD card with a V30 rating or above ([SanDisk Extreme 128GB U3/V30](https://www.amazon.com/SanDisk-Extreme-microSDXC-Memory-Adapter/dp/B07FCMKK5X?th=1)). V60 or above is preferred for 4K60fps ([Lexar 256 GB V60](https://www.amazon.com/Lexar-microSDXC-Professional-Adapter-Class10/dp/B09FJHMLC6/)).
 
 **USB Cables and USB Chargers** - Many drones and charging systems are using USB-C for charging. You should pick up plenty of extras.  Look for USB 3.1 Type C or USB 4.0 Type C cables and for USB chargers that can fast charge or list charging wattages of above 30W for best performance.
 
