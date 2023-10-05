@@ -179,6 +179,44 @@ knitr::include_graphics('images/oil-based-markers.jpg')
 If you'll be working with a fleet of aircraft, it may also be useful to mark the 'nickname' of the drone as well.
 
 
+## Operations over People
+
+There is a common misconception is related to flight operations over people that must be addressed. Far too many people are passing along incorrect information.
+
+
+:::: {.notebox data-latex=""}
+The FAA prohibits flight operations over people - single persons, moving vehicles and open-air assemblies of people - except in very specific circumstances. 
+::::
+
+
+### Operations Over People
+FAA regulation 14 CFR 107.39 prohibits operations over people with three (3) exceptions:
+
+1. The pilot
+2. Persons in a covered structure or stationary vehicle
+3. In accordance to Subpart D (introduced April 2021)
+
+
+Additionally, FAA regulation 14 CFR 107.19(c) requires the pilot to ensure the drone poses no undue hazard to other people or property in the event of a loss of control. No exceptions.
+
+### Subpart D
+
+Introduced in April 2021, 14 CFR 107 Subpart D provides a pathway for flight operations over people. A summary of those rules is described here: https://www.faa.gov/uas/commercial_operators/operations_over_people
+
+Subpart D introduces four (4) categories of drones that are allowed to operate over people.
+
+1. Category 1 - Drones under 250 grams with propeller guards
+2. Category 2 - Drones certified by the FAA to not cause injury to a human being that is equivalent to or greater than the severity of injury caused by a transfer of 11 foot-pounds of kinetic energy upon impact from a rigit object.
+3. Category 3 - Drones certified by the FAA to not cause injury to a human being that is equivalent to or greater than the severity of injury caused by a transfer of 25 foot-pounds of kinetic energy upon impact from a rigit object.
+4. Category 4 - Drones certified by the FAA under a Special Airworthiness Certificate
+
+**Any Drone That Does Not Qualify Under One of These Four Categories Is Not Eligible For Any Operations Over People**
+
+The full list of FAA-certified drones can be found here: https://uasdoc.faa.gov/listDocs, filter by OOP - The sole entry is the AgEagle eBee X.
+
+### Open-Air Assembly vs 'Brief, One-Time Transiting
+
+The note regarding the difference between ‘sustained flight over an open-air assembly’ vs. ‘a brief, one-time transiting’ is in regards to compliance with Remote Identification regulations. Remote ID compliance is required for sustained flight over an open-air assembly, otherwise without Remote ID, operations over people are restricted to only ‘brief, one-time transiting’ over persons.
 
 
 

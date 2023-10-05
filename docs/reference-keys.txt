@@ -50,6 +50,10 @@ create-an-account-at-dronezone
 drone-registration
 registration-certificate
 marking-the-drone
+operations-over-people
+operations-over-people-1
+subpart-d
+open-air-assembly-vs-brief-one-time-transiting
 license
 difference
 approved-academic-activities
