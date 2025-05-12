@@ -129,7 +129,7 @@ Getting information on a specific area's airspace classification has never been 
 knitr::include_graphics('images/facility-map.jpg')
 ```
 
-UAS Facility Maps show the maximum altitudes around airports where the FAA may authorize drone operations without additional safety analysis.  Grids marked in Green are LAANC (Low Altitude Authorization and Notification Capability) enabled - More on that in [LAANC Authorization](#ch-LAANC).
+UAS Facility Maps show the maximum altitudes around airports where the FAA may authorize drone operations without additional safety analysis.  Grids marked in Green are LAANC (Low Altitude Authorization and Notification Capability) enabled - More on that in [LAANC Authorization](#LAANC).
 
 ### NOTAM or Notice To Airman
 
@@ -161,7 +161,12 @@ In order to get FAA authorization to fly in controlled airspace, you typically w
 - If you plan on flying below the Facility Map altitude maximum, authorization will be instantaneous.
 - If you want to request flying above the Facility Map altitude maximum, you'll need a Part 107 license and you'll need to make a safety case within your request.  Flight requests are automatically denied if they have not been resolved 24 hours prior to flight, so we recommend filing a request at least 1 week in advance.
 
+
 ### airspacelink
+
+```{r airspacelink, fig.cap='Airspace Link Logo', out.width='50%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/airspace_link.jpg')
+```
 
 [airspacelink](https://airspacelink.com/) is an easy to use tool to request airspace authorizations via LAANC through a secure, web-based portal.  This is a great tool for when you're at your desk and planning your flight.
 
@@ -179,7 +184,7 @@ Compatible Devices:
  - iOS
  - Web App
 
-
+<!--
 
 #### Tips & Tricks
 
@@ -189,4 +194,4 @@ Compatible Devices:
     - Go to https://geoman.io/geojson-editor and draw your polygon with satellite map on.  Export to a GeoJSON text file
     - Upload the GeoJSON file to Airmap using the ‘cloud’ button underneath the polygon.
     - The outline should now cover the right area and you file as normal
-
+-->

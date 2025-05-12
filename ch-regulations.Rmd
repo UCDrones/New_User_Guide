@@ -47,7 +47,7 @@ knitr::include_graphics('images/cloud_distance.jpg')
 ```
 
 - No flying faster than 100 mph
-- No flying at night
+- No flying at night (unless you follow additional requirements)
 - No operating a drone from a moving vehicle
 
 ### Airspace Rules
@@ -77,7 +77,7 @@ knitr::include_graphics('images/faa_traffic_pattern.jpg')
     - The RPIC doesn't always have to be the one manipulating the flight controls of the drone - it could be the RPIC is letting a student learn to fly under his/her direct supervision.
     - The RPIC may only operate (supervise) one drone at a time
 - The RPIC must have an FAA Drone License (or be exempt*)
-    - More Info Here: [FAA Drone License](#ch-license)
+    - More Info Here: [FAA Drone License](#license)
 - The RPIC must be at least 16 years of age, and must be able to speak, write and understand English.
     - No restriction on nationality but a license does require Federal documentation such as a Passport.
 - No one may operate a drone or act as any direct participant in the operation of a drone if he or she knows, or has reason to know, that he or she has a physical or mental condition that would interfere with the safe operation of the drone.
@@ -90,7 +90,7 @@ knitr::include_graphics('images/no_drugs.jpg')
 ### Drone Rules
 
 - All drones that weigh more than 0.55 lbs (250 grams) must be registered with the FAA 
-    - Only use the FAA DroneZone website for registration (More Info here: [Register your Drone](#ch-registration))
+    - Only use the FAA DroneZone website for registration (More Info here: [Register your Drone](#registration))
 
 ```{r reg-page2, fig.cap='FAA DroneZone', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE}
 knitr::include_graphics('images/reg_site.png')

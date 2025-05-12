@@ -16,6 +16,7 @@ fig:airmap-web
 fig:facility-map
 fig:skyvector
 fig:SUAS-sim-regs
+fig:airspacelink
 fig:rss-web
 fig:rss-dash
 fig:UCDrones-home
@@ -87,7 +88,6 @@ airspace-regulations
 LAANC
 airspacelink
 aloft.ai
-tips-tricks
 UCdrones
 UCdrones-login
 UCDrones-home
@@ -131,13 +131,12 @@ do-i-need-to-write-a-privacy-statement
 insurance
 drones-and-other-equipment
 what-drone-should-i-get
-drones-for-multimedia
-drones-for-mapping
 drones-to-avoid
 multi-spectral-data-collection
 multi-spectral-cameras
 software-for-drones
 photogrammetry-software
+neural-reference-fields-and-gaussian-splats
 essential-supplemental-drone-equipment
 other-information
 common-UAS-violations

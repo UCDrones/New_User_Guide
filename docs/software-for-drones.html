@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>8.3 Software for Drones | New User Guide - Drone Use in the UC System</title>
   <meta name="description" content="New User Guide for Drones in the UC System" />
-  <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
 
   <meta property="og:title" content="8.3 Software for Drones | New User Guide - Drone Use in the UC System" />
   <meta property="og:type" content="book" />
@@ -221,9 +221,7 @@
 <ul>
 <li class="chapter" data-level="8.1" data-path="what-drone-should-i-get.html"><a href="what-drone-should-i-get.html"><i class="fa fa-check"></i><b>8.1</b> What Drone should I get?</a>
 <ul>
-<li class="chapter" data-level="8.1.1" data-path="what-drone-should-i-get.html"><a href="what-drone-should-i-get.html#drones-for-multimedia"><i class="fa fa-check"></i><b>8.1.1</b> Drones for Multimedia</a></li>
-<li class="chapter" data-level="8.1.2" data-path="what-drone-should-i-get.html"><a href="what-drone-should-i-get.html#drones-for-mapping"><i class="fa fa-check"></i><b>8.1.2</b> Drones for Mapping</a></li>
-<li class="chapter" data-level="8.1.3" data-path="what-drone-should-i-get.html"><a href="what-drone-should-i-get.html#drones-to-avoid"><i class="fa fa-check"></i><b>8.1.3</b> Drones to Avoid</a></li>
+<li class="chapter" data-level="8.1.1" data-path="what-drone-should-i-get.html"><a href="what-drone-should-i-get.html#drones-to-avoid"><i class="fa fa-check"></i><b>8.1.1</b> Drones to Avoid</a></li>
 </ul></li>
 <li class="chapter" data-level="8.2" data-path="multi-spectral-data-collection.html"><a href="multi-spectral-data-collection.html"><i class="fa fa-check"></i><b>8.2</b> Multi-Spectral Data Collection</a>
 <ul>
@@ -232,6 +230,7 @@
 <li class="chapter" data-level="8.3" data-path="software-for-drones.html"><a href="software-for-drones.html"><i class="fa fa-check"></i><b>8.3</b> Software for Drones</a>
 <ul>
 <li class="chapter" data-level="8.3.1" data-path="software-for-drones.html"><a href="software-for-drones.html#photogrammetry-software"><i class="fa fa-check"></i><b>8.3.1</b> Photogrammetry Software</a></li>
+<li class="chapter" data-level="8.3.2" data-path="software-for-drones.html"><a href="software-for-drones.html#neural-reference-fields-and-gaussian-splats"><i class="fa fa-check"></i><b>8.3.2</b> Neural Reference Fields and Gaussian Splats</a></li>
 </ul></li>
 <li class="chapter" data-level="8.4" data-path="essential-supplemental-drone-equipment.html"><a href="essential-supplemental-drone-equipment.html"><i class="fa fa-check"></i><b>8.4</b> Essential Supplemental Drone Equipment</a></li>
 </ul></li>
@@ -286,6 +285,16 @@
 <p>If you are a professional user that needs high accuracy and advanced features and have experience with photogrammetry software, Agisoft Metashape or Pix4D might be the best choice. If you are a beginner, or you have a specific use case such as creating maps for agriculture or construction, DroneDeploy might be the best choice for you.</p>
 <p><strong>WebODM</strong> is an open-source software for processing drone-captured images and creating 2D and 3D maps, models and point clouds. It is built on top of the OpenDroneMap (ODM) library and provides a web interface for running ODM on a remote server. However, it is not as advanced as the other commercial softwares.</p>
 </div>
+<div id="neural-reference-fields-and-gaussian-splats" class="section level3 hasAnchor" number="8.3.2">
+<h3><span class="header-section-number">8.3.2</span> Neural Reference Fields and Gaussian Splats<a href="software-for-drones.html#neural-reference-fields-and-gaussian-splats" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Recent advances in 3D scene reconstruction from drone imagery have been driven by machine learning techniques such as Neural Radiance Fields (NeRFs) and 3D Gaussian Splatting. NeRFs use neural networks to represent a scene as a continuous volumetric function, allowing photo-realistic novel views to be rendered from a sparse set of input images. This technique excels at capturing fine-grained lighting and geometric detail, but can require extensive training time and compute resources.</p>
+<p>Gaussian Splatting is a newer, more efficient alternative that represents the scene using a collection of 3D Gaussians with color, opacity, and size attributes. Rather than relying on neural networks to synthesize views, Gaussian Splatting renders directly using rasterization, enabling real-time performance and faster reconstruction. For drone users mapping landscapes or structures, Gaussian Splatting offers a practical path to high-fidelity 3D visualization with minimal post-processing and can be generated from videos, rather than mapping flight patterns making it a potentially valuable tool where visualization of a 3D environment is more important than 3D modeling, such as in educational outreach activities.</p>
+<p>Both techniques are reshaping workflows for inspection, mapping, and environmental modeling - while experimental, they may become valuable tools in the modern drone software stack.</p>
+<p><strong>Nerfstudio</strong> – <a href="https://docs.nerf.studio/">Nerfstudio</a> Modular NeRF pipeline with drone and GPS metadata support.</p>
+<p><strong>Instant-NGP</strong> – <a href="https://github.com/NVlabs/instant-ngp">Instant-NGP</a> Fast local NeRF rendering from NVIDIA.</p>
+<p><strong>Luma AI</strong> – <a href="https://lumalabs.ai/">Luma AI</a> Mobile-friendly app for quick NeRF capture and sharing.</p>
+<p><strong>Poly.cam</strong> - <a href="https://poly.cam/">Poly.cam</a> AI powered reality capture for cloud-based photogrammetry and gaussian splat generation.</p>
+</div>
 </div>
             </section>
 
@@ -307,46 +316,46 @@
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": "https://github.com/UCDrones/New_User_Guide/edit/master/ch-equipment.Rmd",
-"text": "Edit"
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": ["New-User-Guide.pdf", "New-User-Guide.epub"],
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "subsection",
-"scroll_highlight": true,
-"download": ["pdf", "epub"],
-"search": true,
-"sharing": null
-}
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": "https://github.com/UCDrones/New_User_Guide/edit/master/ch-equipment.Rmd",
+    "text": "Edit"
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": ["New-User-Guide.pdf", "New-User-Guide.epub"],
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection",
+    "scroll_highlight": true,
+    "download": ["pdf", "epub"],
+    "search": true,
+    "sharing": null
+  }
 });
 });
 </script>

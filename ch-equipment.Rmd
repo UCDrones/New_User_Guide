@@ -6,41 +6,13 @@ knitr::include_graphics('images/mavic3.png')
 
 ## What Drone should I get?
 
-If you're not sure what drone to get and you don't want to spend a huge amount of money on a drone, here are some potential options.
+We get this question enough that we've developed a dedicated page for it here: [Need to Pick a Drone](https://ucdrones.github.io/pickdrone.html). Check out this page for recommendations on everything from cheap drones to research drones.
 
-In addition to purchasing drones directly from the manufacturer, we recommend checking [B&H Photo](https://www.bhphotovideo.com/) since it's widely available as a preferred vendor within the UC System with a substantial price discount.
-
-### Drones for Multimedia
-
-If you are looking for a drone to take great pictures and videos, you don't need to worry about software compatibility and instead can just focus on what has the best camera and which one is the easiest to fly.   
-
-**Mavic 3** - The [DJI Mavic 3](https://store.dji.com/product/dji-mavic-3) is a great drone. It boasts a 45 minute flight time, a great camera, zoom up to 28x and almost all the features you could want from a drone - except its not compatible with mapping software.  If you're just doing cinematography, its a good albeit pricey option at \$2k (\$2.8k with the extra battery combo pack).
-
-**Mavic 3 Classic** - The [DJI Mavic 3 Classic](https://store.dji.com/product/dji-mavic-3-classic) is a cheaper model of the Mavic 3 without some of the advanced camera features.  It's still a great drone and a great flier, and at a more affordable cost. It also an optional upgrade for an all-in-one RC controller that removes the need for using your phone or tablet when flying.
-
-**Mini 3** - The DJI Mini series are great, affordable and high-quality small drones.  At only 249g, they pack a lot a capability into a tiny platform. It's great as a flight trainer and good enough for some media use. The current models are the [Mini 3](https://store.dji.com/product/dji-mini-3), and [Mini 3 Pro](https://store.dji.com/product/dji-mini-3-pro).  
-
-**DJI Avata/FPV** - First-person-view or FPV is a new way of generating immersive video, but it's not for everyone.  These platforms are designed for high-speed acrobatics, so they're not a great drone for newcomers as it handles different than other DJI drones. But if you're looking to add some up-close action shots, they great options.  DJI now has two options: [DJI FPV](https://store.dji.com/product/dji-fpv) and [DJI Avata](https://store.dji.com/product/dji-avata).
-
-### Drones for Mapping
-
-If you want to use a drone for making high resolution maps and elevation models, you need a drone that is compatible with automated mapping software.  These days, this functionality is exclusive to the more expensive drones.
-
-**Mavic 3 Enterprise** - The recently released [Mavic 3 Enterprise](https://store.dji.com/product/dji-mavic-3e-and-dji-care-enterprise-basic) is the only one of the Mavic 3 series that is capable of conducting autonomous flight operations necessary for mapping.  While it has all of the great flight characteristics as the Mavic 3, the $4k price tag is a bit disappointing compared to DJI's prior offerings.
-
-**Skydio 2+** - The [Skydio](https://www.skydio.com/) is the only non-DJI drone compatible with DroneDeploy.  It's smaller than a Mavic, and the camera is not as high quality, but as DJI moves away from compatibility with mapping software, it's worth checking out for basic/simple flight missions.
-
-**Autel Robotics EVO II** - Autel has been in the drone business almost as long as DJI, but only its recent models have begun to get mainstream attention.  The newer [Evo II Pro](https://shop.autelrobotics.com/collections/drones-evo-ii-series) models are a worthy Mavic competitor and unlike the DJI drones, has mapping software functionality built-in. 
-
-**Phantom 4 Series** - The DJI Phantom 4 series is an older, but still viable option for most drone mapping projects.  With a 25 minute flight time and a mechanical shutter, it's capable of small mapping missions up to 10 acres at a time.  Great for small projects and flight training. Unfortunately, this drone is no longer being produced and is getting harder to find.  
-
-**Mavic 2 Pro** – They stopped selling this in 2020 with the release of the Mavic 3, but the Mavic 2 Pro is compatible with all major mapping software and has a decent enough camera system to get good results.  If you can find one on Amazon or elsewhere, it’s worth picking up.  While it doesn't have a mechanical shutter, it's still a great platform for basic mapping projects (RGB only).
-
-**Mavic 2 Zoom** – Similar to the Mavic 2 Pro, but the camera isn’t as widely compatible.  It’ll work with Drone Deploy, but not with Pix4DCapture. Much better as a flight trainer than for completing missions.
-
-**Mavic Air 2S** – You can still find this one available, but stock is dwindling as DJI prepares for the launch of the Mavic Air 3.  DroneDeploy compatibility is in BETA testing - this might be the last entry level DJI drone to be compatible with mapping software such as Drone Deploy.
+In addition to purchasing drones directly from the manufacturer, we recommend checking [B&H Photo](https://www.bhphotovideo.com/) since it's widely available as a vendor within the UC System and you can often get an educational discount there. 
 
 ### Drones to Avoid
+
+We like drones, but not all drones are equal. If you're looking for a drone, check out the [Need to Pick a Drone](https://ucdrones.github.io/pickdrone.html) page, but if you're looking for advice before you start looking, heed these words of wisdom: It's always worth getting the right tool for the job; get a reputable drone from a reputable manufacturer.
 
 **Off-Brand Drones** - DJI has the largest marketshare for drones, but its not unwarranted.  Any drone you can find on Amazon or at Costco, BestBuy or Target that isn't a DJI, is likely to under-perform. Drone companies to avoid - Holy Stone, DEERC, ORKNELY, etc 
 
@@ -86,6 +58,21 @@ If you are a professional user that needs high accuracy and advanced features an
 
 **WebODM** is an open-source software for processing drone-captured images and creating 2D and 3D maps, models and point clouds. It is built on top of the OpenDroneMap (ODM) library and provides a web interface for running ODM on a remote server. However, it is not as advanced as the other commercial softwares.
 
+### Neural Reference Fields and Gaussian Splats
+
+Recent advances in 3D scene reconstruction from drone imagery have been driven by machine learning techniques such as Neural Radiance Fields (NeRFs) and 3D Gaussian Splatting. NeRFs use neural networks to represent a scene as a continuous volumetric function, allowing photo-realistic novel views to be rendered from a sparse set of input images. This technique excels at capturing fine-grained lighting and geometric detail, but can require extensive training time and compute resources.
+
+Gaussian Splatting is a newer, more efficient alternative that represents the scene using a collection of 3D Gaussians with color, opacity, and size attributes. Rather than relying on neural networks to synthesize views, Gaussian Splatting renders directly using rasterization, enabling real-time performance and faster reconstruction. For drone users mapping landscapes or structures, Gaussian Splatting offers a practical path to high-fidelity 3D visualization with minimal post-processing and can be generated from videos, rather than mapping flight patterns making it a potentially valuable tool where visualization of a 3D environment is more important than 3D modeling, such as in educational outreach activities.
+
+Both techniques are reshaping workflows for inspection, mapping, and environmental modeling - while experimental, they may become valuable tools in the modern drone software stack.
+
+**Nerfstudio** – [Nerfstudio](https://docs.nerf.studio/) Modular NeRF pipeline with drone and GPS metadata support.
+
+**Instant-NGP** – [Instant-NGP](https://github.com/NVlabs/instant-ngp) Fast local NeRF rendering from NVIDIA.
+
+**Luma AI** – [Luma AI](https://lumalabs.ai/) Mobile-friendly app for quick NeRF capture and sharing.
+
+**Poly.cam** - [Poly.cam](https://poly.cam/) AI powered reality capture for cloud-based photogrammetry and gaussian splat generation.
 
 
 ## Essential Supplemental Drone Equipment
