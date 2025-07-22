@@ -14,7 +14,9 @@ In addition to purchasing drones directly from the manufacturer, we recommend ch
 
 We like drones, but not all drones are equal. If you're looking for a drone, check out the [Need to Pick a Drone](https://ucdrones.github.io/pickdrone.html) page, but if you're looking for advice before you start looking, heed these words of wisdom: It's always worth getting the right tool for the job; get a reputable drone from a reputable manufacturer.
 
-**Off-Brand Drones** - DJI has the largest marketshare for drones, but its not unwarranted.  Any drone you can find on Amazon or at Costco, BestBuy or Target that isn't a DJI, is likely to under-perform. Drone companies to avoid - Holy Stone, DEERC, ORKNELY, etc 
+**DJI and AUTEL** - DJI and Autel produce excellent drones, but recent U.S. legislation targeting Chinese-made technology has raised concerns. Federal funding cannot be used for drones manufactured in China, and both DJI and Autel are currently under review for future FCC licensing, with the possibility of an outright ban. Until the situation is resolved, we do not recommend purchasing these brands.
+
+**Off-Brand Drones** - Most off-brand or no-name drones, often found in the bargain sections of Amazon or other retailers, tend to underperform. While it’s hard to provide a definitive list, the old saying applies: if it looks too good to be true, it probably is.
 
 **Tello** - The Ryze Tellos have a partnership with DJI, but are not DJI drones and it shows.  With poor flight handling and a very limited range, these \$100 drones should only be used indoors and only for specific STEM curriculum activities - they're not useful as a tool or for flight training.
 

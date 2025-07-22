@@ -49,15 +49,17 @@
 \makesavenoteenv{longtable}
 \usepackage{graphicx}
 \makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
 % Set default figure placement to htbp
-\makeatletter
 \def\fps@figure{htbp}
 \makeatother
 \setlength{\emergencystretch}{3em} % prevent overfull lines
@@ -83,9 +85,6 @@
   \color{black}
   \begin{shaded}}
  {\end{shaded}}
-\ifLuaTeX
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 \usepackage{bookmark}
@@ -1118,7 +1117,7 @@ Always check multiple sources - you never know when one source omits an importan
 
 \begin{figure}
 \centering
-\includegraphics{images/FAA-VFR.png}
+\pandocbounded{\includegraphics[keepaspectratio]{images/FAA-VFR.png}}
 \caption{FAA sectional chart}
 \end{figure}
 
@@ -1141,7 +1140,7 @@ UAS Facility Maps show the maximum altitudes around airports where the FAA may a
 
 \begin{figure}
 \centering
-\includegraphics{images/FAA-Notam.png}
+\pandocbounded{\includegraphics[keepaspectratio]{images/FAA-Notam.png}}
 \caption{FAA NOTAM (Notice to Airman)}
 \end{figure}
 
@@ -1228,7 +1227,7 @@ Compatible Devices:
 
 The use of \href{http://ehs.ucop.edu/drones}{UC Drones Web App} is UC UAS Policy compliant. However, it is not the only means of UC UAS Policy compliance. \textbf{If an alternative means of UC UAS Policy is needed or requested, please contact your campuses' drone Point of Contact.}
 
-\href{http://ehs.ucop.edu/drones}{\includegraphics{images/UCDrones_logo.jpg}}
+\href{http://ehs.ucop.edu/drones}{\pandocbounded{\includegraphics[keepaspectratio]{images/UCDrones_logo.jpg}}}
 
 \section{Logging into UC Drones}\label{UCdrones-login}
 
@@ -2122,7 +2121,7 @@ An effective privacy statement is concise and easy to understand. Consult with y
   Information describing practices in responding to law enforcement requests
 \end{itemize}
 
-NOAA has an excellent example of a detailed drone privacy statement: \hyperref[https:ux2fux2fwww.cio.noaa.govux2fitmanagementux2fpdfsux2fSigned_UAS_PrivacyPolicy.pdf]{Link, pdf}
+NOAA had an excellent example of a detailed drone privacy statement, but it was removed by the Trump administration.
 
 \subsection{Do I need to write a Privacy Statement}\label{do-i-need-to-write-a-privacy-statement}
 
@@ -2183,7 +2182,9 @@ In addition to purchasing drones directly from the manufacturer, we recommend ch
 
 We like drones, but not all drones are equal. If you're looking for a drone, check out the \href{https://ucdrones.github.io/pickdrone.html}{Need to Pick a Drone} page, but if you're looking for advice before you start looking, heed these words of wisdom: It's always worth getting the right tool for the job; get a reputable drone from a reputable manufacturer.
 
-\textbf{Off-Brand Drones} - DJI has the largest marketshare for drones, but its not unwarranted. Any drone you can find on Amazon or at Costco, BestBuy or Target that isn't a DJI, is likely to under-perform. Drone companies to avoid - Holy Stone, DEERC, ORKNELY, etc
+\textbf{DJI and AUTEL} - DJI and Autel produce excellent drones, but recent U.S. legislation targeting Chinese-made technology has raised concerns. Federal funding cannot be used for drones manufactured in China, and both DJI and Autel are currently under review for future FCC licensing, with the possibility of an outright ban. Until the situation is resolved, we do not recommend purchasing these brands.
+
+\textbf{Off-Brand Drones} - Most off-brand or no-name drones, often found in the bargain sections of Amazon or other retailers, tend to underperform. While it's hard to provide a definitive list, the old saying applies: if it looks too good to be true, it probably is.
 
 \textbf{Tello} - The Ryze Tellos have a partnership with DJI, but are not DJI drones and it shows. With poor flight handling and a very limited range, these \$100 drones should only be used indoors and only for specific STEM curriculum activities - they're not useful as a tool or for flight training.
 
@@ -2366,10 +2367,10 @@ Category 3 classification is for drones that have been granted a certificate tha
 Category 4 classification is a special authorization case for drones that have obtained a Part 21 Airworthiness Certification. The airworthiness certificate will specify the requirements and restrictions for operations over people.
 
 \begin{longtable}[]{@{}
-  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1795}}
-  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2308}}
-  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2308}}
-  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3590}}@{}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.1795}}
+  >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2308}}
+  >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2308}}
+  >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.3590}}@{}}
 \caption{\label{tab:OOPS} Operations Over People}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedleft

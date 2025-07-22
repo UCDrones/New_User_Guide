@@ -39,7 +39,7 @@ An effective privacy statement is concise and easy to understand.  Consult with 
 - Information on how to submit privacy and security complaints or concerns
 - Information describing practices in responding to law enforcement requests
 
-NOAA has an excellent example of a detailed drone privacy statement: [Link, pdf](#https://www.cio.noaa.gov/itmanagement/pdfs/Signed_UAS_PrivacyPolicy.pdf)
+NOAA had an excellent example of a detailed drone privacy statement, but it was removed by the Trump administration.
 
 ### Do I need to write a Privacy Statement
 
