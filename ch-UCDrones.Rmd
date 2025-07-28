@@ -295,11 +295,66 @@ knitr::include_graphics('images/UCDrones_manage_project.jpg')
 
 ## Filing a Post-Flight Report {#UCDrones-post}
 
-After each flight request, please make sure to file a post-flight report.
+After each flight request, please make sure to file a post-flight report. You can find a list of all of your flights awaiting a post-flight report here: [Report on Approved Flights](https://ehs.ucop.edu/drones/flight?requestApproved=true) (requires log-in)
+
+:::: {.notebox data-latex=""}
+Make sure to click on **Add Flight** whenever you utilize a Project. Otherwise, your flights won't be listed for reporting. 
+::::
+
 
 Post-flight reports are a vital component to our drone safety management system. They help inform us of the overall flight activity within the UC system - monitoring trend lines of activity and anticipating future training needs.  The accident tracking helps us understand the rate of how often accidents occur and in which environments. Tracking our flight activity helps ensure our insurance coverage and keeps our rates low.
 
 
+### Filing a Post-Flight Report
+
+Find the flight that you wish to report on and enter it by clicking the the flight name. You can find a list of all of your flights awaiting a post-flight report here: [Report on Approved Flights](https://ehs.ucop.edu/drones/flight?requestApproved=true) (requires log-in)
+
+At the bottom of your flight request, click on the **Create Report** button (Figure \@ref(fig:UCDrones-post-flight-1)).
+
+```{r UCDrones-post-flight-1, fig.cap='UC Drones Create Report Button', out.width='85%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/UCDrones_flight_report_button.jpg')
+```
+
+On the Flight Report page, fill out the following items:
+
+1. **Duration per Flight** - On each row, list the minutes of each flight. For example, if you had three flights, you would list them as in Figure \@ref(fig:UCDrones-post-flight-2).
+
+```{r UCDrones-post-flight-2, fig.cap='UC Drones Add Additional Flights', out.width='65%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/UCDrones_flight_report_flight.jpg')
+```
+
+2. **Takeoff and Landing Damages** - Select whether the drone encountered damage while taking off or landing. If so, select the scale of the damage: minor damages, major, or total loss.
+
+3. **Equipment Malfunctions** - If the drone suffered an equipment malfunction, select which component failed.
+
+4. **Lost Link Events** - If the drone lost communication with the control station, pilot or other safety crew at any point (even temporarily), select the type of loss.
+
+5. **Accidents/Mishaps** - If an accident or incident occurred, select one of the options (property damage, injury to non-participant, adverse wildlife, etc).
+
+Once you have entered in the post-flight data, click on the **Save** button at the bottom (Figure \@ref(fig:UCDrones-post-flight-3)).
+
+```{r UCDrones-post-flight-3, fig.cap='UC Drones Save Report', out.width='85%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/UCDrones_flight_report_save.jpg')
+```
+
+On the following page, review the information to ensure its accuracy. The first section will be the original Flight Request information, the second section will be your submitted Flight Report (Figure \@ref(fig:UCDrones-post-flight-4)), followed by the sections for Pilot(s), Attachments and Comments. 
+
+```{r UCDrones-post-flight-4, fig.cap='UC Drones Review', out.width='85%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/UCDrones_flight_report_review.jpg')
+```
+
+At the very bottom of the page, select the **Edit Report** to go back and make any changes, or **Submit Report** to complete the reporting process (Figure \@ref(fig:UCDrones-post-flight-5)).
+
+```{r UCDrones-post-flight-5, fig.cap='UC Drones Submit Report', out.width='85%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/UCDrones_flight_report_submit.jpg')
+```
+
+
+### Non-Punitive Reporting Statement
+
+We strive to cultivate and foster a safety culture in which everyone is comfortable and encouraged to share safety concerns and reports of incidents with us. Every report is an opportunity to learn from our mistakes, share lessons learned and improve our overall safety. We ask that every operator accept the responsibility to communicate any information that may help improve not only their safety but the safety of all operators within the University of California. Reports may be filed through post-flight reporting, or through email to UASsafety@ucmerced.edu.
+
+It is not the goal of the Policy to authorize the Systemwide Designated UAS Authority or Designated Local Authorities to seek out someone who has reported an error, accident, or mishap in order to administer disciplinary action for reporting. Upon the submission of a post-flight report describing an error, incident or accident related to UAS operations, the Systemwide Designated UAS Authority or Designated Local Authority may reach out to the reporter for followup and clarification. Reports of other issues, including those that ‘blow the whistle’ on illegal orders, will be handled in accordance with University policy as applicable, and prioritizing education over punishment whenever possible. Reporting does not shield the subject of the report from disciplinary actions of criminal or regulatory infractions.
 
 
 ## Add your Drone to UC Drones {#UCDrones-drone}

@@ -24,6 +24,11 @@ fig:UCDrones-project
 fig:UCDrones-project-flight-2
 fig:UCDrones-flight-request
 fig:UCDrones-project-flight-1
+fig:UCDrones-post-flight-1
+fig:UCDrones-post-flight-2
+fig:UCDrones-post-flight-3
+fig:UCDrones-post-flight-4
+fig:UCDrones-post-flight-5
 fig:UCDrones-manage-aircrafts
 fig:UCDrones-edit-aircrafts
 fig:training
@@ -106,6 +111,8 @@ submitting-a-flight-request
 flight-request-form
 non-project-vs-project-flight
 UCDrones-post
+filing-a-post-flight-report
+non-punitive-reporting-statement
 UCDrones-drone
 manag-aircraft
 add-an-aircraft
