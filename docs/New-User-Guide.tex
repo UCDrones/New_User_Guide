@@ -1,11 +1,12 @@
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
-%
 \documentclass[
   12pt,
 ]{book}
+\usepackage{xcolor}
 \usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
@@ -36,7 +37,6 @@
 }{% if KOMA class
   \KOMAoptions{parskip=half}}
 \makeatother
-\usepackage{xcolor}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -65,7 +65,8 @@
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{5}
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
 \usepackage{booktabs}
 \usepackage[margin=1.0in]{geometry}
 \usepackage{parskip}
@@ -85,8 +86,6 @@
   \color{black}
   \begin{shaded}}
  {\end{shaded}}
-\usepackage[]{natbib}
-\bibliographystyle{apalike}
 \usepackage{bookmark}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
@@ -439,7 +438,7 @@ You can register the drone through the FAA Drone Zone (\url{https://faadronezone
 
 \subsection{Create an account at DroneZone}\label{create-an-account-at-dronezone}
 
-Head to the FAA DroneZone (\url{https://faadronezone.faa.gov}) and select ``I fly under Part 107 or as a Public Aircraft'' \ref{fig:reg-page}
+Head to the FAA DroneZone (\url{https://faadronezone.faa.gov}) \ref{fig:reg-page} and select \textbf{``I fly under Part 107 or as a Public Aircraft''}
 
 \begin{figure}
 
@@ -461,18 +460,95 @@ If you already have an account, go into your profile settings, and you can modif
 
 \subsection{Drone Registration}\label{drone-registration}
 
-Once you have an account, on the dashboard will be an option to `Manage sUAS Inventory.' On that page, you'll be able to `Add UAS' (in the upper right corner). This will bring up a dialog box (Figure \ref{fig:add-UAS}) for you to enter your information. Enter all the relevant information.
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  In the center of your dashboard is an Inventory box - click on \textbf{`Manage Device Inventory'}
+\item
+  The next page is a little strange - the top headline says \textbf{`Your Shopping Cart'} and if nothing is in your shopping cart, there'll be a big red notice that your shopping cart is empty. If you have drones already registered, they'll be listed at the bottom under \textbf{`Your Registered Inventory'}. Take a moment to understand the layout of this page.
+\item
+  Click on the \textbf{`Add Device'} button in the upper-right corner to get started.
+\item
+  On the first dialog, it'll ask whether the drone has \textbf{Remote ID}. (Figure \ref{fig:add-UAS})
+\end{enumerate}
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{images/Add_new_UAS} 
+{\centering \includegraphics[width=0.8\linewidth]{images/Add_new_UAS_1} 
 
 }
 
 \caption{Add new UAS Dialog Box}\label{fig:add-UAS}
 \end{figure}
 
-Once completed, `Your Shopping Cart' will now show this drone's information and a new buttom for `Checkout' will appear. Click the button and the system will guide you through paying for the registration fee.
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\item
+  If you select `Yes' to RemoteID, it will ask for the serial number (Figure \ref{fig:add-UAS-RID}). Click on \textbf{Validate} to continue - this will pull up the serial number's make and model.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    If your drone has RemoteID built-in (known as Standard RemoteID), enter your drone's serial number
+  \item
+    If you're using a Broadcast Remote ID module (add-on), enter the Broadcast Remote ID module's serial number
+  \end{itemize}
+\end{enumerate}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{images/Add_new_UAS_2} 
+
+}
+
+\caption{Validate Remote ID}\label{fig:add-UAS-RID}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  If you selected `No' to RemoteID, the dialog will ask what \textbf{type of UAS} (`Homebuilt' or `Traditional') and ask for the UAS \textbf{Manufacturer} and \textbf{Model} (Figure \ref{fig:add-UAS-RID-None}).
+\end{enumerate}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{images/Add_new_UAS_0} 
+
+}
+
+\caption{No Remote ID}\label{fig:add-UAS-RID-None}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{6}
+\tightlist
+\item
+  Whether you selected `Yes' or `No' to RemoteID, the dialog will ask for a \textbf{Nickname} (Figure \ref{fig:add-UAS-Valid}) - this will be your identifier for the drone while within the FAA DroneZone system, so make it something identifiable. You don't use this nickname anywhere else, so you don't need to be creative if you don't want to be.
+\end{enumerate}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{images/Add_new_UAS_3} 
+
+}
+
+\caption{Serial Number Validated}\label{fig:add-UAS-Valid}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{7}
+\tightlist
+\item
+  Click on \textbf{`Add Device'} to move this to your shopping cart.
+\item
+  Back at the Inventory page, `Your Shopping Cart' will now show this drone's information and a new buttom for \textbf{`Checkout'} will appear. Click the button and the system will guide you through paying for the \$5 registration fee.
+\end{enumerate}
 
 \subsection{Registration Certificate}\label{registration-certificate}
 
@@ -486,6 +562,11 @@ Upon completion of paying for registration, the DroneZone will send you two emai
 
 \caption{Example UAS Registration Certificate}\label{fig:reg-cert}
 \end{figure}
+
+\begin{notebox}
+We recommend that you \textbf{upload} the FAA registration certificate to \textbf{UC Drones} as an additional means of keeping the certificate available.
+
+\end{notebox}
 
 \subsection{Marking the Drone}\label{marking-the-drone}
 
@@ -503,6 +584,8 @@ We recommend either using a permanent oil-based fine tip paint marker (Figure \r
 \end{figure}
 
 If you'll be working with a fleet of aircraft, it may also be useful to mark the `nickname' of the drone as well.
+
+\href{https://ucdrones.github.io/library/reg_tag_generator.html}{UC Drones Registration Tag Generator} - We also have a UC Drones registration tag generator - enter the drone's nickname, your campus and the registration number to generate a simple tag you can print and attach to the drone.
 
 \section{Operations over People}\label{operations-over-people}
 
@@ -551,7 +634,18 @@ Subpart D introduces four (4) categories of drones that are allowed to operate o
 
 \textbf{Any Drone That Does Not Qualify Under One of These Four Categories Is Not Eligible For Any Operations Over People}
 
-The full list of FAA-certified drones can be found here: \url{https://uasdoc.faa.gov/listDocs}, filter by OOP - The sole entry is the AgEagle eBee X.
+The full list of FAA-certified drones can be found here: \url{https://uasdoc.faa.gov/listDocs}, filter by OOP - There are very few entries, but a couple of decent options including:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  AgEagle eBee X (Category 3)
+\item
+  Wingtra Ray (Category 3)
+\item
+  ASTM F3322 Compliant Parachute Systems by AVSS for Mavic 3, Skydio X10, Matrice 4 platforms
+\end{enumerate}
 
 \subsection{Open-Air Assembly vs Brief, One-Time Transiting}\label{open-air-assembly-vs-brief-one-time-transiting}
 

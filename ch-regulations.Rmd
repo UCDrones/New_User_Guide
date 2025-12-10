@@ -132,7 +132,7 @@ You can register the drone through the FAA Drone Zone (https://faadronezone.faa.
 
 ### Create an account at DroneZone
 
-Head to the FAA DroneZone (https://faadronezone.faa.gov) and select "I fly under Part 107 or as a Public Aircraft" \@ref(fig:reg-page)
+Head to the FAA DroneZone (https://faadronezone.faa.gov) \@ref(fig:reg-page) and select **"I fly under Part 107 or as a Public Aircraft"** 
 
 ```{r reg-page, fig.cap='FAA DroneZone', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE}
 knitr::include_graphics('images/reg_site.png')
@@ -148,21 +148,50 @@ If you already have an account, go into your profile settings, and you can modif
 
 ### Drone Registration
 
-Once you have an account, on the dashboard will be an option to 'Manage sUAS Inventory.'  On that page, you'll be able to 'Add UAS' (in the upper right corner). This will bring up a dialog box (Figure \@ref(fig:add-UAS)) for you to enter your information.  Enter all the relevant information.
+1. In the center of your dashboard is an Inventory box - click on **'Manage Device Inventory'**
+2. The next page is a little strange - the top headline says **'Your Shopping Cart'** and if nothing is in your shopping cart, there'll be a big red notice that your shopping cart is empty. If you have drones already registered, they'll be listed at the bottom under **'Your Registered Inventory'**. Take a moment to understand the layout of this page.
+3. Click on the **'Add Device'** button in the upper-right corner to get started.
+4. On the first dialog, it'll ask whether the drone has **Remote ID**. (Figure \@ref(fig:add-UAS))
 
 ```{r add-UAS, fig.cap='Add new UAS Dialog Box', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE}
-knitr::include_graphics('images/Add_new_UAS.png')
+knitr::include_graphics('images/Add_new_UAS_1.png')
 ```
 
-Once completed, 'Your Shopping Cart' will now show this drone's information and a new buttom for 'Checkout' will appear.  Click the button and the system will guide you through paying for the registration fee.
+5. If you select 'Yes' to RemoteID, it will ask for the serial number (Figure \@ref(fig:add-UAS-RID)). Click on **Validate** to continue - this will pull up the serial number's make and model.
+
+    - If your drone has RemoteID built-in (known as Standard RemoteID), enter your drone's serial number
+    - If you're using a Broadcast Remote ID module (add-on), enter the Broadcast Remote ID module's serial number
+    
+```{r add-UAS-RID, fig.cap='Validate Remote ID', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/Add_new_UAS_2.png')
+```
+
+6. If you selected 'No' to RemoteID, the dialog will ask what **type of UAS** ('Homebuilt' or 'Traditional') and ask for the UAS **Manufacturer** and **Model** (Figure \@ref(fig:add-UAS-RID-None)). 
+
+```{r add-UAS-RID-None, fig.cap='No Remote ID', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/Add_new_UAS_0.png')
+```
+
+7. Whether you selected 'Yes' or 'No' to RemoteID, the dialog will ask for a **Nickname** (Figure \@ref(fig:add-UAS-Valid)) - this will be your identifier for the drone while within the FAA DroneZone system, so make it something identifiable. You don't use this nickname anywhere else, so you don't need to be creative if you don't want to be.
+
+```{r add-UAS-Valid, fig.cap='Serial Number Validated', out.width='80%', fig.asp=.75, fig.align='center', echo=FALSE}
+knitr::include_graphics('images/Add_new_UAS_3.png')
+```
+
+8. Click on **'Add Device'** to move this to your shopping cart.
+9. Back at the Inventory page, 'Your Shopping Cart' will now show this drone's information and a new buttom for **'Checkout'** will appear.  Click the button and the system will guide you through paying for the $5 registration fee.
 
 ### Registration Certificate
 
-Upon completion of paying for registration, the DroneZone will send you two emails, one with a receipt of payment and the other is a pdf copy of your UAS registration certificate (Figure \@ref(fig:reg-cert)).  Keep a copy of this registration certificate available at all times while you operate.  This can be done by either printing it out and placing it with your drone, or keeping a digital copy on your phone.
+Upon completion of paying for registration, the DroneZone will send you two emails, one with a receipt of payment and the other is a pdf copy of your UAS registration certificate (Figure \@ref(fig:reg-cert)).  Keep a copy of this registration certificate available at all times while you operate.  This can be done by either printing it out and placing it with your drone, or keeping a digital copy on your phone. 
 
 ```{r reg-cert, fig.cap='Example UAS Registration Certificate', out.width='50%', fig.asp=.75, fig.align='center', echo=FALSE}
 knitr::include_graphics('images/reg_cert.png')
 ```
+
+:::: {.notebox data-latex=""}
+We recommend that you **upload** the FAA registration certificate to **UC Drones** as an additional means of keeping the certificate available.
+::::
 
 
 
@@ -177,6 +206,8 @@ knitr::include_graphics('images/oil-based-markers.jpg')
 ```
 
 If you'll be working with a fleet of aircraft, it may also be useful to mark the 'nickname' of the drone as well.
+
+[UC Drones Registration Tag Generator](https://ucdrones.github.io/library/reg_tag_generator.html) - We also have a UC Drones registration tag generator - enter the drone's nickname, your campus and the registration number to generate a simple tag you can print and attach to the drone.
 
 
 ## Operations over People
@@ -212,7 +243,12 @@ Subpart D introduces four (4) categories of drones that are allowed to operate o
 
 **Any Drone That Does Not Qualify Under One of These Four Categories Is Not Eligible For Any Operations Over People**
 
-The full list of FAA-certified drones can be found here: https://uasdoc.faa.gov/listDocs, filter by OOP - The sole entry is the AgEagle eBee X.
+The full list of FAA-certified drones can be found here: https://uasdoc.faa.gov/listDocs, filter by OOP - There are very few entries, but a couple of decent options including:
+
+1. AgEagle eBee X (Category 3)
+2. Wingtra Ray (Category 3)
+3. ASTM F3322 Compliant Parachute Systems by AVSS for Mavic 3, Skydio X10, Matrice 4 platforms
+
 
 ### Open-Air Assembly vs Brief, One-Time Transiting
 

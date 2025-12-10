@@ -6,6 +6,9 @@ fig:drugs
 fig:reg-page2
 fig:reg-page
 fig:add-UAS
+fig:add-UAS-RID
+fig:add-UAS-RID-None
+fig:add-UAS-Valid
 fig:reg-cert
 fig:markers
 fig:p107-enroll
